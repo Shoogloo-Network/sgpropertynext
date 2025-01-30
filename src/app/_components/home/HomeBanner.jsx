@@ -30,7 +30,7 @@ const HomeBanner = () => {
       <img
         width="1366"
         height="560"
-        src="/assets/images/desktop-banner.jpeg" // Ensure your image is inside the 'public' folder
+        src="/images/desktop-banner.jpeg" // Ensure your image is inside the 'public' folder
         alt="home banner"
       />
       <div className="container contentBox">

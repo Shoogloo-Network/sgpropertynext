@@ -13,7 +13,7 @@ const UserSectionList = ({ onClick, logout }) => {
         city: '',
         placeOfBirth: '',
         propertyRequirement: '',
-        profileImage: 'src/assets/icon/profile.svg'
+        profileImage: 'images/profile.svg'
     });
 
     useEffect(() => {
@@ -34,16 +34,16 @@ const UserSectionList = ({ onClick, logout }) => {
     }, []); // Empty dependency array means this runs once on mount
 
     const iconData = [
-        { img: 'src/assets/icon/profile.svg', title: 'PROFILE', id: 'profile' },
-        { img: 'src/assets/icon/my-activity.svg', title: 'MY ACTIVITY', id: 'activity' },
-        { img: 'src/assets/icon/my-interaction.svg', title: 'MY INTERACTIONS', id: 'interactions' },
-        { img: 'src/assets/icon/post-your-property.svg', title: 'POST PROPERTY', id: 'postproperty' },
-        { img: 'src/assets/icon/my-properties.svg', title: 'MY LISTINGS', id: 'mylistings' },
-        { img: 'src/assets/icon/my-rent-agreement.svg', title: 'RENTAL AGREEMENTS', id: 'rentalagreements' },
-        { img: 'src/assets/icon/my-rent-payments.svg', title: 'RENT PAYMENTS', id: 'rentpayments' },
-        { img: 'src/assets/icon/refer-and-earn.svg', title: 'REFER AND EARN', id: 'referandearn' },
+        { img: 'images/profile.svg', title: 'PROFILE', id: 'profile' },
+        { img: 'images/my-activity.svg', title: 'MY ACTIVITY', id: 'activity' },
+        { img: 'images/my-interaction.svg', title: 'MY INTERACTIONS', id: 'interactions' },
+        { img: 'images/post-your-property.svg', title: 'POST PROPERTY', id: 'postproperty' },
+        { img: 'images/my-properties.svg', title: 'MY LISTINGS', id: 'mylistings' },
+        { img: 'images/my-rent-agreement.svg', title: 'RENTAL AGREEMENTS', id: 'rentalagreements' },
+        { img: 'images/my-rent-payments.svg', title: 'RENT PAYMENTS', id: 'rentpayments' },
+        { img: 'images/refer-and-earn.svg', title: 'REFER AND EARN', id: 'referandearn' },
         {
-            img: 'src/assets/icon/lock-unlock.svg',
+            img: 'images/lock-unlock.svg',
             title: userData ? 'LOGOUT' : 'LOGIN',
             id: 'logout',
         },

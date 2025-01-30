@@ -117,7 +117,7 @@ const Story = () => {
                   borderRadius: "4px",
                 }}
               >
-                <img src="/story.png" alt="Exclusive"  height={20} width={20}/>
+                <img src="images/story.png" alt="Exclusive"  height={20} width={20}/>
                 <p>Exclusive</p>
               </div>
               <div
@@ -133,7 +133,7 @@ const Story = () => {
                  
                 }}
               >
-                <img src="/story.png" alt="Square Assured" height={20} width={20}/>
+                <img src="images/story.png" alt="Square Assured" height={20} width={20}/>
                 <p>Square Assured</p>
               </div>
             </div>

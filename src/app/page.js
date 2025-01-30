@@ -8,7 +8,7 @@ import './page.css'
 const Home = () => {
   const iconDataForButton = [
     {
-      img: "/building-img.svg", // Static assets path
+      img: "images/building-img.svg", // Static assets path
       title: "Best Sellers in India",
       description:
         "Our freshly brewed list of the best residential projects from top rated builders in the country, backed by our award-winning start-to-finish services.",
@@ -35,7 +35,7 @@ const Home = () => {
           <div className="real-estate-section">
             <h1 className="section-title">For Real Estate Developers</h1>
             <CardWithList
-              url="/propvr-side.svg" // Static assets path
+              url="images/propvr-side.svg" // Static assets path
               backgroundColor="#ddf5ff"
             />
           </div>
@@ -44,7 +44,7 @@ const Home = () => {
           >
             <h1 className="section-title">For Agents</h1>
             <CardWithList
-              url="/square-connect-side.svg" // Static assets path
+              url="images/square-connect-side.svg" // Static assets path
               backgroundColor="#fff6e7"
             />
           </div>

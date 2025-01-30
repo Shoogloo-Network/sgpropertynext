@@ -15,7 +15,7 @@ const CardWithList = ({ url, backgroundColor }) => {
       >
         <div className="developer-card-header">
           <img
-            src="/propvr.svg"
+            src="images/propvr.svg"
             alt="ListCard Icon"
             className="developer-card-icon"
           />
@@ -26,7 +26,7 @@ const CardWithList = ({ url, backgroundColor }) => {
         <div className="developer-card-content">
           <div className="developer-card-item">
             <img
-              src="/check-mark.png"
+              src="images/check-mark.png"
               alt="icon"
               className="developer-card-check-icon"
             />
@@ -34,7 +34,7 @@ const CardWithList = ({ url, backgroundColor }) => {
           </div>
           <div className="developer-card-item">
             <img
-              src="/check-mark.png"
+              src="images/check-mark.png"
               alt="icon"
               className="developer-card-check-icon"
             />
@@ -42,7 +42,7 @@ const CardWithList = ({ url, backgroundColor }) => {
           </div>
           <div className="developer-card-item">
             <img
-              src="/check-mark.png"
+              src="images/check-mark.png"
               alt="icon"
               className="developer-card-check-icon"
             />

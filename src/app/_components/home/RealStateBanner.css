@@ -1,13 +1,13 @@
 .banner-container {
   background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
-              url('/desktop-banner.jpeg') center/cover;
+              url('/images/desktop-banner.jpeg') center/cover;
   max-height: 600px;
   padding: 40px 20px;
   position: relative;
 }
 
 .banner-content {
-  max-width: 1200px;
+  max-width: 1200px;  
   margin: 0 auto;
   text-align: center;
   color: white;

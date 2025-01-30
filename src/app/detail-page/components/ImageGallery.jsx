@@ -17,11 +17,11 @@ const ImageGallery = ({ onClickImage }) => {
     <>
       <div className="imageWrapperDiv" onClick={onClickImage}>
         <div className="singleImageDiv">
-          <img src={imageData[0].mainImage} alt="Property image" />
+          <img src={`images/${imageData[0].mainImage}`} alt="Property image" />
         </div>
         <div className="multipleImageDiv">
           {imageData[0].multipleImages.map((image, index) => (
-            <img key={index} src={image} alt={`Property image ${index + 1}`} />
+            <img key={index} src={`images/${image}`} alt={`Property image ${index + 1}`} />
           ))}
         </div>
       </div>

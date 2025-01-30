@@ -65,7 +65,7 @@ const HomeInterior = () => {
         </div>
         <div className="specialCard interiorCards">
           <img
-            src="../src/assets/icon/wedesign.svg"
+            src="images/wedesign.svg"
             alt="webdesgin"
             width={100}
           />
@@ -78,7 +78,7 @@ const HomeInterior = () => {
 
         <div className="specialCard interiorCards">
           <img
-            src="../src/assets/icon/wedesign.svg"
+            src="images/wedesign.svg"
             alt="webdesgin"
             width={100}
           />
@@ -90,7 +90,7 @@ const HomeInterior = () => {
         </div>
         <div className="specialCard interiorCards">
           <img
-            src="../src/assets/icon/wedesign.svg"
+            src="images/wedesign.svg"
             alt="webdesgin"
             width={100}
           />

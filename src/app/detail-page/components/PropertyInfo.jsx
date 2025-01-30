@@ -7,12 +7,12 @@ import FormPopup from '../../_components/userform/FormPopup';
 import { fetchData } from '../../_components/api/data';
 const iconData =[
     {
-        img:'images/verified.png',
+        img:'/verified.png',
         description:'RERA Registered',
 
     },
     {
-        img:'images/home-button.png',
+        img:'/home-button.png',
         description:'Residential',
 
     },
@@ -20,17 +20,17 @@ const iconData =[
 
 const iconData1 =[
     {
-        img:'images/building.png',
+        img:'/building.png',
         description:'New Launch',
 
     },
     {
-        img:'images/building-1.png',
+        img:'/building-1.png',
         description:'2,3 BHK Flats',
 
     },
     {
-        img:'images/maps.png',
+        img:'/maps.png',
         description:'986 Sq. Ft. to 1494 Sq. Ft. (Saleable)',
 
     },

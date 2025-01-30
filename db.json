@@ -4,7 +4,7 @@
       {
         "id": 1,
         "agentId": "111",
-        "profileImage": "images/icon",
+        "profileImage": "/icon",
         "proAgent": false,
         "preferedPartner":false,
         "trustedPartner":true,
@@ -20,7 +20,7 @@
       {
         "id": 2,
         "agentId": "112",
-        "profileImage": "images/userProfile.svg",
+        "profileImage": "/userProfile.svg",
         "proAgent": false,
         "preferedPartner":false,
         "trustedPartner":true,
@@ -37,7 +37,7 @@
       {
         "id": 3,
         "agentId": "113",
-        "profileImage": "images/userProfile.svg",
+        "profileImage": "/userProfile.svg",
         "proAgent": false,
         "preferedPartner":false,
         "trustedPartner":true,
@@ -54,7 +54,7 @@
       {
         "id": 4,
         "agentId": "114",
-        "profileImage": "images/userProfile.svg",
+        "profileImage": "/userProfile.svg",
         "proAgent": false,
         "preferedPartner":false,
         "trustedPartner":true,
@@ -71,7 +71,7 @@
       {
         "id": 5,
         "agentId": "115",
-        "profileImage": "images/userProfile.svg",
+        "profileImage": "/userProfile.svg",
         "proAgent": false,
         "preferedPartner":false,
         "trustedPartner":true,
@@ -87,95 +87,95 @@
     ],
   "card-data":[
       {
-        "backgroundImage": "images/shriram-serenity-project-project-large-image1-7568.avif",
-        "image": "images/call.png",
+        "backgroundImage": "/shriram-serenity-project-project-large-image1-7568.avif",
+        "image": "/call.png",
         "title": "Shree Serenity",
         "description": "Balewadi , Pune",
         "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
         "iconCardData": [
           {
-            "img": "images/building.png",
+            "img": "/building.png",
             "title": "Project Size",
             "description": "165 Unit . 1.25 Acres"
           },
           {
-            "img": "images/web-management.png",
+            "img": "/web-management.png",
             "title": "Configurations",
             "description": "2-BHK , 3-BHK Flats, 4 BHK, 4.5 BHK Flats"
           }
         ]
       },
       {
-        "backgroundImage": "images/krisala-41-westworld-project-project-large-image1-4756.avif",
-        "image": "images/call.png",
+        "backgroundImage": "/krisala-41-westworld-project-project-large-image1-4756.avif",
+        "image": "/call.png",
         "title": "Rise Food Mall",
         "description": "Noida Sector 1",
         "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
         "iconCardData": [
           {
-            "img": "images/building.png",
+            "img": "/building.png",
             "title": "Project",
             "description": "165 Unit . 1.25 Acres"
           },
           {
-            "img": "images/web-management.png",
+            "img": "/web-management.png",
             "title": "Configurations",
             "description": "2-BHK , 3-BHK Flats"
           }
         ]
       },
       {
-        "backgroundImage": "images/rise-food-mall-project-project-large-image1-6738.avif",
-        "image": "images/call.png",
+        "backgroundImage": "/rise-food-mall-project-project-large-image1-6738.avif",
+        "image": "/call.png",
         "title": "Shree Serenity",
         "description": "Balewadi , Pune",
         "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
         "iconCardData": [
           {
-            "img": "images/building.png",
+            "img": "/building.png",
             "title": "Project Size",
             "description": "165 Unit . 1.25 Acres"
           },
           {
-            "img": "images/web-management.png",
+            "img": "/web-management.png",
             "title": "Configurations",
             "description": "2-BHK , 3-BHK Flats"
           }
         ]
       },
       {
-        "backgroundImage": "images/jp-codename-starlife-project-project-large-image1-5182.avif",
-        "image": "images/call.png",
+        "backgroundImage": "/jp-codename-starlife-project-project-large-image1-5182.avif",
+        "image": "/call.png",
         "title": "Rise Food Mall",
         "description": "Noida Sector 1",
         "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
         "iconCardData": [
           {
-            "img": "images/building.png",
+            "img": "/building.png",
             "title": "Project Size",
             "description": "165 Unit . 1.25 Acres"
           },
           {
-            "img": "images/web-management.png",
+            "img": "/web-management.png",
             "title": "Configurations",
             "description": "2-BHK , 3-BHK Flats"
           }
         ]
       },
       {
-        "backgroundImage": "images/haware-my-first-home-project-project-large-image1-5447.avif",
-        "image": "images/call.png",
+        "backgroundImage": "/haware-my-first-home-project-project-large-image1-5447.avif",
+        "image": "/call.png",
         "title": "Shree Serenity",
         "description": "Balewadi , Pune",
         "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
         "iconCardData": [
           {
-            "img": "images/building.png",
+            "img": "/building.png",
             "title": "Project Size",
             "description": "165 Unit . 1.25 Acres"
           },
           {
-            "img": "images/web-management.png",
+            "img": "/web-management.png",
             "title": "Configurations",
             "description": "2-BHK , 3-BHK Flats"
           }
@@ -613,95 +613,95 @@
           {
             "cardData": [
               {
-                "backgroundImage": "images/shriram-serenity-project-project-large-image1-7568.avif",
-                "image": "images/call.png",
+                "backgroundImage": "/shriram-serenity-project-project-large-image1-7568.avif",
+                "image": "/call.png",
                 "title": "Shree Serenity",
                 "description": "Balewadi , Pune",
                 "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
                 "iconCardData": [
                   {
-                    "img": "images/building.png",
+                    "img": "/building.png",
                     "title": "Project Size",
                     "description": "165 Unit . 1.25 Acres"
                   },
                   {
-                    "img": "images/web-management.png",
+                    "img": "/web-management.png",
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
                 ]
               },
               {
-                "backgroundImage": "images/krisala-41-westworld-project-project-large-image1-4756.avif",
-                "image": "images/call.png",
+                "backgroundImage": "/krisala-41-westworld-project-project-large-image1-4756.avif",
+                "image": "/call.png",
                 "title": "Rise Food Mall",
                 "description": "Noida Sector 1",
                 "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
                 "iconCardData": [
                   {
-                    "img": "images/building.png",
+                    "img": "/building.png",
                     "title": "Project ",
                     "description": "165 Unit . 1.25 Acres"
                   },
                   {
-                    "img": "images/web-management.png",
+                    "img": "/web-management.png",
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
                 ]
               },
               {
-                "backgroundImage": "images/rise-food-mall-project-project-large-image1-6738.avif",
-                "image": "images/call.png",
+                "backgroundImage": "/rise-food-mall-project-project-large-image1-6738.avif",
+                "image": "/call.png",
                 "title": "Shree Serenity",
                 "description": "Balewadi , Pune",
                 "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
                 "iconCardData": [
                   {
-                    "img": "images/building.png",
+                    "img": "/building.png",
                     "title": "Project Size",
                     "description": "165 Unit . 1.25 Acres"
                   },
                   {
-                    "img": "images/web-management.png",
+                    "img": "/web-management.png",
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
                 ]
               },
               {
-                "backgroundImage": "images/jp-codename-starlife-project-project-large-image1-5182.avif",
-                "image": "images/call.png",
+                "backgroundImage": "/jp-codename-starlife-project-project-large-image1-5182.avif",
+                "image": "/call.png",
                 "title": "Rise Food Mall",
                 "description": "Noida Sector 1",
                 "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
                 "iconCardData": [
                   {
-                    "img": "images/building.png",
+                    "img": "/building.png",
                     "title": "Project Size",
                     "description": "165 Unit . 1.25 Acres"
                   },
                   {
-                    "img": "images/web-management.png",
+                    "img": "/web-management.png",
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
                 ]
               },
               {
-                "backgroundImage": "images/haware-my-first-home-project-project-large-image1-5447.avif",
-                "image": "images/icon/call.png",
+                "backgroundImage": "/haware-my-first-home-project-project-large-image1-5447.avif",
+                "image": "/call.png",
                 "title": "Shree Serenity",
                 "description": "Balewadi , Pune",
                 "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
                 "iconCardData": [
                   {
-                    "img": "images/icon/building.png",
+                    "img": "/building.png",
                     "title": "Project Size",
                     "description": "165 Unit . 1.25 Acres"
                   },
                   {
-                    "img": "images/web-management.png",
+                    "img": "/web-management.png",
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
@@ -731,60 +731,60 @@
           {
             "cardData": [
               {
-                "backgroundImage": "images/shriram-serenity-project-project-large-image1-7568.avif",
-                "image": "images/call.png",
+                "backgroundImage": "/shriram-serenity-project-project-large-image1-7568.avif",
+                "image": "/call.png",
                 "title": "Abhishek",
-                "url": "images/shriram-serenity-project-project-large-image1-7568.avif",
+                "url": "/shriram-serenity-project-project-large-image1-7568.avif",
                 "description": "Balewadi , Pune",
                 "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
                 "iconCardData": [
                   {
-                    "img": "images/building.png",
+                    "img": "/building.png",
                     "title": "Project Size",
                     "description": "165 Unit . 1.25 Acres"
                   },
                   {
-                    "img": "images/web-management.png",
+                    "img": "/web-management.png",
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
                 ]
               },
               {
-                "backgroundImage": "images/krisala-41-westworld-project-project-large-image1-4756.avif",
-                "image": "images/call.png",
+                "backgroundImage": "/krisala-41-westworld-project-project-large-image1-4756.avif",
+                "image": "/call.png",
                 "title": "Rise Food Mall",
-                "url": "images/krisala-41-westworld-project-project-large-image1-4756.avif",
+                "url": "/krisala-41-westworld-project-project-large-image1-4756.avif",
                 "description": "Noida Sector 1",
                 "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
                 "iconCardData": [
                   {
-                    "img": "images/building.png",
+                    "img": "/building.png",
                     "title": "Project ",
                     "description": "165 Unit . 1.25 Acres"
                   },
                   {
-                    "img": "images/web-management.png",
+                    "img": "/web-management.png",
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
                 ]
               },
               {
-                "backgroundImage": "images/rise-food-mall-project-project-large-image1-6738.avif",
-                "image": "images/call.png",
+                "backgroundImage": "/rise-food-mall-project-project-large-image1-6738.avif",
+                "image": "/call.png",
                 "title": "Shree Serenity",
-                "url": "images/rise-food-mall-project-project-large-image1-6738.avif",
+                "url": "/rise-food-mall-project-project-large-image1-6738.avif",
                 "description": "Balewadi , Pune",
                 "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
                 "iconCardData": [
                   {
-                    "img": "images/building.png",
+                    "img": "/building.png",
                     "title": "Project Size",
                     "description": "165 Unit . 1.25 Acres"
                   },
                   {
-                    "img": "images/web-management.png",
+                    "img": "/web-management.png",
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
@@ -817,19 +817,19 @@
   "cardData": [
     {
       "id": 1,
-      "backgroundImage": "images/shriram-serenity-project-project-large-image1-7568.avif",
-      "image": "images/call.png",
+      "backgroundImage": "/shriram-serenity-project-project-large-image1-7568.avif",
+      "image": "/call.png",
       "title": "Shree Serenity",
       "description": "Balewadi, Pune",
       "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
       "iconCardData": [
         {
-          "img": "images/building.png",
+          "img": "/building.png",
           "title": "Project Size",
           "description": "165 Unit . 1.25 Acres"
         },
         {
-          "img": "images/web-management.png",
+          "img": "/web-management.png",
           "title": "Configurations",
           "description": "2-BHK , 3-BHK Flats, 4-BHK Flats, 4.5-BHK Flats"
         }
@@ -837,19 +837,19 @@
     },
     {
       "id": 2,
-      "backgroundImage": "images/krisala-41-westworld-project-project-large-image1-4756.avif",
-      "image": "images/call.png",
+      "backgroundImage": "/krisala-41-westworld-project-project-large-image1-4756.avif",
+      "image": "/call.png",
       "title": "Rise Food Mall",
       "description": "Noida Sector 1",
       "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
       "iconCardData": [
         {
-          "img": "images/building.png",
+          "img": "/building.png",
           "title": "Project",
           "description": "165 Unit . 1.25 Acres"
         },
         {
-          "img": "images/web-management.png",
+          "img": "/web-management.png",
           "title": "Configurations",
           "description": "2-BHK , 3-BHK Flats, 4-BHK Flats, 4.5-BHK Flats"
         }
@@ -857,19 +857,19 @@
     },
     {
       "id": 3,
-      "backgroundImage": "images/rise-food-mall-project-project-large-image1-6738.avif",
-      "image": "images/call.png",
+      "backgroundImage": "/rise-food-mall-project-project-large-image1-6738.avif",
+      "image": "/call.png",
       "title": "Shree Serenity",
       "description": "Balewadi, Pune",
       "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
       "iconCardData": [
         {
-          "img": "images/building.png",
+          "img": "/building.png",
           "title": "Project Size",
           "description": "165 Unit . 1.25 Acres"
         },
         {
-          "img": "images/web-management.png",
+          "img": "/web-management.png",
           "title": "Configurations",
            "description": "2-BHK , 3-BHK Flats, 4-BHK Flats, 4.5-BHK Flats"
         }
@@ -877,19 +877,19 @@
     },
     {
       "id": 4,
-      "backgroundImage": "images/jp-codename-starlife-project-project-large-image1-5182.avif",
-      "image": "images/call.png",
+      "backgroundImage": "/jp-codename-starlife-project-project-large-image1-5182.avif",
+      "image": "/call.png",
       "title": "Rise Food Mall",
       "description": "Noida Sector 1",
       "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
       "iconCardData": [
         {
-          "img": "images/building.png",
+          "img": "/building.png",
           "title": "Project Size",
           "description": "165 Unit . 1.25 Acres"
         },
         {
-          "img": "images/web-management.png",
+          "img": "/web-management.png",
           "title": "Configurations",
           "description": "2-BHK , 3-BHK Flats"
         }
@@ -897,19 +897,19 @@
     },
     {
       "id": 5,
-      "backgroundImage": "images/haware-my-first-home-project-project-large-image1-5447.avif",
-      "image": "images/call.png",
+      "backgroundImage": "/haware-my-first-home-project-project-large-image1-5447.avif",
+      "image": "/call.png",
       "title": "Shree Serenity",
       "description": "Balewadi, Pune",
       "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
       "iconCardData": [
         {
-          "img": "images/building.png",
+          "img": "/building.png",
           "title": "Project Size",
           "description": "165 Unit . 1.25 Acres"
         },
         {
-          "img": "images/web-management.png",
+          "img": "/web-management.png",
           "title": "Configurations",
           "description": "2-BHK , 3-BHK Flats"
         }
@@ -923,18 +923,18 @@
     { "unitType": "3 BHK 1494 Sq. Ft. Apartment", "area": "1494 Sq. Ft. (Saleable)", "price": "₹ 1.49 Cr" }
   ],
   "iconCards": [
-    { "img": "images/buildings.png", "title": "Project Status", "description": "New Launch" },
-    { "img": "images/buildings.png", "title": "Project Status", "description": "New Launch" },
-    { "img": "images/buildings.png", "title": "Project Status", "description": "New Launch" },
-    { "img": "images/buildings.png", "title": "Project Status", "description": "New Launch" },
-    { "img": "images/buildings.png", "title": "Project Status", "description": "New Launch" },
-    { "img": "images/buildings.png", "title": "Project Status", "description": "New Launch" },
-    { "img": "images/buildings.png", "title": "Project Status", "description": "New Launch" },
-    { "img": "images/buildings.png", "title": "Project Status", "description": "New Launch" }
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" },
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" },
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" },
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" },
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" },
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" },
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" },
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" }
   ],
  "iconDataForButton": [
     {
-      "img": "images/home-loan.png",
+      "img": "/home-loan.png",
       "title": "Home Loan EMI Starts at $ 58.07k",
       "description": "For Provident Botanico",
       "listDescription": [
@@ -951,7 +951,7 @@
       "buttonName": "Get CIBIL-Linked Estimate"
     },
     {
-      "img": "images/home-interior.png",
+      "img": "/home-interior.png",
       "title": "Interiors Package Starting from ₹2.1L",
       "description": "For Provident Botanico",
       "listDescription": [
@@ -968,7 +968,7 @@
       "buttonName": "Book a Consultation Now"
     },
     {
-      "img": "images/valuation.png",
+      "img": "/valuation.png",
       "title": "Professional Valuation Report in $999",
       "description": "For Provident Botanico",
       "listDescription": [
@@ -985,7 +985,7 @@
       "buttonName": "Request a Professional Valuation"
     },
     {
-      "img": "images/sell-or-rent-property.png",
+      "img": "/sell-or-rent-property.png",
       "title": "Are you Looking to Advertise a Property",
       "description": "For Provident Botanico",
       "listDescription": [
@@ -1005,15 +1005,16 @@
   "galleryImages": [
     {
       "id": 1,
-      "mainImage": "images/provident-botanico-project-project-large-image1-1056.jpg",
+      "mainImage": "/provident-botanico-project-project-large-image1-1056.jpg",
       "multipleImages": [
-        "images/provident-botanico-project-amenities-features1-3750.jpg",
-        "images/provident-botanico-project-clubhouse-external-image1-2344.jpg",
-        "images/provident-botanico-project-amenities-features1-3750.jpg",
-        "images/provident-botanico-project-amenities-features1-3750.jpg"
+        "/provident-botanico-project-amenities-features1-3750.jpg",
+        "/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+        "/provident-botanico-project-amenities-features1-3750.jpg",
+        "/provident-botanico-project-amenities-features1-3750.jpg"
       ]
     }
   ],
+
   "gallery": {
     "projects": [
       {
@@ -1121,23 +1122,23 @@
         "description": "Sports Facilities Image"
       },
       {
-        "original": "/images/provident-botanico-project-master-plan-image1-3047.jpg",
-        "thumbnail": "/images/provident-botanico-project-master-plan-image1-3047.avif",
+        "original": "images/provident-botanico-project-master-plan-image1-3047.jpg",
+        "thumbnail": "images/provident-botanico-project-master-plan-image1-3047.avif",
         "description": "Amenities Features"
       },
       {
-        "original": "/images/provident-botanico-project-clubhouse-external-image1-2344.jpg",
-        "thumbnail": "/images/provident-botanico-project-clubhouse-external-image1-2344.avif",
+        "original": "images/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+        "thumbnail": "images/provident-botanico-project-clubhouse-external-image1-2344.avif",
         "description": "Floor Plans"
       },
       {
-        "original": "/images/provident-botanico-project-project-large-image1-1056.jpg",
-        "thumbnail": "/images/provident-botanico-project-project-large-image1-1056.avif",
+        "original": "images/provident-botanico-project-project-large-image1-1056.jpg",
+        "thumbnail": "images/provident-botanico-project-project-large-image1-1056.avif",
         "description": "Push Creative"
       },
       {
-        "original": "/images/provident-botanico-project-master-plan-image1-3047.jpg",
-        "thumbnail": "/images/provident-botanico-project-master-plan-image1-3047.avif",
+        "original": "images/provident-botanico-project-master-plan-image1-3047.jpg",
+        "thumbnail": "images/provident-botanico-project-master-plan-image1-3047.avif",
         "description": "Videos"
       }
     ]

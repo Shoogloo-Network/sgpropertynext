@@ -7,7 +7,7 @@ const IconCardBtnWithoutHover = ({data,onClick}) => {
       <div key={index+1} className="cardBtnMain-without-hover">
         <div className="cardBtnContent-without-hover">
           <div className="cardBtnImage-without-hover">
-            <img src={item.img} alt={item.title} />
+            <img src={`images/${item.img}`} alt={item.title} />
           </div>
           <div className="cardBtnText-without-hover">
             <h4 className="cardBtnTitle-without-hover">{item.title}</h4>

@@ -44,7 +44,7 @@ const Story = () => {
           key={index}
           style={{
             backgroundColor: "#fff",
-            backgroundImage: `url(${item.backgroundImage})`,
+            backgroundImage: `url("images/${item.backgroundImage}")`,
             height: "100%",
             width: "100%",
             backgroundRepeat: "no-repeat",
@@ -138,7 +138,7 @@ const Story = () => {
               </div>
             </div>
             <Card
-              image={item.image}
+              image={`images/${item.image}`}
               title={item.title}
               description={item.description}
               descriptionPrice={item.descriptionPrice}

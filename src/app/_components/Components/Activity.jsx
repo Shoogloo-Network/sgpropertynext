@@ -46,7 +46,7 @@ const Activity = () => {
             >
               <Box
                 component="img"
-                src={card.backgroundImage}
+                src={`images/${card.backgroundImage}`}
                 alt={card.title}
                 sx={{ 
                   width: '150px',

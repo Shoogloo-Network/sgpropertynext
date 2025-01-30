@@ -1,0 +1,128 @@
+/* General grid styling */
+.price-listing-grid {
+
+    display: grid;
+    grid-template-columns: 1.5fr repeat(3, 1fr); /* First column wider for feature titles */
+    gap: 10px;
+    /* padding: 20px; */
+    font-family: Arial, sans-serif;
+    background: #f9f9f9;
+    align-items: center;
+    margin: 20px auto;
+    border-radius: 16px;
+    /* border: 2px solid black; */
+    box-shadow: 0 3px 36px 0 rgba(0, 0, 0, 0.13);
+    width: 90%;
+  }
+  
+  /* Header styles */
+  .grid-header {
+    font-weight: bold;
+    /* background: #007bff; */
+    /* color: white; */
+    padding: 10px;
+    /* text-align: center; */
+    border-radius: 5px;
+  }
+  .grid-header >h1{
+    font-size: 38px;
+  }
+  .grid-header-plan{
+    background: #584bce;
+    color: #fff;
+    padding:  8px;
+    border-radius: 8px;
+    display: flex
+;
+    align-items: center;
+    justify-content: center;
+   
+  }
+
+  .header-background-purple{
+background-color: #584bce;
+  }
+
+  .grid-header-plan >h2{
+    font-size: 16px;
+  }
+  /* Feature title styles */
+  .feature-title {
+    font-weight: bold;
+    /* background: #f4f4f4; */
+    padding: 10px;
+    text-align: left;
+    border-radius: 5px;
+  }
+  
+  /* Feature cell styles */
+  .grid-cell {
+    /* background: white; */
+    /* padding: 10px; */
+    text-align: left;
+    border-radius: 5px;
+    font-size: 12px;
+    /* box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1); */
+  }
+  
+  /* Disabled features */
+  .grid-cell.disabled {
+    color: #aaa;
+    text-decoration: line-through;
+  }
+  
+  /* Responsive design */
+  @media (max-width: 768px) {
+    .price-listing-grid {
+    font-size: small;
+    /* display: block; */
+    padding: 5px;
+    margin: 0;
+    grid-template-columns: 1fr repeat(2, 1fr);
+    width: 100%;
+    }
+  .feature-title , .hide-in-mobile{
+    display: none;
+  }
+  .choose-plan-button{
+    font-size: 11px !important;
+ 
+    padding: 8px !important ;
+  }
+    .grid-header,
+    .grid-cell {
+      text-align: left;
+      padding: 0;
+    }
+    .grid-header >h1{
+      font-size: 16px;
+    }
+    .grid-header-plan >h2{
+      font-size: 12px;
+    }
+  }
+  /* Buttons Row */
+  .buttons-row {
+    grid-column: span 4;
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 1rem;
+  }
+  
+  .choose-plan-button {
+    background: linear-gradient(90deg, #f7971e, #ffd200);
+    color: white;
+    border: none;
+    border-radius: 25px;
+    padding: 10px 20px;
+    font-size: 1rem;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out, transform 0.2s ease-in-out;
+  }
+  
+  .choose-plan-button:hover {
+    background: linear-gradient(90deg, #ffd200, #f7971e);
+    transform: scale(1.05);
+  }
+  

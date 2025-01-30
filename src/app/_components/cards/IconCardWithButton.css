@@ -1,0 +1,153 @@
+/* Container styling */
+.icon-card-with-button-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    /* justify-content: center; */
+}
+
+/* Card styling */
+.cardBtnMain {
+    display: flex;
+    flex-direction: column;
+  align-items: space-between;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #eaeaea;
+    max-width: 260px;
+    padding: 8px;
+    transition: box-shadow 0.2s ease-in-out;
+    position: relative;
+}
+
+.cardBtnMain:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Content styling */
+.cardBtnContent {
+    display: flex;
+    gap: 12px;
+    align-items: center;
+}
+
+.cardBtnImage img {
+    width: 40px;
+    height: 40px;
+}
+
+.cardBtnText {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardBtnTitle {
+    font-size: 14px;
+    font-weight: 600;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.cardBtnDescription {
+    font-size: 14px;
+    color: #7f8c8d;
+    margin: 4px 0 0;
+}
+
+/* Hover content styling */
+.cardBtnHover {
+    display: none;
+    width: 100%;
+    margin-top: 12px;
+}
+
+.cardBtnMain:hover .cardBtnHover {
+    display: block;
+    position:absolute;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #eaeaea;
+    background-color: #d8f7ef;
+    z-index: 200;
+    padding: 20px;
+left: 0;
+top: 80%;
+}
+
+.cardBtnList {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0;
+}
+
+.cardBtnListItem {
+    font-size: 14px;
+    color: #555;
+    padding: 4px 0;
+    border-bottom: 1px solid #555;
+}
+
+.cardBtnListItem:last-child {
+    border-bottom: none;
+}
+
+.cardBtnAction {
+    width: 100%;
+    background-color: #0066cc;
+    color: #fff;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.2s ease;
+}
+
+.cardBtnAction:hover {
+    background-color: #004999;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .icon-card-with-button-container {
+        justify-content: center;
+    }
+
+    .cardBtnMain {
+        max-width: 100%;
+        width: 100%;
+        padding: 12px;
+    }
+
+    .cardBtnTitle,
+    .cardBtnDescription {
+        font-size: 16px;
+    }
+
+    .cardBtnAction {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-card-with-button-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardBtnMain {
+        max-width: 100%;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .cardBtnTitle,
+    .cardBtnDescription {
+        font-size: 14px;
+    }
+
+    .cardBtnAction {
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,81 @@
+/* Default button styling */
+
+  
+  /* Active button styling */
+  .activeCardSearchList {
+    background-color: blue;
+    color: rgb(0, 0, 0);
+  }
+  /* Container for buttons */
+.button-container {
+  display: flex;
+  gap: 10px;
+  width: 80%;
+  margin: 20px auto;
+  background-color: #f5f5f5;
+  border-radius: 10px;
+  padding: 10px;
+}
+
+/* General button styles */
+.button {
+  padding: 10px 16px;
+  font-size: 16px;
+  font-weight: bold;
+  border: none;
+  border-radius: 8px;
+  margin: 0 8px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  background-color: #f5f5f5;
+  color: #666666;
+}
+
+/* Active button styles */
+.button-active {
+  background-color: #1890ff;
+  color: #ffffff;
+  box-shadow: 0 2px 4px rgba(24, 144, 255, 0.2);
+}
+
+/* Responsive styles for button-container */
+
+/* Large screens (Desktops/Tablets) */
+@media (min-width: 1024px) {
+  .button-container {
+    width: 60%; /* Adjust width on larger screens */
+    padding: 12px;
+  }
+
+  .button {
+    font-size: 18px; /* Larger font size on larger screens */
+    padding: 12px 20px; /* Increase padding for larger buttons */
+  }
+}
+
+/* Medium screens (Tablets) */
+@media (max-width: 1024px) and (min-width: 600px) {
+  .button-container {
+    width: 70%; /* Adjust width for medium devices */
+  }
+
+  .button {
+    font-size: 16px; /* Keep default font size for medium devices */
+    padding: 10px 16px; /* Maintain padding */
+  }
+}
+
+/* Small screens (Mobile) */
+@media (max-width: 768px) {
+  .button-container {
+    width: 90%; /* Full width on small screens */
+   
+    padding: 10px;
+  }
+
+  .button {
+    font-size: 14px; /* Smaller font size for mobile devices */
+    padding: 8px 14px; /* Adjust padding for smaller devices */
+    margin: 5px 0; /* Adjust margin to prevent buttons from overlapping */
+  }
+}

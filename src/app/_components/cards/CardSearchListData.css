@@ -1,0 +1,83 @@
+/* Container for main layout */
+.card-search-container {
+    display: flex;
+    width: 80%;
+    justify-content: space-between;
+    margin: auto;
+    gap: 20px;
+  }
+  
+  /* City Section */
+  .city-section {
+    width: 60%;
+  }
+  
+  .city-card {
+    display: flex;
+    flex-direction: column;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    padding: 10px;
+  }
+  
+  .city-title {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  
+  .city-icon {
+    width: 20px;
+    height: 20px;
+  }
+  
+  .city-heading {
+    font-size: 20px;
+    font-weight: bold;
+  }
+  
+  /* Contact Form Section */
+  .contact-form-section {
+    width: 40%;
+    position: sticky;
+    top: 50px;
+  }
+  
+  /* Filter Cards Section */
+  .filter-card-section {
+    width: 80%;
+    margin: 20px auto;
+  }
+  
+ 
+  
+  @media (max-width: 768px) {
+   
+    .contact-form-section {
+     display: none;
+    }
+    .city-section{
+        width: 100%;
+    }
+    .card-search-container {
+      flex-direction: column-reverse;
+      width: 95%;
+    }
+  
+    .city-heading {
+      font-size: 16px;
+    }
+  
+    .city-icon {
+      width: 18px;
+      height: 18px;
+    }
+  
+    .filter-card-section {
+      width: 95%;
+      margin: 10px auto;
+    }
+  }
+  
+ 
+  

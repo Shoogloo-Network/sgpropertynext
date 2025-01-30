@@ -1,0 +1,146 @@
+/* Container styling */
+.icon-card-with-button-container-without-hover {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    /* justify-content: center; */
+   
+}
+
+/* Card styling */
+.cardBtnMain-without-hover {
+    display: flex;
+    flex-direction: column;
+  align-items: space-between;
+    background-color: #ffffff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border: 1px solid #eaeaea;
+    max-width: 400px;
+    padding: 16px;
+    transition: box-shadow 0.2s ease-in-out;
+}
+
+.cardBtnMain-without-hover:hover {
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Content styling */
+.cardBtnContent-without-hover {
+    display: flex;
+    gap: 12px;
+   
+    flex-direction: column;
+}
+
+.cardBtnImage-without-hover img {
+    width: 100px;
+    height: 100px;
+}
+
+.cardBtnText-without-hover {
+    display: flex;
+    flex-direction: column;
+}
+
+.cardBtnTitle-without-hover {
+    font-size: 20px;
+    font-weight: bold;
+    color: #2c3e50;
+    margin: 0;
+}
+
+.cardBtnDescription-without-hover {
+    font-size: 16px;
+    color: #7f8c8d;
+    margin: 4px 0 0;
+}
+
+/* Hover content styling */
+.cardBtn-without-hover {
+   
+   width: 50%;
+    margin-top: 12px;
+    background-color: #fff;
+}
+
+
+.cardBtnList-without-hover {
+    list-style: none;
+    padding: 0;
+    margin: 8px 0;
+}
+
+.cardBtnListItem-without-hover {
+    font-size: 14px;
+    color: #555;
+    padding: 4px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.cardBtnListItem-without-hover:last-child {
+    border-bottom: none;
+}
+
+.cardBtnAction-without-hover {
+    width: 100%;
+    background-color: #5f449b;
+    color: #fff;
+    padding: 10px 0;
+    border: none;
+    border-radius: 4px;
+    font-size: 14px;
+    cursor: pointer;
+   
+}
+
+.cardBtnAction-without-hover:hover {
+    background-color: #4a3670;
+}
+
+
+
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .icon-card-with-button-container-without-hover {
+        justify-content: center;
+    }
+
+    .cardBtnMain-without-hover {
+        max-width: 100%;
+        width: 100%;
+        padding: 12px;
+    }
+
+    .cardBtnTitle-without-hover,
+    .cardBtnDescription-without-hover {
+        font-size: 18px;
+    }
+
+    .cardBtnAction-without-hover {
+        font-size: 16px;
+    }
+}
+
+@media (max-width: 480px) {
+    .icon-card-with-button-container-without-hover {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .cardBtnMain-without-hover {
+        max-width: 100%;
+        width: 100%;
+        padding: 10px;
+    }
+
+    .cardBtnTitle-without-hover,
+    .cardBtnDescription-without-hover {
+        font-size: 16px;
+    }
+
+    .cardBtnAction-without-hover {
+        font-size: 14px;
+    }
+}

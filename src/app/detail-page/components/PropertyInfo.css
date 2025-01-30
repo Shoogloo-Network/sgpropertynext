@@ -1,0 +1,153 @@
+/* PropertyInfo.css */
+
+.property-info-container {
+    background-color: #ffffff;
+    border-radius: 8px;
+   
+    
+    max-width: 1200px;
+    margin: 0 auto;
+    font-family: Arial, sans-serif;
+    color: #333;
+}
+
+.property-info-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom: 1px solid #eaeaea;
+    padding-bottom: 16px;
+    margin-bottom: 16px;
+}
+
+.icon-card-group {
+    display: flex;
+    gap: 16px;
+}
+
+.rating {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #f39c12;
+}
+.rating a{
+    color: #3498db;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+
+.property-title-section {
+    padding: 0px 0;
+    border-bottom: 1px solid #eaeaea;
+    /* margin-bottom: 8px; */
+    padding-bottom: 16px;
+}
+
+.property-name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+    color: #2c3e50;
+}
+
+.property-location {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 16px;
+    color: #7f8c8d;
+}
+
+.map-link {
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+    color: #3498db;
+}
+
+.map-link img {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.property-pricing-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 16px 0;
+    border-bottom: 1px solid #eaeaea;
+}
+
+.price-info {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.price-range {
+    font-size: 20px;
+    font-weight: bold;
+    color: #e74c3c;
+}
+
+.info-icon {
+    width: 18px;
+    height: 18px;
+}
+
+
+.icon-card-group, .icon-card-container, .property-additional-services {
+    display: flex;
+    gap: 16px;
+    padding-top: 6px;
+    cursor: pointer;
+}
+
+.property-additional-services {
+    
+    justify-content: center;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .property-info-container {
+        padding: 1rem;
+    }
+
+    .property-info-header {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+
+    .property-title-section {
+        padding-bottom: 12px;
+    }
+
+    .property-name {
+        font-size: 20px;
+    }
+
+    .property-location {
+        font-size: 14px;
+    }
+
+    .property-pricing-section {
+        flex-direction: column;
+        align-items: flex-start;
+        padding: 12px 0;
+    }
+
+    .price-range {
+        font-size: 18px;
+    }
+
+    .icon-card-group, .property-additional-services {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+}

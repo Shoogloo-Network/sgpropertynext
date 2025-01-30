@@ -1,0 +1,124 @@
+.tab-container{
+    display: flex;
+    gap: 20px;
+    padding: 10px;
+    position: sticky;
+    top: 50px;
+    background-color: #fff;
+    box-shadow: 0 3px 6px 0 rgba(0, 0, 0, 0.06);
+}
+
+
+
+.tab-agent{
+    display: flex;
+    gap: 10px;
+    font-weight: bold;
+    padding: 8px 15px;
+    border: 1px solid #e8e8e8;
+    border-radius: 8px;
+    font-size: 13px;
+    align-items: center;
+    cursor: pointer;
+}
+
+
+
+
+.agent-sub-menu{
+ padding: 8px;
+ position: absolute;
+ left: 10px;
+ /* top: 110px; */
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ width: fit-content;
+ background: #fff;
+ transition: .3s;
+ z-index: 9;
+ overflow: hidden;
+ box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.14);
+ border-radius: 8px;
+ /* display: none; */
+}
+
+
+.location-sub-menu{
+    padding: 8px;
+    position:absolute;
+    left: 140px;
+    /* top: 110px; */
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+    width: fit-content;
+    background: #fff;
+    transition: .3s;
+    z-index: 9;
+    overflow: hidden;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.14);
+    border-radius: 8px;
+   /* display: none; */
+}
+
+.propertyType-submenu{
+    padding: 8px;
+    position:absolute;
+    left: 280px;
+    /* top: 110px; */
+   display: flex;
+   flex-direction: column;
+   gap: 10px;
+    width: fit-content;
+    background: #fff;
+    transition: .3s;
+    z-index: 9;
+    overflow: hidden;
+    box-shadow: 0 2px 9px 0 rgba(0, 0, 0, 0.14);
+    border-radius: 8px;
+   /* display: none; */
+}
+.location-label{
+    display: flex;
+    gap: 10px;
+}
+
+
+.agents-card-main-div{
+    display: flex;
+    margin: 20px 40px;
+    gap: 30px;
+}
+
+
+.agents-card-div{
+    width: 70%;
+}
+
+
+.top-agents-card-div{
+    width: 30% ;
+}
+
+@media (max-width: 600px) {
+    .agents-card-div{
+        width: 100%;
+    }
+    .agents-card-main-div{
+        display: flex;
+        flex-direction: column;
+        margin: 5px;
+        gap: 30px;
+    }
+
+    .tab-container{
+        gap: 2px;
+        top: 38px;
+    }
+    .top-agents-card-div{
+        width: 100%;
+    }
+}
+
+

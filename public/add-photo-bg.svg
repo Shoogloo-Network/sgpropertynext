@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="79px" height="55px" viewBox="0 0 79 55" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 60.1 (88133) - https://sketch.com -->
+    <title>Visual</title>
+    <desc>Created with Sketch.</desc>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="05_Resale_add-property" transform="translate(-895.000000, -492.000000)">
+            <g id="Group-29" transform="translate(499.000000, 267.000000)">
+                <g id="Group-15">
+                    <g id="Steps-UI">
+                        <g id="Group-5" transform="translate(30.000000, 91.000000)">
+                            <g id="Group-13" transform="translate(232.000000, 134.000000)">
+                                <g id="Group-8">
+                                    <g id="Group-3">
+                                        <g id="Group-7">
+                                            <g id="add-images-copy">
+                                                <g id="Group-25">
+                                                    <g id="Visual" transform="translate(134.000000, 0.000000)">
+                                                        <line x1="68.2352941" y1="7.76470588" x2="75.6759474" y2="0.324052564" id="Line-20" stroke="#EF2596" stroke-linecap="square"></line>
+                                                        <line x1="20.2083333" y1="37.7916667" x2="24.8668083" y2="33.1331917" id="Line-21" stroke="#7ED321" stroke-linecap="square"></line>
+                                                        <line x1="25.2142857" y1="24.7857143" x2="27.5811488" y2="22.4188512" id="Line-22" stroke="#979797" stroke-linecap="square"></line>
+                                                        <line x1="66" y1="34" x2="72" y2="28" id="Line-23" stroke="#C5C5C5" stroke-linecap="square"></line>
+                                                        <rect id="Rectangle-40" stroke="#D8D8D8" x="0.5" y="40.5" width="6" height="6"></rect>
+                                                        <rect id="Rectangle-40-Copy" stroke="#D8D8D8" x="72.5" y="13.5" width="6" height="6"></rect>
+                                                        <polygon id="Rectangle-39" fill="#4DC191" points="40 16 61.0659182 16 61.0659182 20.5172965 66 20.5172965 66 49 40 49"></polygon>
+                                                        <polygon id="Rectangle-39-Copy" fill="#5D38DB" points="35 34 46.3431867 34 46.3431867 36.4639799 49 36.4639799 49 52 35 52"></polygon>
+                                                        <circle id="Oval-18" stroke="#DDDDDD" cx="75.5" cy="52.5" r="1.5"></circle>
+                                                        <circle id="Oval-18-Copy" stroke="#DDDDDD" cx="73" cy="45" r="3"></circle>
+                                                        <circle id="Oval-18-Copy-2" stroke="#DDDDDD" cx="19" cy="27" r="3"></circle>
+                                                    </g>
+                                                </g>
+                                            </g>
+                                        </g>
+                                    </g>
+                                </g>
+                            </g>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

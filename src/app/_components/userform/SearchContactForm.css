@@ -1,0 +1,158 @@
+.contact-search {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 0 ;
+    background-color: #ffffff;
+    border-radius: 8px;
+    /* box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); */
+  }
+  
+  .contact-search__title {
+    text-align: center;
+    color: #333;
+    margin-bottom: 0.5rem;
+    font-size: 1.5rem;
+  }
+  
+  .contact-search__form {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .contact-search__form-group {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+  }
+  
+  .contact-search__label {
+    font-weight: 500;
+    color: #555;
+  }
+  
+  .contact-search__input {
+    padding: 0.5rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1rem;
+    transition: border-color 0.3s ease;
+  }
+  
+  .contact-search__input:focus {
+    border-color: #007bff;
+    outline: none;
+    box-shadow: 0 0 0 2px rgba(0, 123, 255, 0.1);
+  }
+  
+  .contact-search__phone-wrapper {
+    display: flex;
+    gap: 0.5rem;
+  }
+  
+  .contact-search__country-select {
+    padding: 0.75rem;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    background-color: #f8f9fa;
+    min-width: 120px;
+  }
+  
+  .contact-search__input--phone {
+    flex: 1;
+  }
+  
+  .contact-search__interests {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(70px, 0fr));
+    gap: 10px;
+  }
+  
+  .contact-search__interest-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .contact-search__checkbox-button {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+  }
+  
+  .contact-search__checkbox-label {
+    color: #555;
+    cursor: pointer;
+  }
+  
+  .contact-search__submit-btn {
+    background-color: #007bff;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: 500;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .contact-search__submit-btn:hover {
+    background-color: #0056b3;
+  }
+  
+  @media (max-width: 768px) {
+    .contact-search {
+     max-width: 100%;
+     width: 100%;
+    }
+    .contact-search__form {
+      /* padding: 20px; */
+      width: 100%;
+    }
+  
+    .contact-search__country-select{
+      min-width: 60px;
+    }
+  }
+  
+  .contact-search__checkbox-button {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    display: inline-block;
+    padding: 20px 38px;
+    background-color: transparent;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    font-size: 16px;
+    text-align: center;
+    z-index: 1;
+  }
+  
+  .contact-search__checkbox-button:checked + .contact-search__checkbox-label {
+    background-color: #007bff;
+    color: white;
+    border-color: #007bff;
+    border-radius: 5px;
+  }
+  
+  .contact-search__checkbox-label {
+    display: inline-block;
+    padding: 5px 10px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s;
+    border: 1px solid #007bff;
+    border-radius: 5px;
+  }
+  
+  .contact-search__checkbox-button:checked + .contact-search__checkbox-label {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .contact-search__checkbox-label {
+    position: absolute;
+  }
+  
+  
+  

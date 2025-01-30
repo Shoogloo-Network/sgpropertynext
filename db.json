@@ -1,0 +1,1145 @@
+
+{
+  "agents": [
+      {
+        "id": 1,
+        "agentId": "111",
+        "profileImage": "../../app/_components/assets/icon",
+        "proAgent": false,
+        "preferedPartner":false,
+        "trustedPartner":true,
+        "agentCompanyName":"Shoogloo",
+        "agentLocation":"Gurugram",
+        "agentContactNumber":"+91-1234567890",
+        "agentExperience":"3 yrs",
+        "agentRating":4.5,
+        "agentName":"Vikas",
+        "agentLanguage":"Hindi , English ",
+         "listing":23
+      },
+      {
+        "id": 2,
+        "agentId": "112",
+        "profileImage": "/userProfile.svg",
+        "proAgent": false,
+        "preferedPartner":false,
+        "trustedPartner":true,
+        "agentCompanyName":"Shoogloo",
+        "agentLocation":"Gurugram",
+        "agentContactNumber":"+91-1234567890",
+        "agentExperience":"3 yrs",
+        "agentRating":4.5,
+        "agentName":"Saurabh Sir",
+         "agentLanguage":"Hindi , English ",
+          "listing":41
+
+      },
+      {
+        "id": 3,
+        "agentId": "113",
+        "profileImage": "/userProfile.svg",
+        "proAgent": false,
+        "preferedPartner":false,
+        "trustedPartner":true,
+        "agentCompanyName":"Shoogloo",
+        "agentLocation":"Gurugram",
+        "agentContactNumber":"+91-1234567890",
+        "agentExperience":"3 yrs",
+         "agentRating":4.5,
+        "agentName":"Vivek Sir",
+         "agentLanguage":"Hindi , English ",
+          "listing":51
+
+      },
+      {
+        "id": 4,
+        "agentId": "114",
+        "profileImage": "/userProfile.svg",
+        "proAgent": false,
+        "preferedPartner":false,
+        "trustedPartner":true,
+        "agentCompanyName":"Shoogloo",
+        "agentLocation":"Gurugram",
+        "agentContactNumber":"+91-1234567890",
+        "agentExperience":"3 yrs",
+         "agentRating":4.5,
+        "agentName":"Das Sir",
+         "agentLanguage":"Hindi , English ",
+          "listing":54
+
+      },
+      {
+        "id": 5,
+        "agentId": "115",
+        "profileImage": "/userProfile.svg",
+        "proAgent": false,
+        "preferedPartner":false,
+        "trustedPartner":true,
+        "agentCompanyName":"Shoogloo",
+        "agentLocation":"Gurugram",
+        "agentContactNumber":"+91-1234567890",
+        "agentExperience":"3 yrs",
+         "agentRating":4.5,
+        "agentName":"Abhishek",
+         "agentLanguage":"Hindi , English ",
+         "listing":59
+      }
+    ],
+  "card-data":[
+      {
+        "backgroundImage": "/shriram-serenity-project-project-large-image1-7568.avif",
+        "image": "/call.png",
+        "title": "Shree Serenity",
+        "description": "Balewadi , Pune",
+        "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+        "iconCardData": [
+          {
+            "img": "/building.png",
+            "title": "Project Size",
+            "description": "165 Unit . 1.25 Acres"
+          },
+          {
+            "img": "/web-management.png",
+            "title": "Configurations",
+            "description": "2-BHK , 3-BHK Flats, 4 BHK, 4.5 BHK Flats"
+          }
+        ]
+      },
+      {
+        "backgroundImage": "/krisala-41-westworld-project-project-large-image1-4756.avif",
+        "image": "/call.png",
+        "title": "Rise Food Mall",
+        "description": "Noida Sector 1",
+        "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+        "iconCardData": [
+          {
+            "img": "/building.png",
+            "title": "Project",
+            "description": "165 Unit . 1.25 Acres"
+          },
+          {
+            "img": "/web-management.png",
+            "title": "Configurations",
+            "description": "2-BHK , 3-BHK Flats"
+          }
+        ]
+      },
+      {
+        "backgroundImage": "/rise-food-mall-project-project-large-image1-6738.avif",
+        "image": "/call.png",
+        "title": "Shree Serenity",
+        "description": "Balewadi , Pune",
+        "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+        "iconCardData": [
+          {
+            "img": "/building.png",
+            "title": "Project Size",
+            "description": "165 Unit . 1.25 Acres"
+          },
+          {
+            "img": "/web-management.png",
+            "title": "Configurations",
+            "description": "2-BHK , 3-BHK Flats"
+          }
+        ]
+      },
+      {
+        "backgroundImage": "/jp-codename-starlife-project-project-large-image1-5182.avif",
+        "image": "/call.png",
+        "title": "Rise Food Mall",
+        "description": "Noida Sector 1",
+        "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+        "iconCardData": [
+          {
+            "img": "/building.png",
+            "title": "Project Size",
+            "description": "165 Unit . 1.25 Acres"
+          },
+          {
+            "img": "/web-management.png",
+            "title": "Configurations",
+            "description": "2-BHK , 3-BHK Flats"
+          }
+        ]
+      },
+      {
+        "backgroundImage": "/haware-my-first-home-project-project-large-image1-5447.avif",
+        "image": "/call.png",
+        "title": "Shree Serenity",
+        "description": "Balewadi , Pune",
+        "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+        "iconCardData": [
+          {
+            "img": "/building.png",
+            "title": "Project Size",
+            "description": "165 Unit . 1.25 Acres"
+          },
+          {
+            "img": "/web-management.png",
+            "title": "Configurations",
+            "description": "2-BHK , 3-BHK Flats"
+          }
+        ]
+      }
+    ],
+  "home-interior-data":[
+      {
+      
+      },
+      {
+
+      }
+    ],
+  "user":[
+      {
+          "Name": "Terri Phillips",
+          "Address": "695 Snyder Walk\nLake Ralph, IL 82066",
+          "Email": "lwerner@example.net",
+          "Phone Number": "624-652-3982",
+          "Date of Birth": "1935-07-11",
+          "Job": "Trading standards officer"
+      },
+      {
+          "Name": "Thomas Weaver",
+          "Address": "5008 Yesenia Track\nKristyside, DE 34154",
+          "Email": "jameslewis@example.com",
+          "Phone Number": "(209)350-8886x9580",
+          "Date of Birth": "1986-10-19",
+          "Job": "Lighting technician, broadcasting/film/video"
+      },
+      {
+          "Name": "Stephanie Perez",
+          "Address": "USNV Powell\nFPO AP 01795",
+          "Email": "cesarpage@example.com",
+          "Phone Number": "767.617.0743x35166",
+          "Date of Birth": "1969-12-12",
+          "Job": "Academic librarian"
+      },
+      {
+          "Name": "Leroy Thomas",
+          "Address": "USCGC Hart\nFPO AA 31655",
+          "Email": "jenny56@example.net",
+          "Phone Number": "5327856437",
+          "Date of Birth": "1932-01-06",
+          "Job": "Research officer, government"
+      },
+      {
+          "Name": "Eddie Mcdonald",
+          "Address": "908 Parker Wall Apt. 188\nNew Kelliland, IN 98052",
+          "Email": "ncharles@example.net",
+          "Phone Number": "837.775.2880x1768",
+          "Date of Birth": "1975-02-05",
+          "Job": "Public relations officer"
+      },
+      {
+          "Name": "Rachel Johnson",
+          "Address": "539 Lauren Rest\nDaviston, RI 40006",
+          "Email": "ecase@example.com",
+          "Phone Number": "755-780-8541",
+          "Date of Birth": "1917-09-19",
+          "Job": "English as a foreign language teacher"
+      },
+      {
+          "Name": "Kristopher Lambert",
+          "Address": "017 Jennifer Forest\nDuarteview, IL 74778",
+          "Email": "andrehenderson@example.com",
+          "Phone Number": "(843)932-0360x451",
+          "Date of Birth": "1933-04-24",
+          "Job": "Haematologist"
+      },
+      {
+          "Name": "Kyle Jimenez",
+          "Address": "245 Terri Hills Apt. 558\nWest James, FM 32873",
+          "Email": "haynesdaniel@example.net",
+          "Phone Number": "+1-209-498-2480x552",
+          "Date of Birth": "1923-11-19",
+          "Job": "Occupational hygienist"
+      },
+      {
+          "Name": "Sarah Mason",
+          "Address": "4397 Travis Place\nSouth Chrisport, MO 04673",
+          "Email": "gstrickland@example.com",
+          "Phone Number": "+1-648-766-3093x6369",
+          "Date of Birth": "1978-06-25",
+          "Job": "Radiation protection practitioner"
+      },
+      {
+          "Name": "Cathy Frazier",
+          "Address": "103 Graham Tunnel\nNorth Robertshire, KY 45022",
+          "Email": "costaamanda@example.com",
+          "Phone Number": "(285)479-1773",
+          "Date of Birth": "1955-01-23",
+          "Job": "Retail buyer"
+      },
+      {
+          "Name": "David Roberts",
+          "Address": "USNV Clements\nFPO AA 51875",
+          "Email": "jessica13@example.net",
+          "Phone Number": "570.781.1964x72679",
+          "Date of Birth": "2000-09-06",
+          "Job": "Conservation officer, historic buildings"
+      },
+      {
+          "Name": "Christopher Barker",
+          "Address": "31736 Johnson Estates Apt. 033\nAshleyhaven, VI 72346",
+          "Email": "fbyrd@example.net",
+          "Phone Number": "6134098724",
+          "Date of Birth": "1999-12-23",
+          "Job": "Engineer, maintenance"
+      },
+      {
+          "Name": "Mrs. Anna Yang MD",
+          "Address": "3928 Shelly Route Suite 132\nCarlsonfort, MT 36971",
+          "Email": "alisha47@example.org",
+          "Phone Number": "981-646-4552x674",
+          "Date of Birth": "1952-09-13",
+          "Job": "Chartered management accountant"
+      },
+      {
+          "Name": "Shannon Zimmerman",
+          "Address": "PSC 9702, Box 3749\nAPO AP 61484",
+          "Email": "copelandlauren@example.org",
+          "Phone Number": "592-292-7725",
+          "Date of Birth": "1935-01-24",
+          "Job": "Race relations officer"
+      },
+      {
+          "Name": "William Gardner",
+          "Address": "616 Anthony Centers\nPort Stevenville, DE 11101",
+          "Email": "james60@example.com",
+          "Phone Number": "+1-801-655-4729",
+          "Date of Birth": "1918-11-19",
+          "Job": "Restaurant manager"
+      },
+      {
+          "Name": "Ricky Dillon",
+          "Address": "7432 Jeffrey Extension\nSouth James, WY 95678",
+          "Email": "sbuckley@example.net",
+          "Phone Number": "556-507-6008x865",
+          "Date of Birth": "2000-12-19",
+          "Job": "Technical sales engineer"
+      },
+      {
+          "Name": "Stephanie Clarke",
+          "Address": "79087 Jason Junctions Suite 740\nBrianside, WY 70414",
+          "Email": "amanda19@example.org",
+          "Phone Number": "+1-628-410-3857x0063",
+          "Date of Birth": "1986-08-12",
+          "Job": "Chief Marketing Officer"
+      },
+      {
+          "Name": "Karen Bryant",
+          "Address": "854 Hahn Estate Apt. 224\nNorth Marthaberg, MS 98077",
+          "Email": "kevinwebb@example.net",
+          "Phone Number": "(973)636-5076",
+          "Date of Birth": "1929-07-12",
+          "Job": "Aeronautical engineer"
+      },
+      {
+          "Name": "Jessica Soto",
+          "Address": "775 Harris Ford\nLake Leonardport, VI 80201",
+          "Email": "jesse56@example.net",
+          "Phone Number": "+1-765-402-8708x106",
+          "Date of Birth": "2008-10-04",
+          "Job": "Cytogeneticist"
+      },
+      {
+          "Name": "Donna Roberts",
+          "Address": "USS Schroeder\nFPO AP 56616",
+          "Email": "susan12@example.org",
+          "Phone Number": "635.669.6024x1011",
+          "Date of Birth": "1984-06-26",
+          "Job": "Actor"
+      },
+      {
+          "Name": "Billy Castro",
+          "Address": "650 White Run Apt. 514\nEast Carol, GA 61972",
+          "Email": "reednancy@example.com",
+          "Phone Number": "622.423.8121",
+          "Date of Birth": "1933-10-06",
+          "Job": "Arts administrator"
+      },
+      {
+          "Name": "Gabriella Wilson",
+          "Address": "21448 Courtney Spurs Suite 772\nSarahside, VA 57277",
+          "Email": "robertvance@example.net",
+          "Phone Number": "674.544.7408",
+          "Date of Birth": "1982-09-08",
+          "Job": "Photographer"
+      },
+      {
+          "Name": "Martha Thomas",
+          "Address": "523 Kevin Manor Apt. 691\nPorterport, NV 49640",
+          "Email": "uadams@example.net",
+          "Phone Number": "001-702-559-8696",
+          "Date of Birth": "2007-07-07",
+          "Job": "Patent examiner"
+      },
+      {
+          "Name": "Tyrone Hendricks",
+          "Address": "93333 Stephanie Road\nWilliamsbury, SC 38069",
+          "Email": "hortondiane@example.net",
+          "Phone Number": "+1-351-774-6399x088",
+          "Date of Birth": "1958-04-14",
+          "Job": "Accountant, chartered management"
+      },
+      {
+          "Name": "Kelly Olson",
+          "Address": "809 Ronnie Cliffs Apt. 077\nSheliamouth, FM 63116",
+          "Email": "marshallbrian@example.com",
+          "Phone Number": "276.353.2136",
+          "Date of Birth": "1972-04-29",
+          "Job": "Computer games developer"
+      },
+      {
+          "Name": "Jordan Barker",
+          "Address": "478 Robert Branch Suite 479\nNorth Gailhaven, KS 35695",
+          "Email": "bgarcia@example.com",
+          "Phone Number": "+1-439-251-2608",
+          "Date of Birth": "1965-05-05",
+          "Job": "Scientific laboratory technician"
+      },
+      {
+          "Name": "Joshua Baldwin",
+          "Address": "22606 Logan Turnpike Apt. 220\nGregorybury, GU 06019",
+          "Email": "jrivera@example.org",
+          "Phone Number": "620-896-3055x88833",
+          "Date of Birth": "1946-10-23",
+          "Job": "Fisheries officer"
+      },
+      {
+          "Name": "Justin Hammond",
+          "Address": "28521 Johnson Ways Apt. 963\nNorth Christina, IA 22944",
+          "Email": "jonesteresa@example.org",
+          "Phone Number": "484-341-9505x6500",
+          "Date of Birth": "1950-04-02",
+          "Job": "Aeronautical engineer"
+      },
+      {
+          "Name": "Robin Gray",
+          "Address": "27757 Long Radial Suite 495\nAllenside, NH 73223",
+          "Email": "josephcoffey@example.org",
+          "Phone Number": "001-862-398-8063x0426",
+          "Date of Birth": "1995-08-03",
+          "Job": "Training and development officer"
+      },
+      {
+          "Name": "Caitlin Jones",
+          "Address": "083 Samantha Ridges Apt. 250\nLloydland, WA 81642",
+          "Email": "margaretgrant@example.org",
+          "Phone Number": "426-955-5279x8902",
+          "Date of Birth": "1973-11-16",
+          "Job": "Energy manager"
+      },
+      {
+          "Name": "Samuel Martinez",
+          "Address": "7416 Michelle Summit Apt. 066\nEast Cynthiafort, WI 58241",
+          "Email": "sherri70@example.org",
+          "Phone Number": "001-537-994-7268",
+          "Date of Birth": "2019-10-07",
+          "Job": "Child psychotherapist"
+      },
+      {
+          "Name": "Keith Wilson",
+          "Address": "9310 Burns Drive\nDarrylton, MN 45318",
+          "Email": "brownkathryn@example.net",
+          "Phone Number": "7527228379",
+          "Date of Birth": "2013-07-25",
+          "Job": "Chief Marketing Officer"
+      },
+      {
+          "Name": "Susan Hall",
+          "Address": "283 Brandon Place Apt. 943\nNorth Julie, NC 69376",
+          "Email": "yjohnson@example.net",
+          "Phone Number": "(508)918-8477",
+          "Date of Birth": "1913-02-01",
+          "Job": "Primary school teacher"
+      },
+      {
+          "Name": "Justin Lewis",
+          "Address": "Unit 5380 Box 4107\nDPO AA 49329",
+          "Email": "christopherrodriguez@example.net",
+          "Phone Number": "8058710797",
+          "Date of Birth": "2017-08-28",
+          "Job": "Warehouse manager"
+      },
+      {
+          "Name": "Denise West",
+          "Address": "5348 Smith Junctions Apt. 867\nPierceshire, WY 40081",
+          "Email": "james30@example.org",
+          "Phone Number": "506.359.2365",
+          "Date of Birth": "1936-07-17",
+          "Job": "Aid worker"
+      },
+      {
+          "Name": "Susan Boyer",
+          "Address": "45345 Virginia Harbor\nTurnerberg, TN 68661",
+          "Email": "christine14@example.net",
+          "Phone Number": "001-298-793-0245x4804",
+          "Date of Birth": "1944-04-30",
+          "Job": "Designer, blown glass/stained glass"
+      },
+      {
+          "Name": "Keith Sims",
+          "Address": "8537 Johnson Prairie Apt. 599\nSouth Alisonton, MH 19792",
+          "Email": "frank18@example.com",
+          "Phone Number": "(375)461-1831x1637",
+          "Date of Birth": "2014-02-06",
+          "Job": "Engineer, communications"
+      },
+      {
+          "Name": "Christina Hester",
+          "Address": "12220 Garner Cliff Suite 786\nSouth Davidstad, NH 99339",
+          "Email": "james44@example.net",
+          "Phone Number": "001-731-480-9134x8258",
+          "Date of Birth": "2019-03-17",
+          "Job": "Scientist, research (medical)"
+      },
+      {
+          "Name": "Matthew Hatfield",
+          "Address": "92488 Noble Mount Suite 595\nPricemouth, CT 88477",
+          "Email": "oturner@example.net",
+          "Phone Number": "820-419-1504",
+          "Date of Birth": "1981-09-04",
+          "Job": "Actuary"
+      },
+      {
+          "Name": "Craig Lee",
+          "Address": "Unit 7164 Box 3689\nDPO AP 51946",
+          "Email": "jennifer77@example.com",
+          "Phone Number": "491.801.8974x854",
+          "Date of Birth": "1992-03-12",
+          "Job": "Librarian, academic"
+      },
+      {
+          "Name": "Kelly Peterson",
+          "Address": "864 Bauer Plain\nWest Danielle, TX 61507",
+          "Email": "maddoxjessica@example.org",
+          "Phone Number": "933.527.0208x24389",
+          "Date of Birth": "1978-06-24",
+          "Job": "Teacher, adult education"
+      },
+      {
+          "Name": "Jamie Madden",
+          "Address": "5184 Miranda Road Suite 867\nKirbytown, VT 66152",
+          "Email": "castillojeffrey@example.net",
+          "Phone Number": "(751)373-5169x21644",
+          "Date of Birth": "1921-12-08",
+          "Job": "Engineering geologist"
+      },
+      {
+          "Name": "Christopher Pugh",
+          "Address": "801 Steve Gardens Suite 496\nEdwardsside, CO 93566",
+          "Email": "hendersonmartin@example.com",
+          "Phone Number": "200.241.3561",
+          "Date of Birth": "1980-03-22",
+          "Job": "Tourism officer"
+      },
+      {
+          "Name": "Christopher Frank",
+          "Address": "7933 Joshua Forest\nCarterport, AL 99686",
+          "Email": "travismorgan@example.net",
+          "Phone Number": "+1-227-356-6989x508",
+          "Date of Birth": "1997-06-30",
+          "Job": "Chartered management accountant"
+      },
+      {
+          "Name": "William Brown",
+          "Address": "USNS Gonzalez\nFPO AA 12060",
+          "Email": "nlewis@example.net",
+          "Phone Number": "001-418-422-6276x7666",
+          "Date of Birth": "1955-07-13",
+          "Job": "Control and instrumentation engineer"
+      },
+      {
+          "Name": "Austin Payne",
+          "Address": "5401 Lowe Path\nBrookeshire, KS 45162",
+          "Email": "eric97@example.org",
+          "Phone Number": "9104792286",
+          "Date of Birth": "2016-09-19",
+          "Job": "Airline pilot"
+      },
+      {
+          "Name": "Kristin Wagner",
+          "Address": "0332 Kylie Meadows\nCobbview, PW 66662",
+          "Email": "ugrimes@example.net",
+          "Phone Number": "992.946.6124",
+          "Date of Birth": "1999-02-07",
+          "Job": "Biomedical scientist"
+      },
+      {
+          "Name": "Johnny Jimenez",
+          "Address": "596 Bryant Viaduct\nPaulchester, IA 28834",
+          "Email": "craigmoore@example.com",
+          "Phone Number": "663.704.5843",
+          "Date of Birth": "1947-11-14",
+          "Job": "Training and development officer"
+      },
+      {
+          "Name": "Kimberly Bradley",
+          "Address": "49635 Peggy Spur Apt. 416\nLopezbury, ND 48890",
+          "Email": "rhernandez@example.net",
+          "Phone Number": "(671)371-6709x069",
+          "Date of Birth": "1940-12-31",
+          "Job": "Air cabin crew"
+      },
+      {
+          "Name": "Thomas Medina",
+          "Address": "970 Brianna Radial Suite 356\nSouth Lauren, SC 05082",
+          "Email": "savannahwhite@example.org",
+          "Phone Number": "605-355-8519x2299",
+          "Date of Birth": "1973-06-15",
+          "Job": "Petroleum engineer"
+      }
+  ],
+  "buttonsData": [
+      {
+        "id": 1,
+        "lableName": "Projects",
+        "data": [
+          {
+            "cities": [
+              { "name": "Pune", "userNumber": "123" },
+              { "name": "Mumbai", "userNumber": "456" },
+              { "name": "Delhi", "userNumber": "123" },
+              { "name": "Noida", "userNumber": "456" },
+              { "name": "Gurgaon", "userNumber": "456" },
+              { "name": "Noida", "userNumber": "456" },
+              { "name": "Gurgaon", "userNumber": "456" },
+              { "name": "Noida", "userNumber": "456" },
+              { "name": "Gurgaon", "userNumber": "456" }
+            ]
+          },
+          {
+            "cardData": [
+              {
+                "backgroundImage": "/shriram-serenity-project-project-large-image1-7568.avif",
+                "image": "/call.png",
+                "title": "Shree Serenity",
+                "description": "Balewadi , Pune",
+                "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+                "iconCardData": [
+                  {
+                    "img": "/building.png",
+                    "title": "Project Size",
+                    "description": "165 Unit . 1.25 Acres"
+                  },
+                  {
+                    "img": "/web-management.png",
+                    "title": "Configurations",
+                    "description": "2-BHK , 3-BHK Flats"
+                  }
+                ]
+              },
+              {
+                "backgroundImage": "/krisala-41-westworld-project-project-large-image1-4756.avif",
+                "image": "/call.png",
+                "title": "Rise Food Mall",
+                "description": "Noida Sector 1",
+                "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+                "iconCardData": [
+                  {
+                    "img": "/building.png",
+                    "title": "Project ",
+                    "description": "165 Unit . 1.25 Acres"
+                  },
+                  {
+                    "img": "/web-management.png",
+                    "title": "Configurations",
+                    "description": "2-BHK , 3-BHK Flats"
+                  }
+                ]
+              },
+              {
+                "backgroundImage": "/rise-food-mall-project-project-large-image1-6738.avif",
+                "image": "/call.png",
+                "title": "Shree Serenity",
+                "description": "Balewadi , Pune",
+                "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+                "iconCardData": [
+                  {
+                    "img": "/building.png",
+                    "title": "Project Size",
+                    "description": "165 Unit . 1.25 Acres"
+                  },
+                  {
+                    "img": "/web-management.png",
+                    "title": "Configurations",
+                    "description": "2-BHK , 3-BHK Flats"
+                  }
+                ]
+              },
+              {
+                "backgroundImage": "/jp-codename-starlife-project-project-large-image1-5182.avif",
+                "image": "/call.png",
+                "title": "Rise Food Mall",
+                "description": "Noida Sector 1",
+                "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+                "iconCardData": [
+                  {
+                    "img": "/building.png",
+                    "title": "Project Size",
+                    "description": "165 Unit . 1.25 Acres"
+                  },
+                  {
+                    "img": "/web-management.png",
+                    "title": "Configurations",
+                    "description": "2-BHK , 3-BHK Flats"
+                  }
+                ]
+              },
+              {
+                "backgroundImage": "/haware-my-first-home-project-project-large-image1-5447.avif",
+                "image": "/icon/call.png",
+                "title": "Shree Serenity",
+                "description": "Balewadi , Pune",
+                "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+                "iconCardData": [
+                  {
+                    "img": "/icon/building.png",
+                    "title": "Project Size",
+                    "description": "165 Unit . 1.25 Acres"
+                  },
+                  {
+                    "img": "/web-management.png",
+                    "title": "Configurations",
+                    "description": "2-BHK , 3-BHK Flats"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "id": 2,
+        "lableName": "Resale",
+        "data": [
+          {
+            "cities": [
+              { "name": "Punjab", "userNumber": "123" },
+              { "name": "Haryana", "userNumber": "456" },
+              { "name": "Delhi", "userNumber": "123" },
+              { "name": "Noida", "userNumber": "456" },
+              { "name": "Gurgaon", "userNumber": "456" },
+              { "name": "Noida", "userNumber": "456" },
+              { "name": "Gurgaon", "userNumber": "456" },
+              { "name": "Noida", "userNumber": "456" },
+              { "name": "Gurgaon", "userNumber": "456" }
+            ]
+          },
+          {
+            "cardData": [
+              {
+                "backgroundImage": "/shriram-serenity-project-project-large-image1-7568.avif",
+                "image": "/call.png",
+                "title": "Abhishek",
+                "url": "/shriram-serenity-project-project-large-image1-7568.avif",
+                "description": "Balewadi , Pune",
+                "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+                "iconCardData": [
+                  {
+                    "img": "/building.png",
+                    "title": "Project Size",
+                    "description": "165 Unit . 1.25 Acres"
+                  },
+                  {
+                    "img": "/web-management.png",
+                    "title": "Configurations",
+                    "description": "2-BHK , 3-BHK Flats"
+                  }
+                ]
+              },
+              {
+                "backgroundImage": "/krisala-41-westworld-project-project-large-image1-4756.avif",
+                "image": "/call.png",
+                "title": "Rise Food Mall",
+                "url": "/krisala-41-westworld-project-project-large-image1-4756.avif",
+                "description": "Noida Sector 1",
+                "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+                "iconCardData": [
+                  {
+                    "img": "/building.png",
+                    "title": "Project ",
+                    "description": "165 Unit . 1.25 Acres"
+                  },
+                  {
+                    "img": "/web-management.png",
+                    "title": "Configurations",
+                    "description": "2-BHK , 3-BHK Flats"
+                  }
+                ]
+              },
+              {
+                "backgroundImage": "/rise-food-mall-project-project-large-image1-6738.avif",
+                "image": "/call.png",
+                "title": "Shree Serenity",
+                "url": "/rise-food-mall-project-project-large-image1-6738.avif",
+                "description": "Balewadi , Pune",
+                "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+                "iconCardData": [
+                  {
+                    "img": "/building.png",
+                    "title": "Project Size",
+                    "description": "165 Unit . 1.25 Acres"
+                  },
+                  {
+                    "img": "/web-management.png",
+                    "title": "Configurations",
+                    "description": "2-BHK , 3-BHK Flats"
+                  }
+                ]
+              }
+            ]
+          }
+        ]
+      }
+     ],
+  "agentsHeader": [
+        { "id": 1, "name": "Agent 1", "icon": "fa-solid fa-user" },
+        { "id": 2, "name": "Agent 2", "icon": "fa-solid fa-user" },
+        { "id": 3, "name": "Agent 3", "icon": "fa-solid fa-user" },
+        { "id": 4, "name": "Agent 4", "icon": "fa-solid fa-user" },
+        { "id": 5, "name": "Agent 5", "icon": "fa-solid fa-user" }
+      ],
+  "locations": [
+        { "id": 1, "name": "Chatterpur, Delhi" },
+        { "id": 2, "name": "Saket, Delhi" },
+        { "id": 3, "name": "Gurugram, Haryana" },
+        { "id": 4, "name": "Palm, Delhi" },
+        { "id": 5, "name": "Noida, Uttar Pradesh" },
+        { "id": 6, "name": "Haridwar, Uttarakhand" }
+      ],
+  "propertyTypes": [
+        { "id": 1, "name": "New Projects" },
+        { "id": 2, "name": "Rental/Resale" }
+      ],
+  "cardData": [
+    {
+      "id": 1,
+      "backgroundImage": "./shriram-serenity-project-project-large-image1-7568.avif",
+      "image": "./call.png",
+      "title": "Shree Serenity",
+      "description": "Balewadi, Pune",
+      "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+      "iconCardData": [
+        {
+          "img": "/building.png",
+          "title": "Project Size",
+          "description": "165 Unit . 1.25 Acres"
+        },
+        {
+          "img": "/web-management.png",
+          "title": "Configurations",
+          "description": "2-BHK , 3-BHK Flats, 4-BHK Flats, 4.5-BHK Flats"
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "backgroundImage": "/krisala-41-westworld-project-project-large-image1-4756.avif",
+      "image": "/call.png",
+      "title": "Rise Food Mall",
+      "description": "Noida Sector 1",
+      "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+      "iconCardData": [
+        {
+          "img": "/building.png",
+          "title": "Project",
+          "description": "165 Unit . 1.25 Acres"
+        },
+        {
+          "img": "/web-management.png",
+          "title": "Configurations",
+          "description": "2-BHK , 3-BHK Flats, 4-BHK Flats, 4.5-BHK Flats"
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "backgroundImage": "/rise-food-mall-project-project-large-image1-6738.avif",
+      "image": "/call.png",
+      "title": "Shree Serenity",
+      "description": "Balewadi, Pune",
+      "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+      "iconCardData": [
+        {
+          "img": "/building.png",
+          "title": "Project Size",
+          "description": "165 Unit . 1.25 Acres"
+        },
+        {
+          "img": "/web-management.png",
+          "title": "Configurations",
+           "description": "2-BHK , 3-BHK Flats, 4-BHK Flats, 4.5-BHK Flats"
+        }
+      ]
+    },
+    {
+      "id": 4,
+      "backgroundImage": "/jp-codename-starlife-project-project-large-image1-5182.avif",
+      "image": "/call.png",
+      "title": "Rise Food Mall",
+      "description": "Noida Sector 1",
+      "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+      "iconCardData": [
+        {
+          "img": "/building.png",
+          "title": "Project Size",
+          "description": "165 Unit . 1.25 Acres"
+        },
+        {
+          "img": "/web-management.png",
+          "title": "Configurations",
+          "description": "2-BHK , 3-BHK Flats"
+        }
+      ]
+    },
+    {
+      "id": 5,
+      "backgroundImage": "/haware-my-first-home-project-project-large-image1-5447.avif",
+      "image": "/call.png",
+      "title": "Shree Serenity",
+      "description": "Balewadi, Pune",
+      "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+      "iconCardData": [
+        {
+          "img": "/building.png",
+          "title": "Project Size",
+          "description": "165 Unit . 1.25 Acres"
+        },
+        {
+          "img": "/web-management.png",
+          "title": "Configurations",
+          "description": "2-BHK , 3-BHK Flats"
+        }
+      ]
+    }
+  ],
+  "units": [
+    { "unitType": "2 BHK 986 Sq. Ft. Apartment", "area": "986 Sq. Ft. (Saleable)", "price": "₹ 86.00 Lac" },
+    { "unitType": "2 BHK 1088 Sq. Ft. Apartment", "area": "1088 Sq. Ft. (Saleable)", "price": "₹ 1.02 Cr" },
+    { "unitType": "3 BHK 1334 Sq. Ft. Apartment", "area": "1334 Sq. Ft. (Saleable)", "price": "₹ 1.25 Cr" },
+    { "unitType": "3 BHK 1494 Sq. Ft. Apartment", "area": "1494 Sq. Ft. (Saleable)", "price": "₹ 1.49 Cr" }
+  ],
+  "iconCards": [
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" },
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" },
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" },
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" },
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" },
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" },
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" },
+    { "img": "/buildings.png", "title": "Project Status", "description": "New Launch" }
+  ],
+ "iconDataForButton": [
+    {
+      "img": "/home-loan.png",
+      "title": "Home Loan EMI Starts at $ 58.07k",
+      "description": "For Provident Botanico",
+      "listDescription": [
+        {
+          "list": "50+ Banks Max Loan Amount"
+        },
+        {
+          "list": "Lowest ROI"
+        },
+        {
+          "list": "Fast Disbursement"
+        }
+      ],
+      "buttonName": "Get CIBIL-Linked Estimate"
+    },
+    {
+      "img": "/home-interior.png",
+      "title": "Interiors Package Starting from ₹2.1L",
+      "description": "For Provident Botanico",
+      "listDescription": [
+        {
+          "list": "Made to Order"
+        },
+        {
+          "list": "Timely Delivery"
+        },
+        {
+          "list": "Lowest Prices"
+        }
+      ],
+      "buttonName": "Book a Consultation Now"
+    },
+    {
+      "img": "/valuation.png",
+      "title": "Professional Valuation Report in $999",
+      "description": "For Provident Botanico",
+      "listDescription": [
+        {
+          "list": "10M Property Seekers"
+        },
+        {
+          "list": "Fast Disbursement"
+        },
+        {
+          "list": "Fast Disbursement"
+        }
+      ],
+      "buttonName": "Request a Professional Valuation"
+    },
+    {
+      "img": "/sell-or-rent-property.png",
+      "title": "Are you Looking to Advertise a Property",
+      "description": "For Provident Botanico",
+      "listDescription": [
+        {
+          "list": "50+ Banks Max Loan Amount"
+        },
+        {
+          "list": "Transaction Every 15 Minutes"
+        },
+        {
+          "list": "50+ Banks Max Loan Amount"
+        }
+      ],
+      "buttonName": "Reach Out to Us Now"
+    }
+  ],
+  "galleryImages": [
+    {
+      "id": 1,
+      "mainImage": "/provident-botanico-project-project-large-image1-1056.jpg",
+      "multipleImages": [
+        "/provident-botanico-project-amenities-features1-3750.jpg",
+        "/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+        "/provident-botanico-project-amenities-features1-3750.jpg",
+        "/provident-botanico-project-amenities-features1-3750.jpg"
+      ]
+    }
+  ],
+  "gallery": {
+    "projects": [
+      {
+        "original": "/provident-botanico-project-project-large-image1-1056.jpg",
+        "thumbnail": "/provident-botanico-project-project-large-image1-1056.avif",
+        "description": "Cover Image"
+      },
+      {
+        "original": "/provident-botanico-project-master-plan-image1-3047.jpg",
+        "thumbnail": "/provident-botanico-project-master-plan-image1-3047.avif",
+        "description": "Master Plan Image"
+      },
+      {
+        "original": "/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+        "thumbnail": "/provident-botanico-project-clubhouse-external-image1-2344.avif",
+        "description": "Clubhouse External Image"
+      },
+      {
+        "original": "/provident-botanico-project-project-large-image1-1056.jpg",
+        "thumbnail": "/provident-botanico-project-project-large-image1-1056.avif",
+        "description": "Sports Facilities Image"
+      },
+      {
+        "original": "/provident-botanico-project-master-plan-image1-3047.jpg",
+        "thumbnail": "/provident-botanico-project-master-plan-image1-3047.avif",
+        "description": "Amenities Features"
+      },
+      {
+        "original": "/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+        "thumbnail": "/provident-botanico-project-clubhouse-external-image1-2344.avif",
+        "description": "Floor Plans"
+      },
+      {
+        "original": "/provident-botanico-project-project-large-image1-1056.jpg",
+        "thumbnail": "/provident-botanico-project-project-large-image1-1056.avif",
+        "description": "Push Creative"
+      },
+      {
+        "original": "/provident-botanico-project-master-plan-image1-3047.jpg",
+        "thumbnail": "/provident-botanico-project-master-plan-image1-3047.avif",
+        "description": "Videos"
+      }
+    ],
+    "units": [
+      {
+        "original": "/provident-botanico-project-project-large-image1-1056.jpg",
+        "thumbnail": "/provident-botanico-project-project-large-image1-1056.avif",
+        "description": "Cover Image"
+      },
+      {
+        "original": "/provident-botanico-project-master-plan-image1-3047.jpg",
+        "thumbnail": "/provident-botanico-project-master-plan-image1-3047.avif",
+        "description": "Master Plan Image"
+      },
+      {
+        "original": "/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+        "thumbnail": "/provident-botanico-project-clubhouse-external-image1-2344.avif",
+        "description": "Clubhouse External Image"
+      },
+      {
+        "original": "/provident-botanico-project-project-large-image1-1056.jpg",
+        "thumbnail": "/provident-botanico-project-project-large-image1-1056.avif",
+        "description": "Sports Facilities Image"
+      },
+      {
+        "original": "/provident-botanico-project-master-plan-image1-3047.jpg",
+        "thumbnail": "/provident-botanico-project-master-plan-image1-3047.avif",
+        "description": "Amenities Features"
+      },
+      {
+        "original": "/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+        "thumbnail": "/provident-botanico-project-clubhouse-external-image1-2344.avif",
+        "description": "Floor Plans"
+      },
+      {
+        "original": "/provident-botanico-project-project-large-image1-1056.jpg",
+        "thumbnail": "/provident-botanico-project-project-large-image1-1056.avif",
+        "description": "Push Creative"
+      },
+      {
+        "original": "/provident-botanico-project-master-plan-image1-3047.jpg",
+        "thumbnail": "/provident-botanico-project-master-plan-image1-3047.avif",
+        "description": "Videos"
+      }
+    ],
+    "locality": [
+      {
+        "original": "/provident-botanico-project-project-large-image1-1056.jpg",
+        "thumbnail": "/provident-botanico-project-project-large-image1-1056.avif",
+        "description": "Cover Image"
+      },
+      {
+        "original": "/provident-botanico-project-master-plan-image1-3047.jpg",
+        "thumbnail": "/provident-botanico-project-master-plan-image1-3047.avif",
+        "description": "Master Plan Image"
+      },
+      {
+        "original": "/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+        "thumbnail": "/provident-botanico-project-clubhouse-external-image1-2344.avif",
+        "description": "Clubhouse External Image"
+      },
+      {
+        "original": "/provident-botanico-project-project-large-image1-1056.jpg",
+        "thumbnail": "/provident-botanico-project-project-large-image1-1056.avif",
+        "description": "Sports Facilities Image"
+      },
+      {
+        "original": "/provident-botanico-project-master-plan-image1-3047.jpg",
+        "thumbnail": "/provident-botanico-project-master-plan-image1-3047.avif",
+        "description": "Amenities Features"
+      },
+      {
+        "original": "/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+        "thumbnail": "/provident-botanico-project-clubhouse-external-image1-2344.avif",
+        "description": "Floor Plans"
+      },
+      {
+        "original": "/provident-botanico-project-project-large-image1-1056.jpg",
+        "thumbnail": "/provident-botanico-project-project-large-image1-1056.avif",
+        "description": "Push Creative"
+      },
+      {
+        "original": "/provident-botanico-project-master-plan-image1-3047.jpg",
+        "thumbnail": "/provident-botanico-project-master-plan-image1-3047.avif",
+        "description": "Videos"
+      }
+    ]
+  }
+  }

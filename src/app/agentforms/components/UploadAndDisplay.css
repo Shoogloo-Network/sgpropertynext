@@ -1,0 +1,125 @@
+.image-upload-box {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    border: 2px dashed #ff69b4;
+    border-radius: 8px;
+    cursor: pointer;
+    text-align: center;
+    background-color: #fff;
+    transition: all 0.3s ease;
+  }
+  
+  .image-upload-box:hover {
+    border-color: #ff1493;
+    background-color: #f8f8f8;
+  }
+  
+  .image-upload-icon {
+    width: 50px;
+    height: 50px;
+    margin-bottom: 10px;
+  }
+  
+  .image-upload-content {
+    margin-top: 10px;
+  }
+  
+  .upload-info {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+  }
+  
+  .plus-icon {
+    font-size: 30px;
+    font-weight: bold;
+    margin-right: 8px;
+    color: #ff69b4;
+  }
+  
+  .add-picture-text {
+    font-size: 16px;
+    color: #fff;
+    font-weight: 500;
+  }
+  
+  .listing-info {
+    font-size: 14px;
+    color: #777;
+    font-weight: 400;
+    max-width: 250px;
+    margin: 0 auto;
+  }
+  
+  .image-format-info {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #777;
+  }
+
+  .upload-info{
+    /* padding: 8px 15px; */
+    margin-top: 30px;
+    background: #5e449b;
+    border: #5e449b solid 1px;
+    border-radius: 100px;
+    color: #fff;
+  }
+
+
+  .selected-images-container {
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+  }
+  
+  .image-preview-box {
+    position: relative;
+    margin: 10px;
+    /* border: 2px solid #ddd; */
+    padding: 10px;
+    border-radius: 8px;
+    /* display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; */
+  }
+  
+  .selected-image {
+    border-radius: 8px;
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+  }
+  
+  .remove-image-btn {
+    position: absolute;
+    top: 5px;
+    right: 5px;
+    background-color: #ff69b4;
+    color: white;
+    border: none;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 16px;
+  }
+  
+  .remove-image-btn:hover {
+    background-color: #ff1493;
+  }
+  
+  
+  
+  .select-container select {
+    padding: 10px;
+    font-size: 14px;
+    width: 250px;
+  }

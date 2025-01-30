@@ -1,0 +1,83 @@
+
+.home-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 24px;
+  width: 1140px;
+  margin: 0 auto;
+}
+
+/* Home container title styling */
+.home-container h1 {
+  margin-top: 18px;
+  margin-bottom: 18px;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.real-estate-sections {
+  display: flex;
+  justify-content: center;
+  padding: 20px;
+}
+
+.real-estate-section {
+  border: 1px solid #f5f5f5;
+  background-color: #f8fbff;
+  overflow: hidden;
+  padding: 20px;
+  width: 50%;
+}
+
+.section-title {
+  font-size: 1.8em;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  .home-content {
+      flex-direction: column;
+      width: 100%;
+      gap: 16px;
+  }
+
+  .real-estate-sections {
+      flex-direction: column;
+      padding: 10px;
+  }
+
+  .real-estate-section {
+      width: 100%;
+      margin-bottom: 20px;
+      padding: 0;
+  }
+
+  .section-title {
+      font-size: 1.5em;
+  }
+}
+
+/* Responsive styles for extra small devices */
+@media (max-width: 480px) {
+  .home-container h1 {
+      font-size: 20px;
+  }
+
+  .section-title {
+      font-size: 1.2em;
+  }
+
+  .real-estate-section {
+      padding: 16px; /* Adjust padding for smaller screens */
+  }
+
+  /* Additional responsiveness */
+  .home-content {
+      gap: 12px; /* Adjust gap for small screens */
+  }
+}

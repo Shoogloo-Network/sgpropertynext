@@ -1,0 +1,97 @@
+
+
+.developer-card {
+    border: 1px solid #e0e0e0;
+    border-radius: 8px;
+    background-color: #ffffff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+   
+    padding: 20px;
+    width: 100%;
+    
+  }
+  
+  .developer-card-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+  }
+  
+  .developer-card-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 15px;
+  }
+  
+  .developer-card-title {
+    font-size: 1.5em;
+    font-weight: bold;
+  }
+  
+  .developer-card-content {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .developer-card-item {
+    display: flex;
+    align-items: center;
+  }
+  
+  .developer-card-check-icon {
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+  }
+  
+  .developer-card-footer {
+    display: flex;
+    justify-content: flex-start;
+  }
+
+
+
+  /* Responsive styles for mobile devices */
+@media (max-width: 600px) {
+  .developer-card {
+      padding: 15px;
+      /* margin: 10px; */
+      box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  }
+
+  .developer-card-header {
+      gap: 10px;
+  }
+
+  .developer-card-icon {
+      width: 40px;
+      height: 40px;
+      margin-right: 0;
+      margin-bottom: 10px;
+  }
+
+  .developer-card-title {
+      font-size: 1.2em;
+  }
+
+  .developer-card-content {
+      gap: 8px;
+  }
+
+  .developer-card-item {
+      gap: 10px;
+  }
+
+  .developer-card-check-icon {
+      width: 18px;
+      height: 18px;
+      margin-right: 0;
+      margin-bottom: 5px;
+  }
+
+  
+}
+  

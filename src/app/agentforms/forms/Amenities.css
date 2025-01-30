@@ -1,0 +1,32 @@
+.amenities-main{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+
+.amenities-input{
+    width: 25%;
+    margin: 10px;
+    display: flex;
+    gap: 8px;
+}
+
+.amenities-logo{
+    font-weight: 500;
+}
+
+.additional-attributes-amenities-heading{
+    margin: 20px 0;
+}
+
+.main-div-amenities{
+    padding-top: 20px;
+}
+
+
+@media (max-width:768px) {
+    .amenities-input{
+        align-items: center;
+    }
+}

@@ -1,0 +1,54 @@
+
+.callback-request {
+    
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  
+    color: #3498db;
+    cursor: pointer;
+
+}
+
+.phone-icon {
+    width: 24px;
+    height: 24px;
+}
+
+.callback-request-div{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    background: #0E9F6E;
+    color: #fff;
+    border: #0E9F6E solid 1px;
+    padding: 8px 15px;
+    border-radius: 8px;
+    font-weight: bold;
+}
+
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .callback-request {
+        /* flex-direction: column; */
+        gap: 4px;
+    }
+
+    .phone-icon {
+        width: 20px;
+        height: 20px;
+    }
+
+    .callback-request-div {
+        /* flex-direction: column; */
+        gap: 5px;
+        padding: 5px;
+        
+    }
+
+    .callback-request-div >p {
+        font-size: 12px;
+        text-decoration: none !important;
+    }
+}

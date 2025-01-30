@@ -1,0 +1,40 @@
+.city-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  
+  .city-card {
+    display: flex;
+    justify-content: space-between;
+    width: fit-content;
+    border: 1px solid black;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 10px;
+    gap: 10px;
+    cursor: pointer;
+    background-color: white; /* Default background */
+    transition: background-color 0.3s ease;
+  }
+  
+  .city-card.active {
+    background-color: #e0e0e0; /* Background color when clicked */
+  }
+  
+  .city-card-name {
+    color: black;
+  }
+  
+  .city-card-user-number {
+    color: #5f449b;
+  }
+  
+
+
+  @media (max-width:768px){
+    .city-card {
+      padding: 5px;
+      margin: 2px;
+    }
+  }

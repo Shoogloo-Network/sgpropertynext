@@ -1,0 +1,271 @@
+.agent-detail-main-div{
+display: flex;
+justify-content: center;
+gap: 50px;
+margin: 20px 40px;
+}
+
+
+.agent-contact-detail{
+    display: flex;
+    justify-content: flex-start;
+    gap: 10px;
+}
+
+
+.agent-detail-left{
+    width: 40%;
+}
+
+
+
+.about-item{
+    display: flex;
+    gap: 10px;
+    margin: 15px;
+    align-items: center;
+}
+
+
+.about-item-span{
+    font-weight: bold;
+    margin-right: 5px;
+}
+
+.agent-white-box{
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 8px 0 #0000000f;
+    padding: 10px;
+    margin-bottom: 20px ;
+}
+
+.specialization-item{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1px #ebebeb;
+    background: #f9f9f9;
+
+    color: #333;
+}
+
+
+
+
+.specializations-list{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.interest-skill-item{
+    padding: 0 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 40px;
+    border-radius: 20px;
+    border: solid 1px #ebebeb;
+    background: #f9f9f9;
+    color: #333;
+}
+
+.interests-skills-list{
+    margin-top: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; 
+}
+
+h1{
+    font-size: 18px;
+    color: #333;
+    font-weight: 600;
+    margin: 10px 0;
+}
+
+ .agent-about-head{
+    display: flex;
+    /* justify-content: space-between; */
+    gap: 20px;
+    align-items: center;
+    cursor: pointer;
+ }
+.agent-details-name-mobile{
+    display: none;
+}
+@media(max-width:768px){
+    .agent-detail-left{
+        width: 100%;
+        
+    }
+
+    .agent-details-name{
+        display: none;
+    }
+.agent-details-name-mobile{
+    display: block;
+}
+    .agent-detail-main-div{
+        flex-direction: column;
+        margin: 5px;
+        gap: 0;
+    }
+
+    .agent-detail-mobile{
+       display: flex;
+    }
+
+    .agent-white-box{
+        margin: 4px 0;
+        padding: 2px;
+         box-shadow: none;
+    }
+    .interest-skill-item>p{
+        font-size: 11px;
+    }
+
+    .agent-interests-skills > h1{
+        font-size: 14px;
+    }
+  .agent-interests-skills {
+    display: none;
+  }
+    .agent-name >h1{
+        font-size: 14px;
+    }
+    .company-name>h1{
+        font-size: 14px;
+    }
+
+    .location >h1{
+        font-size: 14px;
+    }
+    .whatsapp > button{
+        display: none;
+    }
+    .agent-contact-detail{
+        gap: 0;
+    }
+
+    .agent-about > h1{
+       font-size: 14px;
+      
+    }
+
+    .about-item-span{
+        font-size: 10px;
+    }
+    .specialization-item {
+        height: 20px;
+    }
+    .interest-skill-item{
+        height: 20px;
+    }
+
+    .agent-about-head>h1{
+        font-size: 14px;
+    }
+}
+
+
+/* Container Styling */
+.filter-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 16px;
+    margin: 20px 0;
+    flex-wrap: wrap; /* Allows wrapping for smaller screens */
+  }
+  
+  /* Filter Tabs */
+  .filter-tabs {
+    display: flex;
+    flex-wrap: wrap; /* Ensures the tabs wrap on smaller screens */
+    gap: 12px;
+    
+  }
+  
+  .filter-tab {
+    padding: 8px 16px;
+    background-color: #f7f7f7;
+    border-radius: 20px;
+    color: #555;
+    font-size: 14px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+  }
+  
+  .filter-tab:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Active Tab Styling */
+  .filter-tab.active {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  /* Dropdown */
+  .filter-dropdown select {
+    padding: 8px 12px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    font-size: 14px;
+    background-color: #f7f7f7;
+    color: #555;
+    outline: none;
+    cursor: pointer;
+    transition: border-color 0.3s ease;
+  }
+  
+  .filter-dropdown select:focus {
+    border-color: #007bff;
+  }
+  
+  /* Responsive Breakpoints */
+  
+  /* Tablets */
+  @media (max-width: 768px) {
+    .filter-section {
+      flex-direction: column; /* Stack tabs and dropdown vertically */
+      align-items: flex-start; /* Align items to the left */
+    }
+  
+    .filter-tabs {
+      justify-content: flex-start; /* Align tabs to the left */
+      margin-bottom: 12px;
+    }
+  
+    .filter-tab {
+      font-size: 12px; /* Smaller font size for smaller screens */
+      padding: 6px 12px;
+    }
+  
+    .filter-dropdown select {
+      width: 100%; /* Dropdown spans the full width on smaller screens */
+    }
+  }
+  
+  /* Mobile */
+  @media (max-width: 480px) {
+    .filter-tab {
+      padding: 6px 10px;
+      font-size: 11px; /* Further reduce font size */
+    }
+  
+    .filter-dropdown select {
+      font-size: 12px; /* Adjust font size for mobile */
+    }
+  }
+  

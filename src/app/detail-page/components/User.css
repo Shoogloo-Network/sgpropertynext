@@ -1,0 +1,30 @@
+.user-container {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    width: 80%;
+    margin: auto;
+}
+
+.user-sidebar {
+    flex: 1;
+    position: sticky;
+    top: 50px;
+}
+
+.user-content {
+    flex: 3;
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .user-sidebar{
+        display: none;
+
+    }
+
+    .user-container{
+       width: 100%;
+    }
+}

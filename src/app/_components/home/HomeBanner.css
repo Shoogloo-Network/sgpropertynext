@@ -1,0 +1,145 @@
+/* src/HomeBanner.css */
+.homeDesktopBanner {
+  position: relative;
+}
+
+.homeDesktopBanner img {
+  width: 100%;
+  height: auto;
+}
+
+.container.contentBox {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  color: white;
+}
+
+.realEstateHeading {
+  font-size: 2.5em;
+  margin-bottom: 20px;
+}
+
+.homeDesktopTabBox ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  justify-content: center;
+}
+
+.homeDesktopTabBox li {
+  margin: 0 10px;
+}
+
+.tab {
+  background: none;
+  border: none;
+  color: white;
+  font-size: 1em;
+  cursor: pointer;
+}
+
+.tab em {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.tab span {
+  display: block;
+}
+
+.active .tab {
+  font-weight: bold;
+}
+
+.homeBlackBox {
+  margin-top: 20px;
+}
+
+.homeDesktopSearchBox {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.homeDesktopSearchBox form {
+  display: flex;
+  gap: 10px;
+}
+
+.homeDesktopSearchBox select,
+.homeDesktopSearchBox input {
+  padding: 10px;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+}
+
+.homeDesktopSearchBox button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.homeDesktopSearchBox button:hover {
+  background-color: #0056b3;
+}
+
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+  .realEstateHeading {
+      font-size: 2em;
+  }
+
+  .homeDesktopTabBox ul {
+      flex-direction: column;
+      align-items: center;
+  }
+
+  .homeDesktopTabBox li {
+      margin: 5px 0;
+  }
+
+  .homeDesktopSearchBox form {
+      flex-direction: column;
+      gap: 5px;
+  }
+
+  .homeDesktopSearchBox select,
+  .homeDesktopSearchBox input,
+  .homeDesktopSearchBox button {
+      width: 100%;
+      padding: 8px;
+  }
+}
+
+/* Responsive styles for extra small devices */
+@media (max-width: 480px) {
+  .realEstateHeading {
+      font-size: 1.5em;
+  }
+
+  .container.contentBox {
+      padding: 10px;
+  }
+
+  .homeDesktopSearchBox form {
+      gap: 5px;
+  }
+
+  .homeDesktopSearchBox select,
+  .homeDesktopSearchBox input,
+  .homeDesktopSearchBox button {
+      padding: 6px;
+  }
+
+  /* Adjust the banner image padding on small devices */
+  .homeDesktopBanner img {
+      padding: 0 10px;
+  }
+}

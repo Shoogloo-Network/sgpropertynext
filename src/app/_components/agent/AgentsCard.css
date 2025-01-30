@@ -1,0 +1,158 @@
+.agents-card{
+    width: 100%;
+    margin: 20px;
+}
+
+
+
+.agent{
+    display: flex;
+    max-width: 100%;
+    padding: 10px;
+    border-radius: 8px;
+    box-shadow: 0 4px 0 0 rgba(0, 0, 0, 0.06);
+    border: solid 1px #e8e8e8;
+    background: #fff;
+    gap: 20px;
+    margin-bottom: 20px;
+    text-decoration: none;
+
+}
+
+.agent-profile>p{
+    color: rgb(0, 123, 255);
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    /* text-decoration: underline !important; */
+}
+
+.agent-profile p:hover{
+    text-decoration: underline !important;
+}
+.agent-profile-image-div>p{
+    color: #5f449b;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+    text-decoration: underline !important;
+}
+.whatsapp > button{
+    border: 1px solid #0E9F6E;
+    background: #fff;
+    font-weight: 600;
+    display: flex;
+    padding: 0 20px;
+    align-items: center;
+    justify-content: center;
+    font-size: 14px;
+    line-height: normal;
+    border-radius: 8px;
+    height: 42px;
+}
+
+
+
+
+.agent-contact{
+    margin-top: 15px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 20px;
+}
+
+.trusted-partner{
+    border: 1px solid #DF9A79;
+    background: linear-gradient(90deg, #F1A490 0%, #FFCEB9 50.5%, #FFB892 100%);
+    padding: 5px 10px;
+}
+
+.preferred-partner{
+    border: 1px solid #DAA800;
+    background: #FFD547;
+    padding: 5px 10px;
+}
+
+
+
+.agent-partners{
+    display: flex;
+    gap: 20px;
+    margin-bottom: 10px;
+}
+
+
+.agent-name>p{
+    font-size: 16px;
+    font-weight: 800;
+    color: #333;
+}
+
+
+.agent-company-location{
+    display: flex;
+    font-size: 13px;
+    color: #666;
+    gap: 20px;
+}
+
+
+.agent-details{
+    width: 100%;
+}
+
+.agent-experience-language-listing{
+    display: flex;
+    justify-content: space-between;
+    padding: 15px 20px;
+    margin-top: 15px;
+    border-radius: 8px;
+    border: solid 1px #fde4ac;
+    background: #fdf9f0;
+}
+
+
+.listing-flex{
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.agentsCardMobile{
+    display: none;
+}
+@media (max-width:768px) {
+    .agents-card{
+        width: 100%;
+        margin: 0;
+        margin-top: 10px;
+
+
+    }
+    .agentsCardDesktop{
+   display: none;
+    }
+    .agentsCardMobile{
+   display: flex;
+    }
+    .agent-experience-language-listing{
+        flex-wrap: wrap;
+    }
+
+    .agent-partners{
+        flex-wrap: wrap;
+    }
+
+    .agent-profile > img {
+        height: 80px;
+    }
+
+    .specialization-item>p{
+        font-size: 10px;
+    }
+    .agent-specializations>h1{
+        font-size: 14px;
+    }
+    
+}

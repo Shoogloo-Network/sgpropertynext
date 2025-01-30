@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.imageWrapperDiv{
+    display: flex;
+   /* width: 100vw; */
+justify-content: center;
+gap: 12px;
+cursor: pointer;
+}
+
+
+
+.singleImageDiv{
+    width: 60%;
+}
+
+
+
+.singleImageDiv img{
+    width: 100%;
+    border-radius: 8px; /* Optional: add rounded corners */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add shadow for a nicer look */
+}
+
+
+
+.multipleImageDiv{
+    width: 40%;
+    display: grid;
+  grid-template-columns: repeat(2, 1fr); /* 2 columns */
+  gap: 12px; /* Adjust spacing between images as desired */
+  max-width: 600px; /* Optional: set a max width for the gallery */
+  margin: 0 auto; /* Center the gallery horizontally */
+}
+
+.multipleImageDiv img{
+    width: 100%;
+  height: 100%;
+  object-fit: cover;
+  border-radius: 8px; /* Optional: add rounded corners */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: add shadow for a nicer look */
+    
+}
+
+
+
+/* Responsive styles for mobile devices */
+@media (max-width: 768px) {
+    .imageWrapperDiv {
+        flex-direction: column;
+        gap: 8px;
+    }
+
+    .singleImageDiv {
+        width: 100%;
+        
+    }
+
+    .singleImageDiv img{
+        height: 100%;
+    }
+
+    .multipleImageDiv {
+        /* width: 100%; */
+      display: flex;
+      justify-content: center;
+    }
+    .multipleImageDiv img{
+        width: 50%;
+    }
+}
+

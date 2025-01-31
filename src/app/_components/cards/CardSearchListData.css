@@ -1,9 +1,10 @@
 /* Container for main layout */
 .card-search-container {
     display: flex;
-    width: 80%;
+    width: 100%;
     justify-content: space-between;
-    margin: auto;
+    margin: 10px;
+    
     gap: 20px;
   }
   
@@ -45,9 +46,9 @@
   
   /* Filter Cards Section */
   .filter-card-section {
-    width: 80%;
+    width: 100%;
     display:flex;
-   margin:auto;
+   margin:10px;
     gap:20px;
    
 

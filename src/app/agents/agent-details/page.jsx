@@ -4,12 +4,13 @@ import "./AgentDetails.css";
 import Card from "../../_components/cards/Card";
 import BtnPrimaryWithIcon from '../../_components/buttons/BtnPrimaryWithIcon';
 import { fetchData } from "../../_components/api/data";
+import FormPopup from "@/app/_components/userform/FormPopup";
 const AgentDetails = () => {
   const [dataRes, setDataRes] = useState([]);
   const [CardData, setCardData] = useState([]);
 const [isAbout,SetIsAbout] = useState(false);
 const [selectedFilter, setSelectedFilter] = useState("All");
-
+const [showForm,setShowForm] = useState(false);
   const filters = ["All", "New Launch", "Ready To Move", "Upcoming", "Affordable", "Virtual Tour"];
 
   useEffect(() => {
@@ -23,11 +24,12 @@ const [selectedFilter, setSelectedFilter] = useState("All");
   const onCardClick = (e) => {
     e.stopPropagation();
     e.preventDefault();
-    //  setShowForm(true);
+     setShowForm(true);
      console.log('Clicked Card Data:'); // Added console log
  
   }
   const onButtonClick = ()=>{
+    setShowForm(true);
     console.log("Button clicked");
 }
 
@@ -131,7 +133,7 @@ return (
           <div className="agent-about agent-white-box" >
           <div className="agent-about-head" onClick={()=>{SetIsAbout(!isAbout)}}>
           <h1 >About</h1>
-          {isAbout?<i className="fa-solid  fa-arrow-down"></i> :<i className="fa-solid  fa-arrow-right"></i>}
+          {isAbout ? <i className="fa-solid fa-arrow-down"></i> : <i className="fa-solid fa-arrow-right"></i>}          
           </div>
             <hr />
            {
@@ -207,6 +209,10 @@ return (
           </div>
         </div>
       </div>
+
+      {
+        showForm && <FormPopup onClose={()=>setShowForm(!showForm)}/>
+      }
     </>
   );
   

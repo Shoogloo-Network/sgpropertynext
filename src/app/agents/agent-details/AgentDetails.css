@@ -1,7 +1,7 @@
 .agent-detail-main-div{
 display: flex;
 justify-content: center;
-gap: 50px;
+gap: 10px;
 margin: 20px 40px;
 }
 
@@ -60,7 +60,7 @@ margin: 20px 40px;
     margin-top: 10px;
     display: flex;
     flex-wrap: wrap;
-    gap: 10px;
+    gap: 5px;
 }
 
 .interest-skill-item{

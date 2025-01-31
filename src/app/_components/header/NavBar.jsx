@@ -49,9 +49,9 @@ const Navbar = () => {
 
                 {/* Main Navigation for Desktop */}
                 <ul className={`nav-list ${menuOpen ? 'open' : ''}`}>
-                    {navItems.map((item) => (
+                    {navItems.map((item,index) => (
                         <li
-                            key={item.id}
+                            key={index}
                             className={`nav-item ${activeSection === item.id ? 'active' : ''}`}
                             onMouseEnter={() => setActiveDropdown(item.id)}
                             onMouseLeave={() => setActiveDropdown(null)}
@@ -77,7 +77,7 @@ const Navbar = () => {
                         onMouseEnter={() => setShowUserMenu(true)}
                         onMouseLeave={() => setShowUserMenu(false)}
                     >
-                        <i className="fas fa-user"></i>
+                      <i className="fa-thin fa-user"></i>
                         {showUserMenu && (
                             <div className="user-dropdown-menu">
                                 <UserSectionList onClick={handleClick} logout={handleLogout} />
@@ -90,8 +90,8 @@ const Navbar = () => {
                 {menuOpen && (
                     <div className="mobile-menu">
                         <ul className="mobile-nav-list">
-                            {navItems.map((item) => (
-                                <li key={item.id} className="mobile-nav-item">
+                            {navItems.map((item,index) => (
+                                <li key={index} className="mobile-nav-item">
                                     <Link href={item.url} onClick={() => setMenuOpen(false)} className="mobile-nav-link">
                                         {item.title}
                                     </Link>

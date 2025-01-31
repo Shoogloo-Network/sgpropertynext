@@ -1,3 +1,4 @@
+"use client"
 import  { useState } from 'react';
 import './Amenities.css'
 import AdditionalAttributesAmenities from '../components/AdditionalAttributesAmenities';

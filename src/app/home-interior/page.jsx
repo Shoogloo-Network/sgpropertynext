@@ -53,13 +53,13 @@ const HomeInterior = () => {
 
         {Array(3)
           .fill({
-            imgSrc: "/images/wedesign.svg",
+            imgSrc: "wedesign.svg",
             title: "Complete Turnkey Services",
             text: "With an emphasis on details, extraordinary designs, and exceptional customer service, we bring your dreams to life.",
           })
           .map((card, index) => (
             <div key={index} className="specialCard interiorCards">
-              <Image src={`images/${card.imgSrc}`} alt="design" width={100} height={100} />
+              <Image src={`/images/${card.imgSrc}`} alt="design" width={100} height={100} />
               <h3>{card.title}</h3>
               <p>{card.text}</p>
             </div>

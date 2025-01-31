@@ -28,7 +28,10 @@ const CardSearchListData = memo(({ cities }) => {
         </div>
       </div>
       <div className="filter-card-section">
+        <div className="search-filter-with-cards">
         <SearchFilterWithCards data={cities} />
+        </div>
+        <div className="advertisement-div"></div>
       </div>
     </>
   );

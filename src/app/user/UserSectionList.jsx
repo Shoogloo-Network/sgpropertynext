@@ -1,3 +1,4 @@
+"use client"
 import { useState, useEffect } from 'react';
 import IconCard from '../_components/cards/IconCard';
 import { FaUserCircle } from 'react-icons/fa';

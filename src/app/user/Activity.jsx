@@ -1,3 +1,4 @@
+"use client"
 import { useEffect, useState } from 'react';
 import { Card, Typography, Grid, Box } from '@mui/material';
 import HistoryIcon from '@mui/icons-material/History';

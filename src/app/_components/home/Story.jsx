@@ -1,3 +1,4 @@
+"use client"
 import Stories from "react-insta-stories";
 import Card from "../cards/Card";
 import { useState, useEffect } from "react";

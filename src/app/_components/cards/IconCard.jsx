@@ -13,7 +13,7 @@ const IconCard = ({ data , onClick ,style,imgStyle,logout}) => {
             logout();
           }
         }} style={{backgroundColor:hoveredIndex===index?'#f0f0f0':'transparent'}} >
-          <img src={`images/${item.img}`} alt={item.description} className="icon-card-image" style={imgStyle} />
+          <img src={`/images/${item.img}`} alt={item.description} className="icon-card-image" style={imgStyle} />
           <div className="icon-card-content">
             {item.title && <h4 className="icon-card-title">{item.title}</h4>}
             <p className="icon-card-description">{item.description}</p>

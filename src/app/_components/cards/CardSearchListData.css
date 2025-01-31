@@ -46,15 +46,30 @@
   /* Filter Cards Section */
   .filter-card-section {
     width: 80%;
-    margin: 20px auto;
+    display:flex;
+   margin:auto;
+    gap:20px;
+   
+
   }
-  
+
+  .search-filter-with-cards{
+    width:60%;
+    /* margin:auto; */
+  }
+  .advertisement-div{
+    width:40%;
+    /* border:2px solid ; */
+  }
  
   
   @media (max-width: 768px) {
    
     .contact-form-section {
      display: none;
+    }
+    .advertisement-div{
+      display: none;
     }
     .city-section{
         width: 100%;

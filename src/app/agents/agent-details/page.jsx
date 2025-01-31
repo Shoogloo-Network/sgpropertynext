@@ -42,7 +42,7 @@ return (
           <div key={dataRes[0]?.id} className="agent-detail agent-white-box agent-detail-mobile">
             <div className="agent-profile">
               <img
-                src={`images/${dataRes[0]?.profileImage}`}
+                src={`/images/${dataRes[0]?.profileImage}`}
                 alt={dataRes[0]?.title}
                 height={130}
                 width={130}
@@ -74,9 +74,9 @@ return (
               </div>
   
               <div className="agent-contact-detail">
-                <div className="whatsapp">
+                {/* <div className="whatsapp">
                   <button>WhatsApp</button>
-                </div>
+                </div> */}
                 <div className="appointment">
                   <BtnPrimaryWithIcon
                     iconName="FaMobileAlt"

@@ -6,81 +6,81 @@ const AdditionalAttributes = ({active}) => {
     {
       id: 1,
       name: "Water Purifier",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
     {
       id: 2,
       name: "Fan",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
     {
       id: 3,
       name: "Fridge",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
     {
       id: 4,
       name: "Exhaust Fan",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
     {
       id: 5,
       name: "Exhaust Fan",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
     {
       id: 6,
       name: "Exhaust Fan",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
     {
       id: 7,
       name: "Exhaust Fan",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
     {
       id: 8,
       name: "Exhaust Fan",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
     {
       id: 9,
       name: "Exhaust Fan",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
     {
       id: 10,
       name: "Exhaust Fan",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
     {
       id: 11,
       name: "Exhaust Fan",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },{
       id: 12,
       name: "Exhaust Fan",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
     {
       id: 13,
       name: "Exhaust Fan",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
     {
       id: 14,
       name: "Exhaust Fan",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
     {
       id: 15,
       name: "Exhaust Fan",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
     {
       id: 16,
       name: "Exhaust Fan",
-      icon: "../../src/assets/icon/ic_WaterPurifier.png",
+      icon: "ic_WaterPurifier.png",
     },
   ];
     const [formData, setFormData] = useState({

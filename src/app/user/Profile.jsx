@@ -1,3 +1,4 @@
+"use client"
 import { useState, useEffect } from 'react';
 import './Profile.css';
 import { Avatar, IconButton } from '@mui/material';

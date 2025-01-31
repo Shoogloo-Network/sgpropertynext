@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import IconCard from '../../cards/IconCard';
+import IconCard from '../_components/cards/IconCard';
 import { FaUserCircle } from 'react-icons/fa';
 import './UserSectionList.css';
 
@@ -13,7 +13,7 @@ const UserSectionList = ({ onClick, logout }) => {
         city: '',
         placeOfBirth: '',
         propertyRequirement: '',
-        profileImage: 'images/profile.svg'
+        profileImage: '/profile.svg'
     });
 
     useEffect(() => {
@@ -34,16 +34,16 @@ const UserSectionList = ({ onClick, logout }) => {
     }, []); // Empty dependency array means this runs once on mount
 
     const iconData = [
-        { img: 'images/profile.svg', title: 'PROFILE', id: 'profile' },
-        { img: 'images/my-activity.svg', title: 'MY ACTIVITY', id: 'activity' },
-        { img: 'images/my-interaction.svg', title: 'MY INTERACTIONS', id: 'interactions' },
-        { img: 'images/post-your-property.svg', title: 'POST PROPERTY', id: 'postproperty' },
-        { img: 'images/my-properties.svg', title: 'MY LISTINGS', id: 'mylistings' },
-        { img: 'images/my-rent-agreement.svg', title: 'RENTAL AGREEMENTS', id: 'rentalagreements' },
-        { img: 'images/my-rent-payments.svg', title: 'RENT PAYMENTS', id: 'rentpayments' },
-        { img: 'images/refer-and-earn.svg', title: 'REFER AND EARN', id: 'referandearn' },
+        { img: '/profile.svg', title: 'PROFILE', id: 'profile' },
+        { img: '/my-activity.svg', title: 'MY ACTIVITY', id: 'activity' },
+        { img: '/my-interaction.svg', title: 'MY INTERACTIONS', id: 'interactions' },
+        { img: '/post-your-property.svg', title: 'POST PROPERTY', id: 'postproperty' },
+        { img: '/my-properties.svg', title: 'MY LISTINGS', id: 'mylistings' },
+        { img: '/my-rent-agreement.svg', title: 'RENTAL AGREEMENTS', id: 'rentalagreements' },
+        { img: '/my-rent-payments.svg', title: 'RENT PAYMENTS', id: 'rentpayments' },
+        { img: '/refer-and-earn.svg', title: 'REFER AND EARN', id: 'referandearn' },
         {
-            img: 'images/lock-unlock.svg',
+            img: '/lock-unlock.svg',
             title: userData ? 'LOGOUT' : 'LOGIN',
             id: 'logout',
         },
@@ -54,7 +54,7 @@ const UserSectionList = ({ onClick, logout }) => {
             <div className="user-section-header">
                 {userProfile.profileImage ? (
                     <img
-                        src={userProfile.profileImage}
+                        src={`images/${userProfile.profileImage}`}
                         alt="profile"
                         className="user-profile-image"
                     />

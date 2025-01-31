@@ -1,8 +1,9 @@
+'use client'
 import { useState, useEffect } from "react";
 import AgentsCard from "./AgentsCard";
 import "./Agents.css";
 import TopAgents from "./TopAgents";
-
+import { fetchData } from "../_components/api/data";
 const Agents = () => {
   const [agents, setAgents] = useState(false);
   const [location, setLocation] = useState(false);
@@ -17,15 +18,7 @@ const Agents = () => {
     fetchData("propertyTypes", setPropertyTypeData);
   }, []);
 
-  const fetchData = async (endpoint, setter) => {
-    try {
-      const response = await fetch(`http://localhost:8000/${endpoint}`);
-      const data = await response.json();
-      setter(data);
-    } catch (error) {
-      console.error(`Error fetching ${endpoint}:`, error);
-    }
-  };
+  
 
   return (
     <>

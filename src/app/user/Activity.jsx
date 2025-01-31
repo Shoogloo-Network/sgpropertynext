@@ -1,11 +1,11 @@
-import  { useEffect, useState } from 'react';
+import { useEffect, useState } from 'react';
 import { Card, Typography, Grid, Box } from '@mui/material';
 import HistoryIcon from '@mui/icons-material/History';
-import { useNavigate } from 'react-router-dom';
+import { useRouter } from 'next/navigation';
 
 const Activity = () => {
   const [recentCards, setRecentCards] = useState([]);
-  const navigate = useNavigate();
+  const router = useRouter();
 
   useEffect(() => {
     // Get clicked cards history from localStorage
@@ -14,8 +14,8 @@ const Activity = () => {
   }, []);
 
   const handleCardClick = () => {
-    // navigate(`/detail-page/${card.id}`);
-    navigate(`/detail-page`);
+    // Navigate to the detail page
+    router.push('/detail-page');
   };
 
   return (
@@ -46,7 +46,7 @@ const Activity = () => {
             >
               <Box
                 component="img"
-                src={`images/${card.backgroundImage}`}
+                src={`/images/${card.backgroundImage}`}
                 alt={card.title}
                 sx={{ 
                   width: '150px',
@@ -55,37 +55,15 @@ const Activity = () => {
                   borderRadius: '8px'
                 }}
               />
-              <Box  style={{display:'flex',flexDirection:'column'}}>
-              <Typography variant="h6">{card.title}</Typography>
-              <Typography variant="body1" color="text.secondary">
-                {card.description}
-              </Typography>
-              <Typography variant="body1" color="primary" sx={{ mt: 1 }}>
-                {card.descriptionPrice}
-              </Typography>
-              
-              {/* <Box sx={{ mt: 2 }}>
-                {card.iconCardData?.map((iconData, idx) => (
-                  <Box key={idx} sx={{ display: 'flex', alignItems: 'center', mt: 1 }}>
-                    <Box
-                      component="img"
-                      src={iconData.img}
-                      alt={iconData.title}
-                      sx={{ width: 24, height: 24, mr: 1 }}
-                    />
-                    <Typography variant="body2">
-                      <strong>{iconData.title}:</strong> {iconData.description}
-                    </Typography>
-                  </Box>
-                ))}
-              </Box> */}
-              
-              {/* <Typography color="text.secondary" sx={{ mt: 2 }}>
-                Visited on: {new Date(card.timestamp).toLocaleDateString()}
-              </Typography> */}
-
+              <Box style={{display:'flex',flexDirection:'column'}}>
+                <Typography variant="h6">{card.title}</Typography>
+                <Typography variant="body1" color="text.secondary">
+                  {card.description}
+                </Typography>
+                <Typography variant="body1" color="primary" sx={{ mt: 1 }}>
+                  {card.descriptionPrice}
+                </Typography>
               </Box>
-             
             </Card>
           </Grid>
         ))}

@@ -1,7 +1,10 @@
+'use client';
+
 import { useState } from 'react';
+import { useRouter } from 'next/navigation';
+import Link from 'next/link';
 import './Navbar.css';
-import { Link, useNavigate } from 'react-router-dom';
-import UserSectionList from '../gallery/components/UserSectionList';
+import UserSectionList from '../../user/UserSectionList';
 
 const Navbar = () => {
     const [activeSection, setActiveSection] = useState('about-project');
@@ -9,38 +12,18 @@ const Navbar = () => {
     const [showUserMenu, setShowUserMenu] = useState(false);
     const [menuOpen, setMenuOpen] = useState(false);
 
-    const navigate = useNavigate();
+    const router = useRouter();
 
     const handleLogout = () => {
         localStorage.removeItem('isLogin');
-        navigate('/login');
+        router.push('/login');
     };
 
     const navItems = [
-        {
-            title: 'Projects',
-            id: 'data-intelligence',
-            dropdown: null,
-            url: '/search'
-        },
-        {
-            title: 'Agents',
-            id: 'amenities',
-            dropdown: null,
-            url: '/agents'
-        },
-        {
-            title: 'Services',
-            id: 'specifications',
-            dropdown: null,
-            url: '/owner-plans'
-        },
-        {
-            title: 'Resources',
-            id: 'about-builder',
-            dropdown: ['Modular Kitchen', 'Wardrobe'],
-            url: '/home-interior'
-        }
+        { title: 'Projects', id: 'data-intelligence', dropdown: null, url: '/search' },
+        { title: 'Agents', id: 'amenities', dropdown: null, url: '/agents' },
+        { title: 'Services', id: 'specifications', dropdown: null, url: '/owner-plans' },
+        { title: 'Resources', id: 'about-builder', dropdown: ['Modular Kitchen', 'Wardrobe'], url: '/home-interior' }
     ];
 
     const toggleMenu = () => {
@@ -48,20 +31,15 @@ const Navbar = () => {
     };
 
     const handleClick = (item) => {
-        const queryParams = new URLSearchParams({
-            section: item.id
-        }).toString();
-
-        navigate(`/user?${queryParams}`);
+        const queryParams = new URLSearchParams({ section: item.id }).toString();
+        router.push(`/user?${queryParams}`);
         setMenuOpen(false);
     };
 
     return (
         <nav className="navbar">
             <div className="navbar-container">
-                <h2 className="gradient-text" onClick={() => navigate('/')}>
-                    SgProperty
-                </h2>
+                <h2 className="gradient-text" onClick={() => router.push('/')}>SgProperty</h2>
                 {/* Hamburger Icon */}
                 <div className="hamburger-icon" onClick={toggleMenu}>
                     <span className="line"></span>
@@ -78,21 +56,14 @@ const Navbar = () => {
                             onMouseEnter={() => setActiveDropdown(item.id)}
                             onMouseLeave={() => setActiveDropdown(null)}
                         >
-                            <Link
-                                to={item.url}
-                                className={`nav-link ${activeSection === item.id ? 'active' : ''}`}
-                            >
+                            <Link href={item.url} className={`nav-link ${activeSection === item.id ? 'active' : ''}`}>
                                 {item.title}
                                 {item.dropdown && <span className="arrow-down">▼</span>}
                             </Link>
                             {item.dropdown && activeDropdown === item.id && (
                                 <div className="dropdown-menu">
                                     {item.dropdown.map((subItem) => (
-                                        <Link
-                                            key={subItem}
-                                            to={`/home-interior#${item.id}-${subItem.toLowerCase().replace(/\s+/g, '-')}`}
-                                            className="dropdown-item"
-                                        >
+                                        <Link key={subItem} href={`/home-interior#${item.id}-${subItem.toLowerCase().replace(/\s+/g, '-')}`} className="dropdown-item">
                                             {subItem}
                                         </Link>
                                     ))}
@@ -121,11 +92,7 @@ const Navbar = () => {
                         <ul className="mobile-nav-list">
                             {navItems.map((item) => (
                                 <li key={item.id} className="mobile-nav-item">
-                                    <Link
-                                        to={item.url}
-                                        onClick={() => setMenuOpen(false)}
-                                        className="mobile-nav-link"
-                                    >
+                                    <Link href={item.url} onClick={() => setMenuOpen(false)} className="mobile-nav-link">
                                         {item.title}
                                     </Link>
                                 </li>

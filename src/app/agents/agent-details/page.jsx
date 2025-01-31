@@ -1,8 +1,9 @@
+'use client'
 import { useEffect, useState } from "react";
 import "./AgentDetails.css";
-import Card from "../cards/Card";
-import BtnPrimaryWithIcon from '../buttons/BtnPrimaryWithIcon';
-import { fetchData } from "../api/data";
+import Card from "../../_components/cards/Card";
+import BtnPrimaryWithIcon from '../../_components/buttons/BtnPrimaryWithIcon';
+import { fetchData } from "../../_components/api/data";
 const AgentDetails = () => {
   const [dataRes, setDataRes] = useState([]);
   const [CardData, setCardData] = useState([]);
@@ -41,7 +42,7 @@ return (
           <div key={dataRes[0]?.id} className="agent-detail agent-white-box agent-detail-mobile">
             <div className="agent-profile">
               <img
-                src={dataRes[0]?.profileImage}
+                src={`images/${dataRes[0]?.profileImage}`}
                 alt={dataRes[0]?.title}
                 height={130}
                 width={130}

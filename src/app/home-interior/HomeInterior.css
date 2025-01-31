@@ -4,7 +4,7 @@
 }
 
 .HomeInteriorMainDiv {
-    background-image: url('../assets/propertyImage/heroBanner.webp');
+    background-image: url('/images/heroBanner.webp');
     height: 550px;
     margin: 0 !important;
     background-size: cover;

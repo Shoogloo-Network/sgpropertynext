@@ -1,6 +1,6 @@
 import  { useEffect, useState } from 'react';
 import './TopAgents.css'
-import { fetchData } from '../api/data';
+import { fetchData } from '../_components/api/data';
 const TopAgents = () => {
      const [dataRes, setDataRes] = useState([]);
     
@@ -18,7 +18,7 @@ const TopAgents = () => {
         <div key={item.id} className="agent-card">
          <div className='agent-card-image'>
          <img 
-            src={item.profileImage} 
+            src={`images/${item.profileImage}`} 
             alt={item.title} 
             className="agent-image" 
           />

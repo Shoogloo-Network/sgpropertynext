@@ -77,7 +77,7 @@ const Navbar = () => {
                         onMouseEnter={() => setShowUserMenu(true)}
                         onMouseLeave={() => setShowUserMenu(false)}
                     >
-                      <i className="fa-thin fa-user"></i>
+                     Account
                         {showUserMenu && (
                             <div className="user-dropdown-menu">
                                 <UserSectionList onClick={handleClick} logout={handleLogout} />

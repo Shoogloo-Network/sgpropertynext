@@ -10,6 +10,7 @@
     flex: 1;
     position: sticky;
     top: 50px;
+    max-width:20%;
 }
 
 .user-content {

@@ -11,9 +11,9 @@ const City = ({ cities }) => {
   return (
     <div className="city-container">
       {cities?.map((city) =>
-        city.cities?.map((city) => (
+        city.cities?.map((city,index) => (
           <div
-            key={city.name}
+            key={index}
             className={`city-card ${activeCity === city.name ? 'active' : ''}`}
             onClick={() => handleCardClick(city.name)}
           >

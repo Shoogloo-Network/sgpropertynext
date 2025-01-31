@@ -28,10 +28,10 @@ width: max-content;
   border-radius: 8px;
 }
 
-.icon-card-image {
+/* .icon-card-image {
   width: 40px;
   height: 40px;
-}
+} */
 
 .icon-card-content {
   display: flex;

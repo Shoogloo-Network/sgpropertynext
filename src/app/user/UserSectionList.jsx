@@ -55,7 +55,7 @@ const UserSectionList = ({ onClick, logout }) => {
             <div className="user-section-header">
                 {userProfile.profileImage ? (
                     <img
-                        src={`images/${userProfile.profileImage}`}
+                        src={"/images/"+userProfile.profileImage}
                         alt="profile"
                         className="user-profile-image"
                     />

@@ -249,7 +249,7 @@ const HomeInteriorCategory = () => {
       <div className="homeinterior-section-card">
         {cardData.map((card, index) => (
           <div key={index} className="homeinterior-item-card">
-            <img src={`images/${card.imgSrc}`} alt="Card Image" />
+            <img src={"/images/"+card.imgSrc} alt="Card Image" />
             <h4>{card.title}</h4>
           </div>
         ))}

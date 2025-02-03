@@ -28,7 +28,7 @@ const UploadAndDisplayMultiple = () => {
   return (
     <div>
   <div className="image-upload-box" onClick={clickMe}>
-  <img src="../../src/assets/icon/add-photo-bg.svg" alt="Upload" className="image-upload-icon" />
+  <img src="/images/add-photo-bg.svg" alt="Upload" className="image-upload-icon" />
   <div className="image-upload-content">
     <div className="upload-info">
       <span className="plus-icon">+</span>

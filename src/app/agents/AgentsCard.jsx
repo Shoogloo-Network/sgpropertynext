@@ -25,7 +25,7 @@ const AgentsCard = () => {
                     {/* Desktop Profile Link */}
                     <Link href={`/agents/agent-details`} className="agentsCardDesktop">
                         <div className="agent-profile">
-                            <img src={`images/${item.profileImage}`} alt={item.title} height={130} width={130} />
+                            <img src={"/images/"+item.profileImage} alt={item.title} height={130} width={130} />
                             <p>View Profile</p>
                         </div>
                     </Link>
@@ -34,7 +34,7 @@ const AgentsCard = () => {
                     <Link href={`/agents/agent-details`} className="agentsCardMobile">
                         <div className="agent-profile">
                             <div className="agent-profile-image-div">
-                                <img src={`images/${item.profileImage}`} alt={item.title} height={130} width={130} />
+                                <img src={"/images/"+item.profileImage} alt={item.title} height={130} width={130} />
                             </div>
                             <div className="agent-contact">
                                 <div className="appointment" onClick={() => setShowForm(!showForm)}>

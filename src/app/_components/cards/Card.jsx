@@ -16,7 +16,7 @@ const Card = ({ title, description, descriptionPrice, iconCardData, onClick, url
         <div className="card-flex-row">
           <div className="card-image-wrapper">
             <img
-              src={`/images/${url}`}
+              src={"/images/"+ url}
               alt="card"
               className="card-image-style"
               onClick={onImageClick}

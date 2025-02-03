@@ -18,7 +18,7 @@ const TopAgents = () => {
         <div key={item.id} className="agent-card">
          <div className='agent-card-image'>
          <img 
-            src={`images/${item.profileImage}`} 
+            src={"/images/"+item.profileImage} 
             alt={item.title} 
             className="agent-image" 
           />

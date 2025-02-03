@@ -59,7 +59,7 @@ const FurnishingDetailsPopUp = ({close , items}) => {
                   <div className="iconBox">
                     <img
                       className="img-responsive"
-                      src= "../../src/assets/icon/ic_WaterPurifier.png"
+                      src= "/images/ic_WaterPurifier.png"
                       alt={item.name}
                     />
                   </div>

@@ -59,7 +59,7 @@ const HomeInterior = () => {
           })
           .map((card, index) => (
             <div key={index} className="specialCard interiorCards">
-              <Image src={`/images/${card.imgSrc}`} alt="design" width={100} height={100} />
+              <Image src={"/images/"+card.imgSrc} alt="design" width={100} height={100} />
               <h3>{card.title}</h3>
               <p>{card.text}</p>
             </div>

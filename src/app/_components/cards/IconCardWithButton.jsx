@@ -8,7 +8,7 @@ const IconCardWithButton = ({ data }) => {
         <div key={index+1} className="cardBtnMain">
           <div className="cardBtnContent">
             <div className="cardBtnImage">
-              <img src={`images/${item.img}`} alt={item.title} />
+              <img src={"/images/"+item.img} alt={item.title} />
             </div>
             <div className="cardBtnText">
               <h4 className="cardBtnTitle">{item.title}</h4>

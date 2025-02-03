@@ -1,7 +1,7 @@
 /* Container for main layout */
 .card-search-container {
     display: flex;
-    width: 100%;
+    /* width: 100%; */
     justify-content: space-between;
     margin: 10px;
     
@@ -46,7 +46,7 @@
   
   /* Filter Cards Section */
   .filter-card-section {
-    width: 100%;
+    /* width: 100%; */
     display:flex;
    margin:10px;
     gap:20px;

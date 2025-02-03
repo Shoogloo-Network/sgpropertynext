@@ -1,13 +1,12 @@
-"use client"
+"use client";
 import Stories from "react-insta-stories";
 import Card from "../cards/Card";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
 import FormPopup from "../userform/FormPopup";
 
-
 import { fetchData } from "../api/data";
-const Story = () => {
+const HotProduct = () => {
   const router = useRouter();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showForm, setShowForm] = useState(false);
@@ -16,7 +15,6 @@ const Story = () => {
   // Fetch card data from the API
   useEffect(() => {
     fetchData("cardData", setCardData);
-   
   }, []);
   useEffect(() => {
     if (cardData?.length > 0) {
@@ -24,8 +22,7 @@ const Story = () => {
     }
   }, [cardData]);
   // console.log(cardData);
-  
-  
+
   useEffect(() => {
     if (cardData?.length > 0) {
       setCurrentIndex(0); // Reset to the first story
@@ -33,7 +30,9 @@ const Story = () => {
   }, [cardData]);
 
   const addToLocalStorage = (item) => {
-    const existingData = JSON.parse(localStorage.getItem("clickedCardsHistory") || "[]");
+    const existingData = JSON.parse(
+      localStorage.getItem("clickedCardsHistory") || "[]"
+    );
     const newData = [...existingData, item];
     localStorage.setItem("clickedCardsHistory", JSON.stringify(newData));
   };
@@ -118,7 +117,12 @@ const Story = () => {
                   borderRadius: "4px",
                 }}
               >
-                <img src="images/story.png" alt="Exclusive"  height={20} width={20}/>
+                <img
+                  src="images/story.png"
+                  alt="Exclusive"
+                  height={20}
+                  width={20}
+                />
                 <p>Exclusive</p>
               </div>
               <div
@@ -131,10 +135,14 @@ const Story = () => {
                   pointerEvents: "none",
                   fontWeight: "bold",
                   borderRadius: "4px",
-                 
                 }}
               >
-                <img src="images/story.png" alt="Square Assured" height={20} width={20}/>
+                <img
+                  src="images/story.png"
+                  alt="Square Assured"
+                  height={20}
+                  width={20}
+                />
                 <p>Square Assured</p>
               </div>
             </div>
@@ -174,7 +182,11 @@ const Story = () => {
     <div style={{ width: "100%", height: "100%", position: "relative" }}>
       <Stories
         key={cardData?.length > 0 ? "loaded" : "loading"} // Forces Stories to reinitialize
-        stories={stories?.length > 0 ? stories : [{ content: () => <div>No stories available</div> }]}
+        stories={
+          stories?.length > 0
+            ? stories
+            : [{ content: () => <div>No stories available</div> }]
+        }
         loop={true}
         defaultInterval={2000}
         width="100%"
@@ -191,6 +203,4 @@ const Story = () => {
   );
 };
 
-
-
-export default Story;
+export default HotProduct;

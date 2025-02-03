@@ -1,10 +1,10 @@
-'use client'
-import Story from "./_components/home/Story";
+"use client";
+import HotProduct from "./_components/home/HotProduct";
 import IconCardBtnWithoutHover from "./_components/cards/IconCardBtnWithoutHover";
 import RealStateBanner from "./_components/home/RealStateBanner";
 import CardWithList from "./_components/cards/CardWithList";
-import { useRouter } from 'next/navigation'; // Use Next.js router
-import './page.css'
+import { useRouter } from "next/navigation"; // Use Next.js router
+import "./page.css";
 const Home = () => {
   const iconDataForButton = [
     {
@@ -27,9 +27,11 @@ const Home = () => {
         <div className="home-content" style={{ cursor: "pointer" }}>
           <IconCardBtnWithoutHover
             data={iconDataForButton}
-            onClick={() => { router.push("/search"); }} // Navigate with Next.js router
+            onClick={() => {
+              router.push("/search");
+            }} // Navigate with Next.js router
           />
-          <Story />
+          <HotProduct />
         </div>
         <div className="real-estate-sections">
           <div className="real-estate-section">
@@ -39,7 +41,8 @@ const Home = () => {
               backgroundColor="#ddf5ff"
             />
           </div>
-          <div className="real-estate-section"
+          <div
+            className="real-estate-section"
             style={{ backgroundColor: "#fff" }}
           >
             <h1 className="section-title">For Agents</h1>

@@ -8,7 +8,7 @@ import './page.css'
 const Home = () => {
   const iconDataForButton = [
     {
-      img: "/building-img.svg", // Static assets path
+      img: "building-img.svg", // Static assets path
       title: "Best Sellers in India",
       description:
         "Our freshly brewed list of the best residential projects from top rated builders in the country, backed by our award-winning start-to-finish services.",

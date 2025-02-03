@@ -23,11 +23,7 @@ const HotProduct = () => {
   }, [cardData]);
   // console.log(cardData);
 
-  useEffect(() => {
-    if (cardData?.length > 0) {
-      setCurrentIndex(0); // Reset to the first story
-    }
-  }, [cardData]);
+ 
 
   const addToLocalStorage = (item) => {
     const existingData = JSON.parse(

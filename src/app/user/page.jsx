@@ -6,7 +6,7 @@ import Profile from './Profile';
 import { useSearchParams } from 'next/navigation';
 import PostProperty from './PostProperty';
 import AgentPostPropertyForm1 from '../agentforms/forms/AgentPostPropertyForm1';
-import Amenities from '../agentForms/forms/Amenities';
+import Amenities from '../agentforms/forms/Amenities';
 import './User.css';
 
 const User = () => {

@@ -15,7 +15,7 @@ const AgentsCard = () => {
     }, []);
 
     const onButtonClick = () => {
-        console.log("Button clicked");
+        // console.log("Button clicked");
     };
 
     return (

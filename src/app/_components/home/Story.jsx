@@ -23,7 +23,7 @@ const Story = () => {
       setCurrentIndex(0); // Reset to the first story
     }
   }, [cardData]);
-  console.log(cardData);
+  // console.log(cardData);
   
   
   useEffect(() => {
@@ -59,7 +59,7 @@ const Story = () => {
               e.stopPropagation();
               e.preventDefault();
               setShowForm(true);
-              console.log("Clicked Card Data (Form):", item);
+              // console.log("Clicked Card Data (Form):", item);
             }}
             style={{
               position: "absolute",
@@ -75,7 +75,7 @@ const Story = () => {
               e.stopPropagation();
               e.preventDefault();
               router.push("/detail-page");
-              console.log("Clicked Card Data (Navigate):", item);
+              // console.log("Clicked Card Data (Navigate):", item);
               addToLocalStorage(item);
             }}
             style={{
@@ -156,17 +156,17 @@ const Story = () => {
   }));
 
   const handleAllStoriesEnd = () => {
-    console.log("All stories ended");
+    // console.log("All stories ended");
     setCurrentIndex(0);
   };
 
   const handleNextStory = (index) => {
-    console.log("Next story", index);
+    // console.log("Next story", index);
     setCurrentIndex(index);
   };
 
   const handlePreviousStory = (index) => {
-    console.log("Previous story", index);
+    // console.log("Previous story", index);
     setCurrentIndex(index);
   };
 

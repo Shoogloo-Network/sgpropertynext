@@ -25,12 +25,12 @@ const [showForm,setShowForm] = useState(false);
     e.stopPropagation();
     e.preventDefault();
      setShowForm(true);
-     console.log('Clicked Card Data:'); // Added console log
+    //  console.log('Clicked Card Data:'); 
  
   }
   const onButtonClick = ()=>{
     setShowForm(true);
-    console.log("Button clicked");
+    // console.log("Button clicked");
 }
 
 

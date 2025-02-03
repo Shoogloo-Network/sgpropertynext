@@ -31,12 +31,12 @@ const RealStateHomeSearchBar = ({   iconCard , style , budgetRange , propertyTyp
       ...prev,
       [type]: value
     }));
-    console.log('Budget selected:', type, value);
+    // console.log('Budget selected:', type, value);
   };
 
   const handlePropertyTypeChange = (type) => {
     setPropertyType(type);
-    console.log('Property type changed:', type);
+    // console.log('Property type changed:', type);
   };
 
   const handleUnitTypeSelection = (type) => {
@@ -44,7 +44,7 @@ const RealStateHomeSearchBar = ({   iconCard , style , budgetRange , propertyTyp
       const newTypes = prev.includes(type) 
         ? prev.filter(t => t !== type)
         : [...prev, type];
-      console.log('Unit types selected:', newTypes);
+      // console.log('Unit types selected:', newTypes);
       return newTypes;
     });
   };
@@ -62,7 +62,7 @@ const RealStateHomeSearchBar = ({   iconCard , style , budgetRange , propertyTyp
       timestamp: new Date().toISOString()
     };
 
-    console.log('Final Search Data:', searchData);
+    // console.log('Final Search Data:', searchData);
   };
 
   return (

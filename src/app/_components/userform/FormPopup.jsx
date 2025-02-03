@@ -9,7 +9,7 @@ const FormPopup = ({ onClose }) => {
             phone: e.target.elements[2].value,
             message: e.target.elements[3].value
         };
-        console.log('Form Data:', formData);
+        // console.log('Form Data:', formData);
     };
 
     return (

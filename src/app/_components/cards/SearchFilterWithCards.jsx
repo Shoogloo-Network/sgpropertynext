@@ -10,11 +10,11 @@ const SearchFilterWithCards = ({ data }) => {
     e.stopPropagation();
     e.preventDefault();
     setShowForm(true);
-    console.log('Clicked Card Data:', item); // Added console log
+    // console.log('Clicked Card Data:', item); 
   };
 
   return (
-    console.log(data),
+   
     <>
       {data?.map((city) =>
         city.cardData?.map((city,index) => (

@@ -111,7 +111,7 @@ const AdditionalAttributes = ({active}) => {
           setFormData((prev) => ({ ...prev, [name]: value }));
         }
     
-        console.log(formData); // Logs updated form data
+        // console.log(formData);
       };
   return (
     <div id="additionalAttributes">

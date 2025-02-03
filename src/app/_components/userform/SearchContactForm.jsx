@@ -29,7 +29,7 @@ const ContactForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(formData);
+    // console.log(formData);
     alert('Your inquiry has been submitted!');
   };
 

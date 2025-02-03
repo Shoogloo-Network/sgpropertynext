@@ -20,7 +20,7 @@ const HomeBanner = () => {
   const handleSearchSubmit = (e) => {
     e.preventDefault();
    
-    console.log(`Searching for ${searchQuery} in ${selectedOption}`);
+    // console.log(`Searching for ${searchQuery} in ${selectedOption}`);
     // If you want to perform a routing action upon search, you can use router.push()
     // Example: router.push(`/search?query=${searchQuery}&option=${selectedOption}`);
   };

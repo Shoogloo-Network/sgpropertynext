@@ -9,7 +9,7 @@ const AdditionalAttributesAmenities = () => {
     suitableFor: "5-7",
   });
 const handleSubmit = ()=>{
-    console.log(formData);
+    // console.log(formData);
 }
   const handleChange = (e) => {
     const { name, value, type, checked } = e.target;

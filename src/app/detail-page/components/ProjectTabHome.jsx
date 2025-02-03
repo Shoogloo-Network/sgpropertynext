@@ -17,11 +17,11 @@ const ProjectTabHome = () => {
    fetchData('iconCards', setIconCardData);
    
    Events.scrollEvent.register('begin', function () {
-      console.log('begin', arguments);
+      // console.log('begin', arguments);
     });
 
     Events.scrollEvent.register('end', function () {
-      console.log('end', arguments);
+      // console.log('end', arguments);
     });
 
     scrollSpy.update();

@@ -36,7 +36,7 @@ const PropertyForm = ({active}) => {
   // Handle form submission to log the data to the console
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log('Form Data:', formData);
+    // console.log('Form Data:', formData);
   };
 
   return (

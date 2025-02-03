@@ -15,7 +15,7 @@ const UploadAndDisplayMultiple = () => {
  }
   // Function to handle image selection
   const handleImageChange = (event) => {
-    console.log(event);
+    // console.log(event);
     const files = Array.from(event.target.files);
     setSelectedImages((prevImages) => [...prevImages, ...files]);
   };

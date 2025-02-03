@@ -102,7 +102,7 @@ const FurnishingDetailsPopUp = ({close , items}) => {
           }} className='reset-all'>Reset All</button>
           <button onClick={()=>{
             
-              console.log(selectedItems);
+              // console.log(selectedItems);
               close(false);
           }} className='save-all'>Save</button>
         </div>

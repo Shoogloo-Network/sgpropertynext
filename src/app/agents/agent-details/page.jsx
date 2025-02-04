@@ -12,7 +12,7 @@ const AgentDetails = () => {
 const [isAbout,SetIsAbout] = useState(false);
 const [selectedFilter, setSelectedFilter] = useState("All");
 const [showForm,setShowForm] = useState(false);
-  const filters = ["All", "New Launch", "Ready To Move"];
+  const filters = ["All", "New Launch", "Ready To Move","Up Coming"];
 
   useEffect(() => {
     fetchData("agents",setDataRes);

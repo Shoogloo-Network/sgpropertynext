@@ -178,6 +178,12 @@
         padding: 0 10px;
     }
 
+    .dropdown-item{
+        color: #555 !important;
+    }
+    .dropdown-menu{
+        right: 0;
+    }
     .nav-link {
         padding: 12px 15px;
         font-size: 13px;
@@ -187,13 +193,7 @@
         display: none;
     }
 
-    .dropdown-menu {
-        position: fixed;
-        left: 0;
-        right: 0;
-        width: 100%;
-        border-radius: 0;
-    }
+   
 }
 
 /* Custom scrollbar for horizontal scroll */

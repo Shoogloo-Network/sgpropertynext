@@ -154,5 +154,8 @@
     .agent-specializations>h1{
         font-size: 14px;
     }
+    .agent-specializations{
+        display:none;
+    }
     
 }

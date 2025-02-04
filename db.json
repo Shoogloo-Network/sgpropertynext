@@ -606,8 +606,8 @@
               { "name": "Gurgaon", "userNumber": "456" },
               { "name": "Noida", "userNumber": "456" },
               { "name": "Gurgaon", "userNumber": "456" },
-              { "name": "Noida", "userNumber": "456" },
-              { "name": "Gurgaon", "userNumber": "456" }
+              { "name": "Noida", "userNumber": "456" }
+             
             ]
           },
           {
@@ -724,8 +724,7 @@
               { "name": "Gurgaon", "userNumber": "456" },
               { "name": "Noida", "userNumber": "456" },
               { "name": "Gurgaon", "userNumber": "456" },
-              { "name": "Noida", "userNumber": "456" },
-              { "name": "Gurgaon", "userNumber": "456" }
+              { "name": "Noida", "userNumber": "456" }
             ]
           },
           {

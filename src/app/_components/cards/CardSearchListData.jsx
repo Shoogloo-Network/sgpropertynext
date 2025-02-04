@@ -1,11 +1,19 @@
+'use client'
+import {  useState } from "react";
 import { memo } from "react";
 import "./CardSearchListData.css";
 import City from "../../search/components/City";
 import SearchFilterWithCards from "./SearchFilterWithCards";
 import SearchContactForm from "../userform/SearchContactForm";
 import RealEstateListings from "@/app/search/components/RealEstateListings";
+import '../../agents/agent-details/AgentDetails.css'
 
 const CardSearchListData = memo(({ cities }) => {
+  const [selectedFilter, setSelectedFilter] = useState("All");
+  const filters = ["All", "New Launch", "Ready To Move", "Upcoming"];
+  const handleFilterClick = (filter) => {
+    setSelectedFilter(filter);
+  };
   return (
     <>
       <div className="card-search-container">
@@ -22,7 +30,31 @@ const CardSearchListData = memo(({ cities }) => {
               <h1 className="city-heading">City</h1>
             </div>
             <City cities={cities} />
+    
           </div>
+          <div className="filter-section">
+      {/* Filter Tabs */}
+      <div className="filter-tabs">
+        {filters.map((filter) => (
+          <div
+            key={filter}
+            className={`filter-tab ${selectedFilter === filter ? "active" : ""}`}
+            onClick={() => handleFilterClick(filter)}
+          >
+            {filter}
+          </div>
+        ))}
+      </div>
+
+      {/* Dropdown */}
+      <div className="filter-dropdown">
+        <select>
+          {["Most Luxurious", "Highest Rated", "Best Value", "Popular"].map((option) => (
+            <option key={option}>{option}</option>
+          ))}
+        </select>
+      </div>
+    </div>
         </div>
         <div className="contact-form-section">
           <SearchContactForm />

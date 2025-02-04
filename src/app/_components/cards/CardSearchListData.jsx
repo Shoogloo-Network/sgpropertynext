@@ -3,6 +3,7 @@ import "./CardSearchListData.css";
 import City from "../../search/components/City";
 import SearchFilterWithCards from "./SearchFilterWithCards";
 import SearchContactForm from "../userform/SearchContactForm";
+import RealEstateListings from "@/app/search/components/RealEstateListings";
 
 const CardSearchListData = memo(({ cities }) => {
   return (
@@ -31,7 +32,7 @@ const CardSearchListData = memo(({ cities }) => {
         <div className="search-filter-with-cards">
         <SearchFilterWithCards data={cities} />
         </div>
-        <div className="advertisement-div"></div>
+        <div className="advertisement-div"><RealEstateListings/></div>
       </div>
     </>
   );

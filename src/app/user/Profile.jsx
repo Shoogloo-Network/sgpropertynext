@@ -65,7 +65,7 @@ const Profile = () => {
       <div className="profile-image-section">
         <div className="image-container">
           <Avatar
-            src={userProfile.profileImage || '/default-avatar.png'}
+            src={userProfile.profileImage || '/images/default-avatar.webp'}
             alt="Profile"
             sx={{
               width: 150,

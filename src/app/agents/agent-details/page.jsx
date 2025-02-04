@@ -1,6 +1,7 @@
 'use client'
 import { useEffect, useState } from "react";
 import "./AgentDetails.css";
+import "../AgentsCard.css";
 import Card from "../../_components/cards/Card";
 import BtnPrimaryWithIcon from '../../_components/buttons/BtnPrimaryWithIcon';
 import { fetchData } from "../../_components/api/data";

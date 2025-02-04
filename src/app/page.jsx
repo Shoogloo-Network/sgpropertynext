@@ -37,7 +37,7 @@ const Home = () => {
           <div className="real-estate-section">
             <h1 className="section-title">For Real Estate Developers</h1>
             <CardWithList
-              url="/propvr-side.svg" // Static assets path
+             
               backgroundColor="#ddf5ff"
             />
           </div>
@@ -47,7 +47,7 @@ const Home = () => {
           >
             <h1 className="section-title">For Agents</h1>
             <CardWithList
-              url="/square-connect-side.svg" // Static assets path
+             
               backgroundColor="#fff6e7"
             />
           </div>

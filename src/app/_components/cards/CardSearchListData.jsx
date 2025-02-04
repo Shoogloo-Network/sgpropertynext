@@ -12,7 +12,7 @@ const CardSearchListData = memo(({ cities }) => {
           <div className="city-card">
             <div className="city-title">
               <img
-                src="images/location.png"
+                src="/images/location.png"
                 alt="location"
                 className="city-icon"
                 width={20}

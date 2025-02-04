@@ -7,12 +7,12 @@ import FormPopup from '../../_components/userform/FormPopup';
 import { fetchData } from '../../_components/api/data';
 const iconData =[
     {
-        img:'/verified.png',
+        img:'verified.png',
         description:'RERA Registered',
 
     },
     {
-        img:'/home-button.png',
+        img:'home-button.png',
         description:'Residential',
 
     },
@@ -20,17 +20,17 @@ const iconData =[
 
 const iconData1 =[
     {
-        img:'/building.png',
+        img:'building.png',
         description:'New Launch',
 
     },
     {
-        img:'/building-1.png',
+        img:'building-1.png',
         description:'2,3 BHK Flats',
 
     },
     {
-        img:'/maps.png',
+        img:'maps.png',
         description:'986 Sq. Ft. to 1494 Sq. Ft. (Saleable)',
 
     },
@@ -59,7 +59,7 @@ useEffect(()=>{
                 <div className="property-location">
                     <h4>Whitefield, Bangalore</h4>
                     <div className="map-link">
-                        <img src="images/location.png" alt="location" />
+                        <img src="/images/location.png" alt="location" />
                         <p>See On Map</p>
                     </div>
                 </div>
@@ -70,7 +70,7 @@ useEffect(()=>{
 
                 <div className="price-info">
                     <h2 className="price-range">₹86.00 Lac - 1.49 Cr</h2>
-                    <img src="images/info.png" alt="Info" className="info-icon" />
+                    <img src="/images/info.png" alt="Info" className="info-icon" />
                 </div>
                 <div className="additional-info"><IconCard data={iconData1} /></div>
                 </div>

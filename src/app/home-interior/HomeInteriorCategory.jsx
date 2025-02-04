@@ -6,27 +6,27 @@ const HomeInteriorCategory = () => {
   const [cardData, setCardData] = useState(
     [
     {
-      imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+      imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
     },
     {
-      imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+      imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
     },
     {
-      imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+      imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
     },
     {
-      imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+      imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
     },
     {
-      imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+      imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
     },
     {
-      imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+      imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
     },
   ] 
@@ -47,182 +47,182 @@ const HomeInteriorCategory = () => {
 
     'Living Room': [
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
       },
     ],
     'Modular Kitchen': [
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Modern Modular Kitchen Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Modern Modular Kitchen Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Modern Modular Kitchen Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Modern Modular Kitchen Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Modern Modular Kitchen Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Modern Modular Kitchen Design'
       },
     ],
     'Wardrobe': [
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Spacious Wardrobe Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Spacious Wardrobe Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Spacious Wardrobe Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Spacious Wardrobe Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Spacious Wardrobe Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Spacious Wardrobe Design'
       },
     ],
     'Master Bedroom': [
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Elegant Master Bedroom Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Elegant Master Bedroom Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Elegant Master Bedroom Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Elegant Master Bedroom Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Elegant Master Bedroom Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Elegant Master Bedroom Design'
       },
     ],
     'Kids Room': [
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Fun and Colorful Kids Room Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Fun and Colorful Kids Room Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Fun and Colorful Kids Room Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Fun and Colorful Kids Room Design'
       },
-      {  imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+      {  imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Fun and Colorful Kids Room Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Fun and Colorful Kids Room Design'
       },
     ],
     'Kitchen Walls Tiles': [
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Stylish Kitchen Walls Tiles Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Stylish Kitchen Walls Tiles Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Stylish Kitchen Walls Tiles Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Stylish Kitchen Walls Tiles Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Stylish Kitchen Walls Tiles Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Stylish Kitchen Walls Tiles Design'
       },
     ],
     'Kitchen False Ceiling': [
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Modern Kitchen False Ceiling Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Modern Kitchen False Ceiling Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Modern Kitchen False Ceiling Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Modern Kitchen False Ceiling Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Modern Kitchen False Ceiling Design'
       },
       {
-        imgSrc: '/provident-botanico-project-clubhouse-external-image1-2344.jpg',
+        imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
         title: 'Modern Kitchen False Ceiling Design'
       },
     ],

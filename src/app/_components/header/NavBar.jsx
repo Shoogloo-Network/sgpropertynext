@@ -77,7 +77,7 @@ const Navbar = () => {
                         onMouseEnter={() => setShowUserMenu(true)}
                         onMouseLeave={() => setShowUserMenu(false)}
                     >
-                    <img src="images/profile.svg" alt="userIcon"/>
+                    <img src="/images/profile.svg" alt="userIcon"/>
                         {showUserMenu && (
                             <div className="user-dropdown-menu">
                                 <UserSectionList onClick={handleClick} logout={handleLogout} />

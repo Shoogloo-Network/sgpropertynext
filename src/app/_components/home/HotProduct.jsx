@@ -114,7 +114,7 @@ const HotProduct = () => {
                 }}
               >
                 <img
-                  src="images/story.png"
+                  src="/images/story.png"
                   alt="Exclusive"
                   height={20}
                   width={20}
@@ -134,7 +134,7 @@ const HotProduct = () => {
                 }}
               >
                 <img
-                  src="images/story.png"
+                  src="/images/story.png"
                   alt="Square Assured"
                   height={20}
                   width={20}
@@ -143,7 +143,7 @@ const HotProduct = () => {
               </div>
             </div>
             <Card
-              image={`images/${item.image}`}
+              image={"/images/"+item.image}
               title={item.title}
               description={item.description}
               descriptionPrice={item.descriptionPrice}

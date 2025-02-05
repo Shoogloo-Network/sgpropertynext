@@ -37,7 +37,7 @@ const UnderConstruction = () => {
     >
       <SwiperSlide>
  <div className="property-card">
-  <a href="/in/buy/projects/page/253156-green-valley-affordable-livings-by-green-valley-builders-in-dwarka-mor" target="_blank">
+  <a href="/" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -55,7 +55,7 @@ const UnderConstruction = () => {
 </div>
 </SwiperSlide>
       <SwiperSlide><div className="property-card">
-  <a href="/in/buy/projects/page/253156-green-valley-affordable-livings-by-green-valley-builders-in-dwarka-mor" target="_blank">
+  <a href="/" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -72,7 +72,7 @@ const UnderConstruction = () => {
   </a>
 </div></SwiperSlide>
       <SwiperSlide><div className="property-card">
-  <a href="/in/buy/projects/page/253156-green-valley-affordable-livings-by-green-valley-builders-in-dwarka-mor" target="_blank">
+  <a href="/" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -89,7 +89,7 @@ const UnderConstruction = () => {
   </a>
 </div></SwiperSlide>
       <SwiperSlide><div className="property-card">
-  <a href="/in/buy/projects/page/253156-green-valley-affordable-livings-by-green-valley-builders-in-dwarka-mor" target="_blank">
+  <a href="/" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -106,7 +106,7 @@ const UnderConstruction = () => {
   </a>
 </div></SwiperSlide>
 <SwiperSlide><div className="property-card">
-  <a href="/in/buy/projects/page/253156-green-valley-affordable-livings-by-green-valley-builders-in-dwarka-mor" target="_blank">
+  <a href="/" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -123,7 +123,7 @@ const UnderConstruction = () => {
   </a>
 </div></SwiperSlide>
 <SwiperSlide><div className="property-card">
-  <a href="/in/buy/projects/page/253156-green-valley-affordable-livings-by-green-valley-builders-in-dwarka-mor" target="_blank">
+  <a href="/" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -140,7 +140,7 @@ const UnderConstruction = () => {
   </a>
 </div></SwiperSlide>
 <SwiperSlide><div className="property-card">
-  <a href="/in/buy/projects/page/253156-green-valley-affordable-livings-by-green-valley-builders-in-dwarka-mor" target="_blank">
+  <a href="/" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -157,7 +157,7 @@ const UnderConstruction = () => {
   </a>
 </div></SwiperSlide>
 <SwiperSlide><div className="property-card">
-  <a href="/in/buy/projects/page/253156-green-valley-affordable-livings-by-green-valley-builders-in-dwarka-mor" target="_blank">
+  <a href="/" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -174,7 +174,7 @@ const UnderConstruction = () => {
   </a>
 </div></SwiperSlide>
 <SwiperSlide><div className="property-card">
-  <a href="/in/buy/projects/page/253156-green-valley-affordable-livings-by-green-valley-builders-in-dwarka-mor" target="_blank">
+  <a href="/" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"

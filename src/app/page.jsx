@@ -55,6 +55,7 @@ const Home = () => {
         </div>
       </div>
       <div className="home-under-construction-section">
+     <h1 > New under-construction projects</h1>
         <UnderConstruction/>
       </div>
     </div>

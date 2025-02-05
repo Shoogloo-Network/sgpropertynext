@@ -1,4 +1,4 @@
-'use client'
+
 import './Footer.css';
 
 const Footer = () => {

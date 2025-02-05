@@ -1,3 +1,4 @@
+"use client"
 import { useState, useMemo, useEffect } from "react";
 import "./CardSearchList.css";
 import CardSearchListData from "./CardSearchListData";

@@ -1,4 +1,4 @@
-'use client'
+
 import RealStateHomeSearchBar from '../_components/home/RealStateHomeSearchBar'
 import CardSearchList from '../_components/cards/CardSearchList'
 import './Search.css'

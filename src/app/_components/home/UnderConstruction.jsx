@@ -191,7 +191,7 @@ const UnderConstruction = () => {
     </div>
   </a>
 </div></SwiperSlide>
-<SwiperSlide className="nextprevwidth"><div></div></SwiperSlide>
+{/* <SwiperSlide className="nextprevwidth"><div></div></SwiperSlide> */}
     </Swiper>
     </div>
   )

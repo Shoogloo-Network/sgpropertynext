@@ -12,11 +12,11 @@ const UnderConstruction = () => {
   return (
     <div className="under-construction-main-div">
       <Swiper
-      modules={[Navigation, Pagination, Scrollbar, A11y]}
+      modules={[Navigation, Pagination,  A11y]}
     //   slidesPerView={4}
       navigation
       pagination={{ clickable: true }}
-      scrollbar={{ draggable: true }}
+      
       onSwiper={(swiper) => console.log(swiper)}
       onSlideChange={() => console.log('slide change')}
       style={{height:"100%"}}

@@ -31,10 +31,11 @@ const UnderConstruction = () => {
         },
         1024: {
           slidesPerView: 4, // 3 slides on desktop (screen width > 768px)
-          spaceBetween: 15,
+          spaceBetween: 10,
         },
       }}
     >
+      <SwiperSlide className="nextprevwidth"></SwiperSlide>
       <SwiperSlide>
  <div className="property-card">
   <a href="/detail-page" target="_blank">
@@ -190,7 +191,7 @@ const UnderConstruction = () => {
     </div>
   </a>
 </div></SwiperSlide>
-    
+<SwiperSlide className="nextprevwidth"><div></div></SwiperSlide>
     </Swiper>
     </div>
   )

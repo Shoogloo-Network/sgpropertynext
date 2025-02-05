@@ -1,8 +1,11 @@
 
+"use client"
 import './IconCardBtnWithoutHover.css';
+import { useRouter } from "next/navigation"; // Use Next.js router
 const IconCardBtnWithoutHover = ({data,onClick}) => {
+  const router = useRouter(); // Use the Next.js router
   return (
-    <div className="icon-card-with-button-container-without-hover" onClick={onClick}>
+    <div className="icon-card-with-button-container-without-hover" onClick={()=> router.push(onClick)}>
     {data.map((item, index) => (
       <div key={index+1} className="cardBtnMain-without-hover">
         <div className="cardBtnContent-without-hover">

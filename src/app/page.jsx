@@ -1,9 +1,8 @@
-"use client";
+
 import HotProduct from "./_components/home/HotProduct";
 import IconCardBtnWithoutHover from "./_components/cards/IconCardBtnWithoutHover";
 import RealStateBanner from "./_components/home/RealStateBanner";
 import CardWithList from "./_components/cards/CardWithList";
-import { useRouter } from "next/navigation"; // Use Next.js router
 import "./page.css";
 import UnderConstruction from "./_components/home/UnderConstruction";
 const Home = () => {
@@ -18,9 +17,7 @@ const Home = () => {
     },
   ];
 
-  const router = useRouter(); // Use the Next.js router
-
-  return (
+return (
     <div id="webid">
       <RealStateBanner />
       <div className="home-container">
@@ -28,9 +25,7 @@ const Home = () => {
         <div className="home-content" style={{ cursor: "pointer" }}>
           <IconCardBtnWithoutHover
             data={iconDataForButton}
-            onClick={() => {
-              router.push("/search");
-            }} // Navigate with Next.js router
+            onClick="/search" 
           />
           <HotProduct />
         </div>

@@ -27,8 +27,8 @@ console.log(charCount.length);
                 }
 
                 console.log(letterCount);
-                console.log(frequency);
-                
+                console.log(Object.entries(frequency));
+
                     }
   return (
     <div>

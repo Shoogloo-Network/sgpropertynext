@@ -5,6 +5,7 @@ import RealStateBanner from "./_components/home/RealStateBanner";
 import CardWithList from "./_components/cards/CardWithList";
 import { useRouter } from "next/navigation"; // Use Next.js router
 import "./page.css";
+import UnderConstruction from "./_components/home/UnderConstruction";
 const Home = () => {
   const iconDataForButton = [
     {
@@ -52,6 +53,9 @@ const Home = () => {
             />
           </div>
         </div>
+      </div>
+      <div className="home-under-construction-section">
+        <UnderConstruction/>
       </div>
     </div>
   );

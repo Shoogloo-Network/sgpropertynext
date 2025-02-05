@@ -61,7 +61,11 @@
       font-size: 1.5em;
   }
 }
+.home-under-construction-section{
+  height: 450px;
+  padding: 20px;
 
+}
 /* Responsive styles for extra small devices */
 @media (max-width: 480px) {
   .home-container h1 {

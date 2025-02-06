@@ -22,9 +22,16 @@ const Profile = () => {
     propertyRequirement: '',
     profileImage: null
   });
-  const userName = JSON.parse(localStorage.getItem('user')) || { name: 'Guest' };
 
+  const [initialName , setInitialName] = useState('');
+
+  useEffect(()=>{
+    const userName = JSON.parse(localStorage.getItem('user')) || { name: 'Guest' };
+setInitialName(userName.name);
+  },[]);
+  
   useEffect(() => {
+  
     const storedProfile = JSON.parse(localStorage.getItem('userProfile'));
     if (storedProfile) {
       setUserProfile(storedProfile);
@@ -58,7 +65,7 @@ const Profile = () => {
   return (
     <div className="profile-container">
       <div className="profile-header">
-        <h1>{userName.name}</h1>
+        <h1>{initialName}</h1>
         <p>Manage your personal information</p>
       </div>
       

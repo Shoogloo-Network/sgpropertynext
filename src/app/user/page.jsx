@@ -1,9 +1,11 @@
-"use client";
+'use client';
+
 import { useState, useEffect } from 'react';
+import { useSearchParams } from 'next/navigation';
+import { Suspense } from 'react';
 import UserSectionList from './UserSectionList';
 import Activity from './Activity';
 import Profile from './Profile';
-import { useSearchParams } from 'next/navigation';
 import PostProperty from './PostProperty';
 import AgentPostPropertyForm1 from '../agentforms/forms/AgentPostPropertyForm1';
 import Amenities from '../agentforms/forms/Amenities';
@@ -39,16 +41,18 @@ const User = () => {
                     </>
                 );
             default:
-                return <Profile />; // Default fallback
+                return <Profile />;
         }
     };
 
     return (
         <div className="user-container">
             <div className="user-sidebar">
-                <UserSectionList onClick={handleClick} />
+            <Suspense fallback={<div>Loading content...</div>}>  <UserSectionList onClick={handleClick} /></Suspense>
             </div>
-            <div className="user-content">{renderContent()}</div>
+            <div className="user-content">
+                <Suspense fallback={<div>Loading content...</div>}>{renderContent()}</Suspense>
+            </div>
         </div>
     );
 };

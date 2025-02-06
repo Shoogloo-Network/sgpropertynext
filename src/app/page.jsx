@@ -4,7 +4,9 @@ import IconCardBtnWithoutHover from "./_components/cards/IconCardBtnWithoutHover
 import RealStateBanner from "./_components/home/RealStateBanner";
 import CardWithList from "./_components/cards/CardWithList";
 import "./page.css";
-import UnderConstruction from "./_components/home/UnderConstruction";
+import dynamic from 'next/dynamic';
+const UnderConstruction = dynamic(() => import("./_components/home/UnderConstruction"));
+
 const Home = () => {
   const iconDataForButton = [
     {

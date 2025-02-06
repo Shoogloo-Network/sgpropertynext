@@ -14,7 +14,7 @@ const UserSectionList = ({ onClick, logout }) => {
         city: '',
         placeOfBirth: '',
         propertyRequirement: '',
-        profileImage: '/profile.svg'
+        profileImage: 'profile.svg'
     });
 
     useEffect(() => {
@@ -35,16 +35,16 @@ const UserSectionList = ({ onClick, logout }) => {
     }, []); // Empty dependency array means this runs once on mount
 
     const iconData = [
-        { img: '/profile.svg', title: 'PROFILE', id: 'profile' },
-        { img: '/my-activity.svg', title: 'MY ACTIVITY', id: 'activity' },
-        { img: '/my-interaction.svg', title: 'MY INTERACTIONS', id: 'interactions' },
-        { img: '/post-your-property.svg', title: 'POST PROPERTY', id: 'postproperty' },
-        { img: '/my-properties.svg', title: 'MY LISTINGS', id: 'mylistings' },
-        { img: '/my-rent-agreement.svg', title: 'RENTAL AGREEMENTS', id: 'rentalagreements' },
-        { img: '/my-rent-payments.svg', title: 'RENT PAYMENTS', id: 'rentpayments' },
-        { img: '/refer-and-earn.svg', title: 'REFER AND EARN', id: 'referandearn' },
+        { img: 'profile.svg', title: 'PROFILE', id: 'profile' },
+        { img: 'my-activity.svg', title: 'MY ACTIVITY', id: 'activity' },
+        // { img: 'my-interaction.svg', title: 'MY INTERACTIONS', id: 'interactions' },
+        { img: 'post-your-property.svg', title: 'POST PROPERTY', id: 'postproperty' },
+        { img: 'my-properties.svg', title: 'MY LISTINGS', id: 'mylistings' },
+        // { img: 'my-rent-agreement.svg', title: 'RENTAL AGREEMENTS', id: 'rentalagreements' },
+        { img: 'my-rent-payments.svg', title: 'RENT PAYMENTS', id: 'rentpayments' },
+        // { img: 'refer-and-earn.svg', title: 'REFER AND EARN', id: 'referandearn' },
         {
-            img: '/lock-unlock.svg',
+            img: 'lock-unlock.svg',
             title: userData ? 'LOGOUT' : 'LOGIN',
             id: 'logout',
         },
@@ -69,6 +69,7 @@ const UserSectionList = ({ onClick, logout }) => {
                     </a>
                 </div>
             </div>
+            <div >
             <IconCard
                 data={iconData}
                 onClick={onClick}
@@ -76,6 +77,7 @@ const UserSectionList = ({ onClick, logout }) => {
                 containerClass="icon-card-container"
                 imgClass="icon-card-image"
             />
+                </div>
         </>
     );
 };

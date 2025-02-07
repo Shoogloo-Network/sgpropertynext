@@ -38,7 +38,7 @@ const InteriorDesginSlider = () => {
             <SwiperSlide className="nextprevwidth"></SwiperSlide>
             <SwiperSlide>
        <div className="property-card">
-        <a href="/detail-page" target="_blank">
+        <a href="/home-interior" target="_blank">
           <div className="image">
             <img
               src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -56,7 +56,7 @@ const InteriorDesginSlider = () => {
       </div>
       </SwiperSlide>
             <SwiperSlide><div className="property-card">
-        <a href="/detail-page" target="_blank">
+        <a href="/home-interior" target="_blank">
           <div className="image">
             <img
               src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -73,7 +73,7 @@ const InteriorDesginSlider = () => {
         </a>
       </div></SwiperSlide>
             <SwiperSlide><div className="property-card">
-        <a href="/detail-page" target="_blank">
+        <a href="/home-interior" target="_blank">
           <div className="image">
             <img
               src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -90,7 +90,7 @@ const InteriorDesginSlider = () => {
         </a>
       </div></SwiperSlide>
             <SwiperSlide><div className="property-card">
-        <a href="/detail-page" target="_blank">
+        <a href="/home-interior" target="_blank">
           <div className="image">
             <img
               src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -107,7 +107,7 @@ const InteriorDesginSlider = () => {
         </a>
       </div></SwiperSlide>
       <SwiperSlide><div className="property-card">
-        <a href="/detail-page" target="_blank">
+        <a href="/home-interior" target="_blank">
           <div className="image">
             <img
               src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -124,7 +124,7 @@ const InteriorDesginSlider = () => {
         </a>
       </div></SwiperSlide>
       <SwiperSlide><div className="property-card">
-        <a href="/detail-page" target="_blank">
+        <a href="/home-interior" target="_blank">
           <div className="image">
             <img
               src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -141,7 +141,7 @@ const InteriorDesginSlider = () => {
         </a>
       </div></SwiperSlide>
       <SwiperSlide><div className="property-card">
-        <a href="/detail-page" target="_blank">
+        <a href="/home-interior" target="_blank">
           <div className="image">
             <img
               src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -158,7 +158,7 @@ const InteriorDesginSlider = () => {
         </a>
       </div></SwiperSlide>
       <SwiperSlide><div className="property-card">
-        <a href="/detail-page" target="_blank">
+        <a href="/home-interior" target="_blank">
           <div className="image">
             <img
               src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -175,7 +175,7 @@ const InteriorDesginSlider = () => {
         </a>
       </div></SwiperSlide>
       <SwiperSlide><div className="property-card">
-        <a href="/detail-page" target="_blank">
+        <a href="/home-interior" target="_blank">
           <div className="image">
             <img
               src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"

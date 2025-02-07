@@ -35,12 +35,12 @@
 }
 
 
-.homeinterior-item-card>img{
+.homeinterior-item-card> a img{
     width: 100%;
     border-radius: 8px;
     height: 100%;
 }
-.homeinterior-item-card>img:hover{
+.homeinterior-item-card> a img:hover{
     transform: scale(1.1);
     width: 100%;
     transition: 0.4;

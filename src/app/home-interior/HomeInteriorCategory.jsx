@@ -1,6 +1,8 @@
 "use client"
 import { useState } from 'react';
 import './HomeInteriorCategory.css';
+import Link from 'next/link';
+
 
 const HomeInteriorCategory = () => {
   const [activeTab, setActiveTab] = useState('Living Room');
@@ -249,10 +251,13 @@ const HomeInteriorCategory = () => {
       </div>
       <div className="homeinterior-section-card">
         {cardData.map((card, index) => (
-          <div key={index} className="homeinterior-item-card">
-            <img src={"/images/"+card.imgSrc} alt="Card Image" />
-            <h4>{card.title}</h4>
-          </div>
+          <div  className="homeinterior-item-card" key={index}>
+            <Link href="/interior-design-plans" >
+          <img src={"/images/"+card.imgSrc} alt="Card Image" />
+          </Link>
+          <h4>{card.title}</h4>
+          
+        </div>
         ))}
       </div>
     </div>

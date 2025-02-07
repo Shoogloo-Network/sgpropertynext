@@ -37,25 +37,7 @@ return (
           <HotProduct />
         </div>
         <div className="hspace"></div>
-        <div className="real-estate-sections">
-          <div className="real-estate-section">
-            <h1 className="section-title">For Real Estate Developers</h1>
-            <CardWithList
-             
-              backgroundColor="#ddf5ff"
-            />
-          </div>
-          <div
-            className="real-estate-section"
-            style={{ backgroundColor: "#fff" }}
-          >
-            <h1 className="section-title">For Agents</h1>
-            <CardWithList
-             
-              backgroundColor="#fff6e7"
-            />
-          </div>
-        </div>
+
       </div>
       <div className="hspace"></div>
       <div>
@@ -77,7 +59,26 @@ return (
       <h1  className="homeh1"> New under-construction projects</h1>
         <HighlightPlusService/>
       </div>
-
+      <div className="hspace"></div>
+      <div className="real-estate-sections">
+          <div className="real-estate-section">
+            <h1 className="section-title">For Real Estate Developers</h1>
+            <CardWithList
+             
+              backgroundColor="#ddf5ff"
+            />
+          </div>
+          <div
+            className="real-estate-section"
+            style={{ backgroundColor: "#fff" }}
+          >
+            <h1 className="section-title">For Agents</h1>
+            <CardWithList
+             
+              backgroundColor="#fff6e7"
+            />
+          </div>
+        </div>
       {/* <div className="home-under-construction-section">
       <h1 > New under-construction projects</h1>
       <div style={{display:"flex",justifyContent:"center",gap:"20px"}} > 

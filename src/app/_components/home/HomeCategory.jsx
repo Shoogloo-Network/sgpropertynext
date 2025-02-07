@@ -18,18 +18,7 @@ const HomeCategory = () => {
       imgSrc: 'buildinghome.jfif',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
      },
-     {
-      imgSrc: 'buildinghome.jfif',
-       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
-     },
-     {
-      imgSrc: 'buildinghome.jfif',
-       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
-     },
-     {
-      imgSrc: 'buildinghome.jfif',
-       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
-     },
+     
    ] 
  );
  
@@ -59,18 +48,7 @@ const HomeCategory = () => {
         imgSrc: 'buildinghome.jfif',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
        },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
-       },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
-       },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
-       },
+      
      ],
      'Modular Kitchen': [
        {
@@ -85,18 +63,7 @@ const HomeCategory = () => {
         imgSrc: 'buildinghome.jfif',
          title: 'Modern Modular Kitchen Design'
        },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Modern Modular Kitchen Design'
-       },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Modern Modular Kitchen Design'
-       },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Modern Modular Kitchen Design'
-       },
+       
      ],
      'Wardrobe': [
        {
@@ -111,18 +78,7 @@ const HomeCategory = () => {
         imgSrc: 'buildinghome.jfif',
          title: 'Spacious Wardrobe Design'
        },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Spacious Wardrobe Design'
-       },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Spacious Wardrobe Design'
-       },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Spacious Wardrobe Design'
-       },
+       
      ],
      'Master Bedroom': [
        {
@@ -137,18 +93,7 @@ const HomeCategory = () => {
         imgSrc: 'buildinghome.jfif',
          title: 'Elegant Master Bedroom Design'
        },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Elegant Master Bedroom Design'
-       },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Elegant Master Bedroom Design'
-       },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Elegant Master Bedroom Design'
-       },
+       
      ],
      'Kids Room': [
        {
@@ -163,17 +108,7 @@ const HomeCategory = () => {
         imgSrc: 'buildinghome.jfif',
          title: 'Fun and Colorful Kids Room Design'
        },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Fun and Colorful Kids Room Design'
-       },
-       {   imgSrc: 'buildinghome.jfif',
-         title: 'Fun and Colorful Kids Room Design'
-       },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Fun and Colorful Kids Room Design'
-       },
+       
      ],
      'Kitchen Walls Tiles': [
        {
@@ -188,18 +123,7 @@ const HomeCategory = () => {
         imgSrc: 'buildinghome.jfif',
          title: 'Stylish Kitchen Walls Tiles Design'
        },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Stylish Kitchen Walls Tiles Design'
-       },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Stylish Kitchen Walls Tiles Design'
-       },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Stylish Kitchen Walls Tiles Design'
-       },
+       
      ],
      'Kitchen False Ceiling': [
        {
@@ -214,18 +138,7 @@ const HomeCategory = () => {
         imgSrc: 'buildinghome.jfif',
          title: 'Modern Kitchen False Ceiling Design'
        },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Modern Kitchen False Ceiling Design'
-       },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Modern Kitchen False Ceiling Design'
-       },
-       {
-        imgSrc: 'buildinghome.jfif',
-         title: 'Modern Kitchen False Ceiling Design'
-       },
+       
      ],
    };
  

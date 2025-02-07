@@ -78,6 +78,11 @@
   color: #333;
 }
 
+.hspace{
+  margin-bottom: 60px;
+}
+
+
 /* Responsive styles for extra small devices */
 @media (max-width: 480px) {
   .home-container h1 {

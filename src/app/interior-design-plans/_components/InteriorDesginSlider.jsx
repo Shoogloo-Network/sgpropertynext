@@ -10,7 +10,7 @@ import 'swiper/css/scrollbar';
 
 const InteriorDesginSlider = () => {
   return (
-    <div>
+    <div  className="under-construction-main-div">
        <Swiper
             modules={[Navigation, Pagination,  A11y]}
           //   slidesPerView={4}
@@ -19,7 +19,7 @@ const InteriorDesginSlider = () => {
             
             onSwiper={(swiper) => console.log(swiper)}
             onSlideChange={() => console.log('slide change')}
-            style={{height:"100%"}}
+            style={{height:"100%",paddingBottom:'30px'}}
             breakpoints={{
               640: {
                 slidesPerView: 1, // 1 slide on mobile (screen width ≤ 640px)

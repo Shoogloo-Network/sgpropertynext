@@ -99,3 +99,8 @@
   .nextprevwidth{
     width:60px !important;
   }
+
+
+  .swiper-pagination-bullets{
+    bottom: var(--swiper-pagination-bottom, 2px);
+  }

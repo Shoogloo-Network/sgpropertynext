@@ -26,7 +26,7 @@ return (
     <div id="webid">
       <RealStateBanner />
       <div className="home-container">
-        <h1>Hot Selling Projects in India</h1>
+        <h1 className="homeh1">Hot Selling Projects in India</h1>
         <div className="home-content" style={{ cursor: "pointer" }}>
           <IconCardBtnWithoutHover
             data={iconDataForButton}
@@ -55,20 +55,28 @@ return (
         </div>
       </div>
       <div className="home-under-construction-section">
-     <h1 > New under-construction projects</h1>
+     <h1  className="homeh1"> New under-construction projects</h1>
         <UnderConstruction/>
       </div>
-      <div>
+      <div >
+      <h1  className="homeh1"> New under-construction projects</h1>
       <HomeCategory/>
       </div>
-      <div>
+      <div >
+      <h1  className="homeh1"> New under-construction projects</h1>
         <HighlightPlusService/>
       </div>
-      <div style={{display:"flex",justifyContent:"center",gap:"20px"}}> 
-        <DemandSupplyChart/>
-        <DemandSupplyChart/>
-        <DemandSupplyChart/>
-      </div>
+
+      {/* <div className="home-under-construction-section">
+      <h1 > New under-construction projects</h1>
+      <div style={{display:"flex",justifyContent:"center",gap:"20px"}} > 
+     
+     <DemandSupplyChart/>
+     <DemandSupplyChart/>
+     <DemandSupplyChart/>
+   </div>
+      </div> */}
+    
     </div>
   );
 };

@@ -67,14 +67,17 @@
   margin-bottom:50px;
 }
 
-.home-under-construction-section >h1{
+
+
+.homeh1{
   margin-top: 18px;
-    margin-bottom: 18px;
-    display: block;
-    text-align: center;
-    font-size: 24px;
-    color: #333;
+  margin-bottom: 18px;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  color: #333;
 }
+
 /* Responsive styles for extra small devices */
 @media (max-width: 480px) {
   .home-container h1 {

@@ -252,7 +252,7 @@ const HomeInteriorCategory = () => {
       <div className="homeinterior-section-card">
         {cardData.map((card, index) => (
           <div  className="homeinterior-item-card" key={index}>
-            <Link href="/interior-design-plans" >
+            <Link href="/interior-design-plans" target='_blank'>
           <img src={"/images/"+card.imgSrc} alt="Card Image" />
           </Link>
           <h4>{card.title}</h4>

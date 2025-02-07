@@ -55,57 +55,6 @@ const InteriorDesginSlider = () => {
         </a>
       </div>
       </SwiperSlide>
-            <SwiperSlide><div className="property-card">
-        <a href="/home-interior" target="_blank">
-          <div className="image">
-            <img
-              src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
-              alt="Green Valley Affordable livings"
-            />
-          </div>
-          <div className="info">
-            <div className="card-title">Green Valley Affordable livings</div>
-            <div className="details">2, 3 BHK Apartments</div>
-            <div className="location">Dwarka Mor, South West Delhi, New Delhi</div>
-            <div className="price">₹23.5 L - ₹60.01 L</div>
-            <button className="cta-button">Contact</button>
-          </div>
-        </a>
-      </div></SwiperSlide>
-            <SwiperSlide><div className="property-card">
-        <a href="/home-interior" target="_blank">
-          <div className="image">
-            <img
-              src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
-              alt="Green Valley Affordable livings"
-            />
-          </div>
-          <div className="info">
-            <div className="card-title">Green Valley Affordable livings</div>
-            <div className="details">2, 3 BHK Apartments</div>
-            <div className="location">Dwarka Mor, South West Delhi, New Delhi</div>
-            <div className="price">₹23.5 L - ₹60.01 L</div>
-            <button className="cta-button">Contact</button>
-          </div>
-        </a>
-      </div></SwiperSlide>
-            <SwiperSlide><div className="property-card">
-        <a href="/home-interior" target="_blank">
-          <div className="image">
-            <img
-              src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
-              alt="Green Valley Affordable livings"
-            />
-          </div>
-          <div className="info">
-            <div className="card-title">Green Valley Affordable livings</div>
-            <div className="details">2, 3 BHK Apartments</div>
-            <div className="location">Dwarka Mor, South West Delhi, New Delhi</div>
-            <div className="price">₹23.5 L - ₹60.01 L</div>
-            <button className="cta-button">Contact</button>
-          </div>
-        </a>
-      </div></SwiperSlide>
       <SwiperSlide><div className="property-card">
         <a href="/home-interior" target="_blank">
           <div className="image">
@@ -122,7 +71,8 @@ const InteriorDesginSlider = () => {
             <button className="cta-button">Contact</button>
           </div>
         </a>
-      </div></SwiperSlide>
+      </div>
+      </SwiperSlide>
       <SwiperSlide><div className="property-card">
         <a href="/home-interior" target="_blank">
           <div className="image">
@@ -139,7 +89,8 @@ const InteriorDesginSlider = () => {
             <button className="cta-button">Contact</button>
           </div>
         </a>
-      </div></SwiperSlide>
+      </div>
+      </SwiperSlide>
       <SwiperSlide><div className="property-card">
         <a href="/home-interior" target="_blank">
           <div className="image">
@@ -156,7 +107,8 @@ const InteriorDesginSlider = () => {
             <button className="cta-button">Contact</button>
           </div>
         </a>
-      </div></SwiperSlide>
+      </div>
+      </SwiperSlide>
       <SwiperSlide><div className="property-card">
         <a href="/home-interior" target="_blank">
           <div className="image">
@@ -173,7 +125,8 @@ const InteriorDesginSlider = () => {
             <button className="cta-button">Contact</button>
           </div>
         </a>
-      </div></SwiperSlide>
+      </div>
+      </SwiperSlide>
       <SwiperSlide><div className="property-card">
         <a href="/home-interior" target="_blank">
           <div className="image">
@@ -190,9 +143,64 @@ const InteriorDesginSlider = () => {
             <button className="cta-button">Contact</button>
           </div>
         </a>
-      </div></SwiperSlide>
+      </div>
+      </SwiperSlide>
+      <SwiperSlide><div className="property-card">
+        <a href="/home-interior" target="_blank">
+          <div className="image">
+            <img
+              src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
+              alt="Green Valley Affordable livings"
+            />
+          </div>
+          <div className="info">
+            <div className="card-title">Green Valley Affordable livings</div>
+            <div className="details">2, 3 BHK Apartments</div>
+            <div className="location">Dwarka Mor, South West Delhi, New Delhi</div>
+            <div className="price">₹23.5 L - ₹60.01 L</div>
+            <button className="cta-button">Contact</button>
+          </div>
+        </a>
+      </div>
+      </SwiperSlide>
+      <SwiperSlide><div className="property-card">
+        <a href="/home-interior" target="_blank">
+          <div className="image">
+            <img
+              src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
+              alt="Green Valley Affordable livings"
+            />
+          </div>
+          <div className="info">
+            <div className="card-title">Green Valley Affordable livings</div>
+            <div className="details">2, 3 BHK Apartments</div>
+            <div className="location">Dwarka Mor, South West Delhi, New Delhi</div>
+            <div className="price">₹23.5 L - ₹60.01 L</div>
+            <button className="cta-button">Contact</button>
+          </div>
+        </a>
+      </div>
+      </SwiperSlide>
+      <SwiperSlide><div className="property-card">
+        <a href="/interior-design-plans" target="_blank">
+          <div className="image">
+            <img
+              src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
+              alt="Green Valley Affordable livings"
+            />
+          </div>
+          <div className="info">
+            <div className="card-title">Green Valley Affordable livings</div>
+            <div className="details">2, 3 BHK Apartments</div>
+            <div className="location">Dwarka Mor, South West Delhi, New Delhi</div>
+            <div className="price">₹23.5 L - ₹60.01 L</div>
+            <button className="cta-button">Contact</button>
+          </div>
+        </a>
+      </div>
+      </SwiperSlide>
       {/* <SwiperSlide className="nextprevwidth"><div></div></SwiperSlide> */}
-          </Swiper>
+      </Swiper>
     </div>
   )
 }

@@ -6,9 +6,63 @@ const TabComponent = () => {
   const [activeTab, setActiveTab] = useState("Cozy");
 
   const ideas = {
-    Cozy: "Create a warm and inviting space with soft lighting, plush throws, and neutral tones.",
-    Modern: "Go sleek and minimal with clean lines, bold accents, and functional furniture.",
-    "Budget-Friendly": "Repurpose existing items, add DIY decor, and incorporate affordable yet stylish options."
+    Cozy: <div className={styles.interiorTabBtnDiv}>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+      <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    </div>,
+    Modern: <div className={styles.interiorTabBtnDiv}>
+    <button className={styles.interiorTabBtn}>Gold Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+  </div>,
+    "Budget-Friendly": <div className={styles.interiorTabBtnDiv}>
+    <button className={styles.interiorTabBtn}>White Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+    <button className={styles.interiorTabBtn}>Green Color Living Room</button>
+  </div>
   };
 
   return (
@@ -25,7 +79,7 @@ const TabComponent = () => {
         ))}
       </div>
       <div className={styles.content}>
-        <p>{ideas[activeTab]}</p>
+        <div>{ideas[activeTab]}</div>
       </div>
     </div>
   );

@@ -51,7 +51,7 @@ const User = () => {
             <Suspense fallback={<div>Loading content...</div>}>  <UserSectionList onClick={handleClick} /></Suspense>
             </div>
             <div className="user-content">
-                <Suspense fallback={<div>Loading content...</div>}>{renderContent()}</Suspense>
+            <Suspense fallback={<div>Loading content...</div>}>{renderContent()}</Suspense>
             </div>
         </div>
     );

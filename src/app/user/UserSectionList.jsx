@@ -69,7 +69,7 @@ const UserSectionList = ({ onClick, logout }) => {
                     </a>
                 </div>
             </div>
-            <div >
+            <div>
             <IconCard
                 data={iconData}
                 onClick={onClick}
@@ -77,7 +77,7 @@ const UserSectionList = ({ onClick, logout }) => {
                 containerClass="icon-card-container"
                 imgClass="icon-card-image"
             />
-                </div>
+            </div>
         </>
     );
 };

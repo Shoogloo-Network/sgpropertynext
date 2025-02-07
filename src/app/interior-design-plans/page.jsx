@@ -17,12 +17,10 @@ const Page = () => {
         </div>
       </div>
       <div className="interior-slider-container">
-        
-        <InteriorDesginSlider />
+      <InteriorDesginSlider />
       </div>
       <div>
-        <TabComponent/>
-      
+      <TabComponent/>
       </div>
     </div>
   );

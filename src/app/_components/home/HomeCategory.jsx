@@ -7,27 +7,27 @@ const HomeCategory = () => {
    const [cardData, setCardData] = useState(
      [
      {
-       imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+       imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871…vings-sewak_park-delhi-green_valley_builders.jpeg',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
      },
      {
-       imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+       imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871…vings-sewak_park-delhi-green_valley_builders.jpeg',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
      },
      {
-       imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+       imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871…vings-sewak_park-delhi-green_valley_builders.jpeg',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
      },
      {
-       imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+       imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871…vings-sewak_park-delhi-green_valley_builders.jpeg',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
      },
      {
-       imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+       imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871…vings-sewak_park-delhi-green_valley_builders.jpeg',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
      },
      {
-       imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+       imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871…vings-sewak_park-delhi-green_valley_builders.jpeg',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
      },
    ] 
@@ -48,182 +48,182 @@ const HomeCategory = () => {
  
      'Living Room': [
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
        },
      ],
      'Modular Kitchen': [
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Modern Modular Kitchen Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Modern Modular Kitchen Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Modern Modular Kitchen Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Modern Modular Kitchen Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Modern Modular Kitchen Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Modern Modular Kitchen Design'
        },
      ],
      'Wardrobe': [
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Spacious Wardrobe Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Spacious Wardrobe Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Spacious Wardrobe Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Spacious Wardrobe Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Spacious Wardrobe Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Spacious Wardrobe Design'
        },
      ],
      'Master Bedroom': [
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Elegant Master Bedroom Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Elegant Master Bedroom Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Elegant Master Bedroom Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Elegant Master Bedroom Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Elegant Master Bedroom Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Elegant Master Bedroom Design'
        },
      ],
      'Kids Room': [
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Fun and Colorful Kids Room Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Fun and Colorful Kids Room Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Fun and Colorful Kids Room Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Fun and Colorful Kids Room Design'
        },
-       {  imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+       {  imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Fun and Colorful Kids Room Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Fun and Colorful Kids Room Design'
        },
      ],
      'Kitchen Walls Tiles': [
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Stylish Kitchen Walls Tiles Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Stylish Kitchen Walls Tiles Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Stylish Kitchen Walls Tiles Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Stylish Kitchen Walls Tiles Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Stylish Kitchen Walls Tiles Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Stylish Kitchen Walls Tiles Design'
        },
      ],
      'Kitchen False Ceiling': [
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Modern Kitchen False Ceiling Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Modern Kitchen False Ceiling Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Modern Kitchen False Ceiling Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Modern Kitchen False Ceiling Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Modern Kitchen False Ceiling Design'
        },
        {
-         imgSrc: 'provident-botanico-project-clubhouse-external-image1-2344.jpg',
+         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
          title: 'Modern Kitchen False Ceiling Design'
        },
      ],
@@ -250,7 +250,7 @@ const HomeCategory = () => {
        <div className="homeinterior-section-card">
          {cardData.map((card, index) => (
            <div key={index} className="homeinterior-item-card">
-             <img src={"/images/"+card.imgSrc} alt="Card Image" />
+             <img src={card.imgSrc} alt="Card Image" />
              <h4>{card.title}</h4>
            </div>
          ))}

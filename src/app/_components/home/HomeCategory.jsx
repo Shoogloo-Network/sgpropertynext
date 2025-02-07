@@ -7,27 +7,27 @@ const HomeCategory = () => {
    const [cardData, setCardData] = useState(
      [
      {
-       imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871…vings-sewak_park-delhi-green_valley_builders.jpeg',
+       imgSrc: 'buildinghome.jfif',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
      },
      {
-       imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871…vings-sewak_park-delhi-green_valley_builders.jpeg',
+      imgSrc: 'buildinghome.jfif',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
      },
      {
-       imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871…vings-sewak_park-delhi-green_valley_builders.jpeg',
+      imgSrc: 'buildinghome.jfif',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
      },
      {
-       imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871…vings-sewak_park-delhi-green_valley_builders.jpeg',
+      imgSrc: 'buildinghome.jfif',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
      },
      {
-       imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871…vings-sewak_park-delhi-green_valley_builders.jpeg',
+      imgSrc: 'buildinghome.jfif',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
      },
      {
-       imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871…vings-sewak_park-delhi-green_valley_builders.jpeg',
+      imgSrc: 'buildinghome.jfif',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
      },
    ] 
@@ -48,182 +48,182 @@ const HomeCategory = () => {
  
      'Living Room': [
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
        },
      ],
      'Modular Kitchen': [
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Modern Modular Kitchen Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Modern Modular Kitchen Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Modern Modular Kitchen Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Modern Modular Kitchen Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Modern Modular Kitchen Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Modern Modular Kitchen Design'
        },
      ],
      'Wardrobe': [
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Spacious Wardrobe Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Spacious Wardrobe Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Spacious Wardrobe Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Spacious Wardrobe Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Spacious Wardrobe Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Spacious Wardrobe Design'
        },
      ],
      'Master Bedroom': [
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Elegant Master Bedroom Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Elegant Master Bedroom Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Elegant Master Bedroom Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Elegant Master Bedroom Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Elegant Master Bedroom Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Elegant Master Bedroom Design'
        },
      ],
      'Kids Room': [
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Fun and Colorful Kids Room Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Fun and Colorful Kids Room Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Fun and Colorful Kids Room Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Fun and Colorful Kids Room Design'
        },
-       {  imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+       {   imgSrc: 'buildinghome.jfif',
          title: 'Fun and Colorful Kids Room Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Fun and Colorful Kids Room Design'
        },
      ],
      'Kitchen Walls Tiles': [
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Stylish Kitchen Walls Tiles Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Stylish Kitchen Walls Tiles Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Stylish Kitchen Walls Tiles Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Stylish Kitchen Walls Tiles Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Stylish Kitchen Walls Tiles Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Stylish Kitchen Walls Tiles Design'
        },
      ],
      'Kitchen False Ceiling': [
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Modern Kitchen False Ceiling Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Modern Kitchen False Ceiling Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Modern Kitchen False Ceiling Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Modern Kitchen False Ceiling Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Modern Kitchen False Ceiling Design'
        },
        {
-         imgSrc: 'https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg',
+        imgSrc: 'buildinghome.jfif',
          title: 'Modern Kitchen False Ceiling Design'
        },
      ],
@@ -250,7 +250,7 @@ const HomeCategory = () => {
        <div className="homeinterior-section-card">
          {cardData.map((card, index) => (
            <div key={index} className="homeinterior-item-card">
-             <img src={card.imgSrc} alt="Card Image" />
+             <img src={"/images/"+card.imgSrc} alt="Card Image" />
              <h4>{card.title}</h4>
            </div>
          ))}

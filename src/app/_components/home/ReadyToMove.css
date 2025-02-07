@@ -1,0 +1,90 @@
+
+.homeinterior-section{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-bottom: 20px;
+}
+
+
+
+.homeinterior-item{
+    margin-left: 16px;
+    padding: 0 16px;
+  color: black;
+    border-radius: 5px;
+    line-height: 38px;
+    cursor: pointer;
+    font-size: 14px;
+    background: #f7f7f7;
+}
+
+
+.homeinterior-section-card{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    margin: 20px;
+
+}
+
+
+.homeinterior-item-card{
+    width: 350px;
+    cursor: pointer;
+}
+
+
+.homeinterior-item-card>img{
+    width: 100%;
+    border-radius: 8px;
+    height: 100%;
+}
+.homeinterior-item-card>img:hover{
+    transform: scale(1.1);
+    width: 100%;
+    transition: 0.4;
+
+}
+.homeinterior-item-card>h4{
+position: relative;
+bottom:72px;
+color: #fff;
+padding: 10px;
+background: rgba(0, 0, 0, 0.3);
+}
+
+
+.homeinterior-item-active{
+    background: #0078d7;
+    color: #fff;
+}
+
+
+
+
+
+.my-element {
+
+    background-color: blue;
+  
+    animation: colorChange 2s ease-in-out 1s; /* Animation with 1 second delay */
+  
+  }
+  
+  
+  
+  @keyframes colorChange {
+  
+    0% { background-color: blue; }
+  
+    100% { background-color: red; }
+  
+  } 
+
+  @media (max-width: 768px) {
+    .homeinterior-item{
+        margin: 4px;
+    }
+  }

@@ -8,6 +8,7 @@ import dynamic from 'next/dynamic';
 import HomeCategory from "./_components/home/HomeCategory";
 import DemandSupplyChart from "./_components/home/DemandSupplyChart";
 import HighlightPlusService from "./_components/home/HighlightPlusService"
+import ReadyToMove from "./_components/home/ReadyToMove";
 const UnderConstruction = dynamic(() => import("./_components/home/UnderConstruction"));
 
 const Home = () => {
@@ -56,14 +57,19 @@ return (
           </div>
         </div>
       </div>
-     
+      <div className="hspace"></div>
+      <div>
+      <h1  className="homeh1"> Ready to Move</h1>
+        <ReadyToMove/>
+      </div>
+      <div className="hspace"></div>
       <div className="home-under-construction-section">
      <h1  className="homeh1"> New under-construction projects</h1>
         <UnderConstruction/>
       </div>
       <div className="hspace"></div>
       <div >
-      <h1  className="homeh1"> New under-construction projects</h1>
+      <h1  className="homeh1"> Home Interior Projects</h1>
       <HomeCategory/>
       </div>
       <div className="hspace"></div>

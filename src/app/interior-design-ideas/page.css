@@ -1,0 +1,16 @@
+.interior-page-container{
+    margin: 20px;
+}
+.interior-banner-contact-container{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    gap: 20px;
+    margin-bottom: 20px;
+}
+
+
+.interior-banner-container{
+    width: 60%;
+
+}

@@ -1,0 +1,132 @@
+.homeInterior {
+    background-color: #f0f0f0;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.HomeInteriorMainDiv {
+    background-image: url('/images/heroBanner.webp');
+    height: 550px;
+    margin: 0 !important;
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    padding-bottom: 50px;
+    gap: 10px;
+    width: 100%; /* Ensure it takes full width */
+    
+}
+
+.HomeInteriorMainDiv > h2 {
+    font-size: 40px;
+    color: #fff;
+}
+
+.HomeInteriorMainDiv > p {
+    font-size: 16px;
+    color: #fff;
+}
+
+.HomeInteriorMainDiv > button {
+    padding: 0 35px;
+    line-height: 50px;
+    font-size: 18px;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #eb5976;
+    border: 0px;
+}
+
+.HomeInteriorHighlightsDiv {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 0 0 0 80px;
+    width: 100%;
+    border-left: .5px solid #666;
+  
+}
+
+.HomeInteriorHighlights {
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.specialCard {
+    padding: 24px;
+    border-radius: 10px;
+    background-color: #ffe5ea;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    height: 300px;
+}
+
+.HomeInteriorCards {
+    display: flex;
+    gap: 30px;
+    margin: 30px;
+    overflow-x: auto; /* Enable horizontal scrolling */
+}
+
+.interiorCards {
+    padding: 24px 20px;
+    border-radius: 10px;
+    background-color: #fff;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.HomeInteriorVideo {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    margin: 30px;
+}
+
+.video-container{
+    width: 100%;
+}
+
+
+@media (max-width: 768px) {
+    .HomeInteriorMainDiv {
+        height: 350px;
+    }
+
+    .HomeInteriorMainDiv > h2 {
+        font-size: 30px;
+    }
+
+    .HomeInteriorMainDiv > p {
+        font-size: 12px;
+    }
+
+    .HomeInteriorMainDiv > button {
+        padding: 0 25px;
+        line-height: 40px;
+        font-size: 14px;
+    }
+
+    .HomeInteriorHighlightsDiv {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    .HomeInteriorCards {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    
+}
+

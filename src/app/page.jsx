@@ -5,6 +5,9 @@ import RealStateBanner from "./_components/home/RealStateBanner";
 import CardWithList from "./_components/cards/CardWithList";
 import "./page.css";
 import dynamic from 'next/dynamic';
+import HomeCategory from "./_components/home/HomeCategory";
+import DemandSupplyChart from "./_components/home/DemandSupplyChart";
+import HighlightPlusService from "./_components/home/HighlightPlusService"
 const UnderConstruction = dynamic(() => import("./_components/home/UnderConstruction"));
 
 const Home = () => {
@@ -54,6 +57,17 @@ return (
       <div className="home-under-construction-section">
      <h1 > New under-construction projects</h1>
         <UnderConstruction/>
+      </div>
+      <div>
+      <HomeCategory/>
+      </div>
+      <div>
+        <HighlightPlusService/>
+      </div>
+      <div style={{display:"flex",justifyContent:"center",gap:"20px"}}> 
+        <DemandSupplyChart/>
+        <DemandSupplyChart/>
+        <DemandSupplyChart/>
       </div>
     </div>
   );

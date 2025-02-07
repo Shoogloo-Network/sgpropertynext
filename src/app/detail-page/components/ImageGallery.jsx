@@ -1,3 +1,4 @@
+"use client"
 import  { useState, useEffect } from 'react';
 import { fetchData } from '../../_components/api/data';
 import './ImageGallery.css';

@@ -1,0 +1,17 @@
+.demandSupplyChartCard {
+    width: 350px; /* Set a fixed width */
+    padding: 16px;
+    background: #e2e1e1;
+    border-radius: 8px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Light shadow for card effect */
+    margin: 10px; /* Optional margin */
+    text-align: center;
+   
+  }
+  
+  .demandSupplyTableHeading {
+    font-size: 1.2rem;
+    color: #ff69b4;
+    margin-bottom: 10px;
+  }
+  

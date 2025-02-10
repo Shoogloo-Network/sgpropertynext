@@ -592,6 +592,7 @@
           "Job": "Petroleum engineer"
       }
   ],
+  
   "buttonsData": [
       {
         "id": 1,
@@ -629,7 +630,8 @@
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
-                ]
+                ],
+                "city":"Pune"
               },
               {
                 "backgroundImage": "/krisala-41-westworld-project-project-large-image1-4756.avif",
@@ -648,7 +650,8 @@
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
-                ]
+                ],
+                "city":"Noida"
               },
               {
                 "backgroundImage": "/rise-food-mall-project-project-large-image1-6738.avif",
@@ -667,7 +670,8 @@
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
-                ]
+                ],
+                "city":"Pune"
               },
               {
                 "backgroundImage": "/jp-codename-starlife-project-project-large-image1-5182.avif",
@@ -686,7 +690,8 @@
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
-                ]
+                ],
+                "city":"Noida"
               },
               {
                 "backgroundImage": "/haware-my-first-home-project-project-large-image1-5447.avif",
@@ -705,7 +710,8 @@
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
-                ]
+                ],
+                "city":"Pune"
               }
             ]
           }
@@ -747,7 +753,8 @@
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
-                ]
+                ],
+                "city":"Pune"
               },
               {
                 "backgroundImage": "krisala-41-westworld-project-project-large-image1-4756.avif",
@@ -767,7 +774,8 @@
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
-                ]
+                ],
+                "city":"Noida"
               },
               {
                 "backgroundImage": "rise-food-mall-project-project-large-image1-6738.avif",
@@ -787,7 +795,8 @@
                     "title": "Configurations",
                     "description": "2-BHK , 3-BHK Flats"
                   }
-                ]
+                ],
+                "city":"Pune"
               }
             ]
           }

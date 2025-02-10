@@ -10,10 +10,17 @@ import '../../agents/agent-details/AgentDetails.css'
 
 const CardSearchListData = memo(({ cities }) => {
   const [selectedFilter, setSelectedFilter] = useState("All");
+  const [selectedCity , setSelectedCity] = useState("");
   const filters = ["All", "New Launch", "Ready To Move", "Upcoming"];
   const handleFilterClick = (filter) => {
+    
     setSelectedFilter(filter);
+   
   };
+
+  const selectedCityFn = (city)=>{
+   setSelectedCity(city);
+  }
   return (
     <>
       <div className="card-search-container">
@@ -29,7 +36,7 @@ const CardSearchListData = memo(({ cities }) => {
               />
               <h1 className="city-heading">City</h1>
             </div>
-            <City cities={cities} />
+            <City cities={cities}  selectedCity={selectedCityFn}/>
     
           </div>
           <div className="filter-section">
@@ -62,7 +69,7 @@ const CardSearchListData = memo(({ cities }) => {
       </div>
       <div className="filter-card-section">
         <div className="search-filter-with-cards">
-        <SearchFilterWithCards data={cities} />
+        <SearchFilterWithCards data={cities} filterPara={selectedCity} />
         </div>
         <div className="advertisement-div"><RealEstateListings/></div>
       </div>

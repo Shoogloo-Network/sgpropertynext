@@ -1,11 +1,12 @@
 import React, { useState } from 'react';
 import './City.css';
 
-const City = ({ cities }) => {
+const City = ({ cities, selectedCity }) => {
   const [activeCity, setActiveCity] = useState(null);
 
   const handleCardClick = (cityName) => {
     setActiveCity(cityName);
+    selectedCity(cityName);
   };
 
   return (

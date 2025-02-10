@@ -3,7 +3,7 @@ import Card from './Card';
 import FormPopup from '../userform/FormPopup';
 import './SearchFilterWithCards.css'; // Import the CSS file
 
-const SearchFilterWithCards = ({ data }) => {
+const SearchFilterWithCards = ({ data , filterPara}) => {
   const [showForm, setShowForm] = useState(false);
 
   const onCardClick = (e) => {
@@ -17,7 +17,7 @@ const SearchFilterWithCards = ({ data }) => {
    
     <>
       {data?.map((city) =>
-        city.cardData?.map((city,index) => (
+        city.cardData?.filter((item)=> item.city==filterPara).map((city,index) => (
           <div key={index} className="card-search-list-data-item">
             <div className="card-search-list-header"></div>
             <div className="card-search-list-body">

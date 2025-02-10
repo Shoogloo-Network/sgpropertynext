@@ -24,7 +24,7 @@ const HotProduct = () => {
   }, [cardData]);
   // console.log(cardData);
 
- 
+
 
   const addToLocalStorage = (item) => {
     const existingData = JSON.parse(
@@ -47,7 +47,7 @@ const HotProduct = () => {
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             cursor: "pointer",
-            
+
             position: "relative",
           }}
         >
@@ -87,16 +87,16 @@ const HotProduct = () => {
           />
           <div
             style={{
-             
+
               width: "100%",
-              
-              position:"absolute",
-              bottom:"0",
-             display:"flex",
-             flexDirection:"column",
-       gap:"180px",
-       margin:"0 auto",
-       
+
+              position: "absolute",
+              bottom: "0",
+              display: "flex",
+              flexDirection: "column",
+              gap: "180px",
+              margin: "0 auto",
+
               zIndex: 10,
               pointerEvents: "none",
             }}
@@ -107,62 +107,23 @@ const HotProduct = () => {
                 gap: "10px",
                 justifyContent: "space-between",
                 marginBottom: "5px",
-                position:"relative",
-                top:"0",
+                position: "relative",
+                top: "0",
                 pointerEvents: "none",
               }}
             >
-              {/* <div
-                style={{
-                  display: "flex",
-                  backgroundColor: "orange",
-                  color: "black",
-                  gap: "10px",
-                  padding: "5px 15px",
-                  pointerEvents: "none",
-                  fontWeight: "bold",
-                  borderRadius: "4px",
-                }}
-              >
-                <img
-                  src="/images/story.png"
-                  alt="Exclusive"
-                  height={20}
-                  width={20}
-                />
-                <p>Exclusive</p>
-              </div>
-              <div
-                style={{
-                  display: "flex",
-                  backgroundColor: "#fff",
-                  color: "black",
-                  gap: "10px",
-                  padding: "5px 15px",
-                  pointerEvents: "none",
-                  fontWeight: "bold",
-                  borderRadius: "4px",
-                }}
-              >
-                <img
-                  src="/images/story.png"
-                  alt="Square Assured"
-                  height={20}
-                  width={20}
-                />
-                <p>Square Assured</p>
-              </div> */}
+
             </div>
-           <div style={{display:"flex",flexDirection:"column",gap:"10px"}}>
-          
-            <HotSellingCard
-              image={"/images/"+item.image}
-              title={item.title}
-              description={item.description}
-              descriptionPrice={item.descriptionPrice}
-              iconCardData={item.iconCardData}
-            />
-           </div>
+            <div style={{ display: "flex", flexDirection: "column", gap: "10px" }}>
+
+              <HotSellingCard
+                image={"/images/" + item.image}
+                title={item.title}
+                description={item.description}
+                descriptionPrice={item.descriptionPrice}
+                iconCardData={item.iconCardData}
+              />
+            </div>
           </div>
         </div>
       ) : (

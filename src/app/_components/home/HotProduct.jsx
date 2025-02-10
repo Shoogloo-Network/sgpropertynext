@@ -1,11 +1,12 @@
 "use client";
 import Stories from "react-insta-stories";
-import Card from "../cards/Card";
 import { useState, useEffect } from "react";
 import { useRouter } from "next/navigation";
+import IconCard from '../cards/IconCard';
 import FormPopup from "../userform/FormPopup";
 
 import { fetchData } from "../api/data";
+import HotSellingCard from "../cards/HotSellingCard";
 const HotProduct = () => {
   const router = useRouter();
   const [currentIndex, setCurrentIndex] = useState(0);
@@ -41,11 +42,12 @@ const HotProduct = () => {
           style={{
             backgroundColor: "#fff",
             backgroundImage: `url("images/${item.backgroundImage}")`,
-            height: "100%",
+            height: "400px",
             width: "100%",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             cursor: "pointer",
+            
             position: "relative",
           }}
         >
@@ -85,9 +87,16 @@ const HotProduct = () => {
           />
           <div
             style={{
-              width: "40%",
-              marginTop: "25px",
-              position: "relative",
+             
+              width: "100%",
+              
+              position:"absolute",
+              bottom:"0",
+             display:"flex",
+             flexDirection:"column",
+       gap:"180px",
+       margin:"0 auto",
+       
               zIndex: 10,
               pointerEvents: "none",
             }}
@@ -96,8 +105,10 @@ const HotProduct = () => {
               style={{
                 display: "flex",
                 gap: "10px",
-                justifyContent: "center",
+                justifyContent: "space-between",
                 marginBottom: "5px",
+                position:"relative",
+                top:"0",
                 pointerEvents: "none",
               }}
             >
@@ -142,13 +153,18 @@ const HotProduct = () => {
                 <p>Square Assured</p>
               </div>
             </div>
-            <Card
+           <div style={{display:"flex",flexDirection:"column",gap:"10px"}}>
+           <div >
+              <IconCard data={item.iconCardData} />
+            </div>
+            <HotSellingCard
               image={"/images/"+item.image}
               title={item.title}
               description={item.description}
               descriptionPrice={item.descriptionPrice}
-              iconCardData={item.iconCardData}
+            
             />
+           </div>
           </div>
         </div>
       ) : (

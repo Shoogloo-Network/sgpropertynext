@@ -16,7 +16,7 @@ const HomeCategory = () => {
      {
       imgSrc: 'buildinghome.jfif',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
-       url:"/home-interior",
+       url:"/interior-design-plans",
      },
      {
       imgSrc: 'buildinghome.jfif',
@@ -49,7 +49,7 @@ const HomeCategory = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
-         url:"/home-interior",
+         url:"/interior-design-plans",
        },
        {
         imgSrc: 'buildinghome.jfif',

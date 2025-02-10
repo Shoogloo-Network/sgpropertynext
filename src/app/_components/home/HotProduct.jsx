@@ -112,7 +112,7 @@ const HotProduct = () => {
                 pointerEvents: "none",
               }}
             >
-              <div
+              {/* <div
                 style={{
                   display: "flex",
                   backgroundColor: "orange",
@@ -151,18 +151,16 @@ const HotProduct = () => {
                   width={20}
                 />
                 <p>Square Assured</p>
-              </div>
+              </div> */}
             </div>
            <div style={{display:"flex",flexDirection:"column",gap:"10px"}}>
-           <div >
-              <IconCard data={item.iconCardData} />
-            </div>
+          
             <HotSellingCard
               image={"/images/"+item.image}
               title={item.title}
               description={item.description}
               descriptionPrice={item.descriptionPrice}
-            
+              iconCardData={item.iconCardData}
             />
            </div>
           </div>

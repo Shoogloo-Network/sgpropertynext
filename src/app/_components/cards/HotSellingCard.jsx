@@ -3,7 +3,7 @@ import './HotSellingCard.css';
 import IconCard from './IconCard';
 import BtnPrimaryWithIcon from '../buttons/BtnPrimaryWithIcon';
 
-const HotSellingCard = ({ title, description, descriptionPrice, onClick, url }) => {
+const HotSellingCard = ({ title, description, descriptionPrice,iconCardData ,onClick, url }) => {
   const router = useRouter();
 
   const onImageClick = () => {
@@ -12,37 +12,37 @@ const HotSellingCard = ({ title, description, descriptionPrice, onClick, url }) 
 
   return (
     <div className="hotselling-card hotselling-fade-in hotselling-card-cursor">
-      {url ? (
-        <div className="hotselling-card-flex-row">
-          <div className="hotselling-card-image-wrapper">
-            <img
-              src={"/images/" + url}
-              alt="card"
-              className="hotselling-card-image-style"
-              onClick={onImageClick}
-            />
-          </div>
-          <div className="hotselling-card-content hotselling-card-content-half" onClick={onClick}>
-            <div className="hotselling-card-title-row">
-            <BtnPrimaryWithIcon iconName="FaPhone" cnt="Get a Callback" />
-              <h3 className="hotselling-card-title">{title}</h3>
-              <p className="hotselling-card-description">{description}</p>
-            </div>
-            <p className="hotselling-card-description-color">{descriptionPrice}</p>
-           
-            
-          </div>
-        </div>
-      ) : (
+       
         <div className="hotselling-card-content" onClick={onClick}>
              <BtnPrimaryWithIcon iconName="FaPhone" cnt="Get a Callback" />
-          <h3 className="hotselling-card-title">{title}</h3>
-          <p className="hotselling-card-description">{description}</p>
-          <p className="hotselling-card-description-color">{descriptionPrice}</p>
-          
-         
         </div>
-      )}
+        <div className="hotselling-card-content" onClick={onClick} style={{display:"flex",flexDirection:"column",gap:"0",alignItems:"flex-start"}}>
+            <h3 className="hotselling-card-title">{title}</h3>
+            <div >
+              {/* <IconCard data={iconCardData} /> */}
+              <div style={{display:"flex",alignItems:"center",gap:"2px"}}><img src='/images/building.png' alt='icon image' height={20} width={20} />
+             <div>
+             <p>Configuration</p>
+             <p>165 unit, 1.25 Acres</p>
+             </div>
+             </div>
+            
+            </div>
+        </div>
+        <div className="hotselling-card-content" onClick={onClick} style={{display:"flex",flexDirection:"column",gap:"0",alignItems:"flex-start"}}>
+            <h3 className="hotselling-card-description">{description}</h3>
+           <div style={{display:"flex",alignItems:"center",gap:"2px"}}><img src='/images/building.png' alt='icon image' height={20} width={20} />
+             <div>
+             <p>Configuration</p>
+             <p>165 unit, 1.25 Acres</p>
+             </div>
+             </div>
+        </div>
+        <div className="hotselling-card-content" onClick={onClick} style={{display:"flex",flexDirection:"column",gap:"0",alignItems:"flex-start"}}>
+        <h3 className="hotselling-card-description">Price Range</h3>
+            <p className="hotselling-card-description-color">{descriptionPrice}</p>
+        </div>
+     
     </div>
   );
 };

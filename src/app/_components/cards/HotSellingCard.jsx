@@ -24,21 +24,23 @@ const HotSellingCard = ({ title, description, descriptionPrice, onClick, url }) 
           </div>
           <div className="hotselling-card-content hotselling-card-content-half" onClick={onClick}>
             <div className="hotselling-card-title-row">
+            <BtnPrimaryWithIcon iconName="FaPhone" cnt="Get a Callback" />
               <h3 className="hotselling-card-title">{title}</h3>
               <p className="hotselling-card-description">{description}</p>
             </div>
             <p className="hotselling-card-description-color">{descriptionPrice}</p>
            
-            <BtnPrimaryWithIcon iconName="FaPhone" cnt="Get a Callback" />
+            
           </div>
         </div>
       ) : (
         <div className="hotselling-card-content" onClick={onClick}>
+             <BtnPrimaryWithIcon iconName="FaPhone" cnt="Get a Callback" />
           <h3 className="hotselling-card-title">{title}</h3>
           <p className="hotselling-card-description">{description}</p>
           <p className="hotselling-card-description-color">{descriptionPrice}</p>
           
-          <BtnPrimaryWithIcon iconName="FaPhone" cnt="Get a Callback" />
+         
         </div>
       )}
     </div>

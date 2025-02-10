@@ -88,6 +88,25 @@
     width: 100%;
 }
 
+
+
+.hotselling-flex-column {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 0;
+}
+
+.hotselling-info-wrapper {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.hotselling-icon-image {
+    height: 20px;
+    width: 20px;
+}
 @media (max-width: 768px) {
     .hotselling-card {
         box-shadow: 0 1px 4px rgba(0, 0, 0, 0.1);
@@ -95,18 +114,15 @@
     }
 
     .hotselling-card-title {
-        font-size: 1em;
-        margin-bottom: 5px;
+        font-size: 0.9em;
+       
     }
 
     .hotselling-card-description {
         font-size: 0.9em;
-        margin-bottom: 5px;
+        
     }
 
-    .hotselling-card-content {
-        padding: 10px;
-    }
 
     .hotselling-card-flex-row {
         flex-direction: column;
@@ -137,4 +153,9 @@
         align-items: center;
         gap: 5px;
     }
+
+    .hotselling-info-wrapper-div > P{
+        font-size:12px;
+    }
 }
+

@@ -2,21 +2,26 @@
 import React from 'react'
 import {useState} from 'react'
 import './HomeCategory.css'
+import { useRouter } from 'next/navigation';
 const HomeCategory = () => {
+  const router = useRouter();
   const [activeTab, setActiveTab] = useState('Living Room');
    const [cardData, setCardData] = useState(
      [
      {
        imgSrc: 'buildinghome.jfif',
-       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
+       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
+       url:"/home-interior",
      },
      {
       imgSrc: 'buildinghome.jfif',
-       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
+       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
+       url:"/home-interior",
      },
      {
       imgSrc: 'buildinghome.jfif',
-       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
+       title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
+       url:"/home-interior",
      },
      
    ] 
@@ -38,105 +43,126 @@ const HomeCategory = () => {
      'Living Room': [
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
+         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
+         url:"/home-interior",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
+         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
+         url:"/home-interior",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa'
+         title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
+         url:"/home-interior",
        },
       
      ],
      'Modular Kitchen': [
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Modern Modular Kitchen Design'
+         title: 'Modern Modular Kitchen Design',
+         url:"/home-interior",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Modern Modular Kitchen Design'
+         title: 'Modern Modular Kitchen Design',
+         url:"/home-interior",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Modern Modular Kitchen Design'
+         title: 'Modern Modular Kitchen Design',
+         url:"/home-interior",
        },
        
      ],
      'Wardrobe': [
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Spacious Wardrobe Design'
+         title: 'Spacious Wardrobe Design',
+         url:"/home-interior",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Spacious Wardrobe Design'
+         title: 'Spacious Wardrobe Design',
+         url:"/home-interior",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Spacious Wardrobe Design'
+         title: 'Spacious Wardrobe Design',
+         url:"/home-interior",
        },
        
      ],
      'Master Bedroom': [
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Elegant Master Bedroom Design'
+         title: 'Elegant Master Bedroom Design',
+         url:"/home-interior",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Elegant Master Bedroom Design'
+         title: 'Elegant Master Bedroom Design',
+         url:"/home-interior",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Elegant Master Bedroom Design'
+         title: 'Elegant Master Bedroom Design',
+         url:"/home-interior",
        },
        
      ],
      'Kids Room': [
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Fun and Colorful Kids Room Design'
+         title: 'Fun and Colorful Kids Room Design',
+         url:"/home-interior",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Fun and Colorful Kids Room Design'
+         title: 'Fun and Colorful Kids Room Design',
+         url:"/home-interior",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Fun and Colorful Kids Room Design'
+         title: 'Fun and Colorful Kids Room Design',
+         url:"/home-interior",
        },
        
      ],
      'Kitchen Walls Tiles': [
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Stylish Kitchen Walls Tiles Design'
+         title: 'Stylish Kitchen Walls Tiles Design',
+         url:"/home-interior",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Stylish Kitchen Walls Tiles Design'
+         title: 'Stylish Kitchen Walls Tiles Design',
+         url:"/home-interior",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Stylish Kitchen Walls Tiles Design'
+         title: 'Stylish Kitchen Walls Tiles Design',
+         url:"/home-interior",
        },
        
      ],
      'Kitchen False Ceiling': [
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Modern Kitchen False Ceiling Design'
+         title: 'Modern Kitchen False Ceiling Design',
+         url:"/home-interior",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Modern Kitchen False Ceiling Design'
+         title: 'Modern Kitchen False Ceiling Design',
+         url:"/home-interior",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Modern Kitchen False Ceiling Design'
+         title: 'Modern Kitchen False Ceiling Design',
+         url:"/home-interior",
        },
        
      ],
@@ -163,7 +189,7 @@ const HomeCategory = () => {
        <div className="homeinterior-section-card">
          {cardData.map((card, index) => (
            <div key={index} className="homeinterior-item-card">
-             <img src={"/images/"+card.imgSrc} alt="Card Image" />
+             <img src={"/images/"+card.imgSrc} alt="Card Image" onClick={()=>{router.push(card.url)} }/>
              <h4>{card.title}</h4>
            </div>
          ))}

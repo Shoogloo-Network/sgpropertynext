@@ -1,22 +1,28 @@
 "use client"
 import React from 'react'
 import {useState} from 'react'
+import { useRouter } from 'next/navigation';
+
 import './ReadyToMove.css'
 const ReadyToMove = () => {
+  const router = useRouter();
   const [activeTab, setActiveTab] = useState('Delhi');
    const [cardData, setCardData] = useState(
      [
      {
        imgSrc: 'buildinghome.jfif',
-       title: 'Luxury Contemporary Delhi Design With L Shaped Sofa'
+       title: 'Luxury Contemporary Delhi Design With L Shaped Sofa',
+       url:"/detail-page",
      },
      {
       imgSrc: 'buildinghome.jfif',
-       title: 'Luxury Contemporary Delhi Design With L Shaped Sofa'
+       title: 'Luxury Contemporary Delhi Design With L Shaped Sofa',
+       url:"/detail-page",
      },
      {
       imgSrc: 'buildinghome.jfif',
-       title: 'Luxury Contemporary Delhi Design With L Shaped Sofa'
+       title: 'Luxury Contemporary Delhi Design With L Shaped Sofa',
+       url:"/detail-page",
      },
      
    ] 
@@ -38,105 +44,126 @@ const ReadyToMove = () => {
      'Delhi': [
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Luxury Contemporary Delhi Design With L Shaped Sofa'
+         title: 'Luxury Contemporary Delhi Design With L Shaped Sofa',
+         url:"/detail-page",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Luxury Contemporary Delhi Design With L Shaped Sofa'
+         title: 'Luxury Contemporary Delhi Design With L Shaped Sofa',
+         url:"/detail-page",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Luxury Contemporary Delhi Design With L Shaped Sofa'
+         title: 'Luxury Contemporary Delhi Design With L Shaped Sofa',
+         url:"/detail-page",
        },
       
      ],
      'Gurgaon': [
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Modern Gurgaon Design'
+         title: 'Modern Gurgaon Design',
+         url:"/detail-page",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Modern Gurgaon Design'
+         title: 'Modern Gurgaon Design',
+         url:"/detail-page",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Modern Gurgaon Design'
+         title: 'Modern Gurgaon Design',
+         url:"/detail-page",
        },
        
      ],
      'Noida': [
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Spacious Noida Design'
+         title: 'Spacious Noida Design',
+         url:"/detail-page",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Spacious Noida Design'
+         title: 'Spacious Noida Design',
+         url:"/detail-page",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Spacious Noida Design'
+         title: 'Spacious Noida Design',
+         url:"/detail-page",
        },
        
      ],
      'Uttar Pardesh': [
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Elegant Uttar Pardesh Design'
+         title: 'Elegant Uttar Pardesh Design',
+         url:"/detail-page",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Elegant Uttar Pardesh Design'
+         title: 'Elegant Uttar Pardesh Design',
+         url:"/detail-page",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Elegant Uttar Pardesh Design'
+         title: 'Elegant Uttar Pardesh Design',
+         url:"/detail-page",
        },
        
      ],
      'Haryana': [
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Fun and Colorful Haryana Design'
+         title: 'Fun and Colorful Haryana Design',
+         url:"/detail-page",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Fun and Colorful Haryana Design'
+         title: 'Fun and Colorful Haryana Design',
+         url:"/detail-page",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Fun and Colorful Haryana Design'
+         title: 'Fun and Colorful Haryana Design',
+         url:"/detail-page",
        },
        
      ],
      'Gujrat': [
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Stylish Gujrat Design'
+         title: 'Stylish Gujrat Design',
+         url:"/detail-page",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Stylish Gujrat Design'
+         title: 'Stylish Gujrat Design',
+         url:"/detail-page",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Stylish Gujrat Design'
+         title: 'Stylish Gujrat Design',
+         url:"/detail-page",
        },
        
      ],
      'Mumbai': [
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Modern Mumbai Design'
+         title: 'Modern Mumbai Design',
+         url:"/detail-page",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Modern Mumbai Design'
+         title: 'Modern Mumbai Design',
+         url:"/detail-page",
        },
        {
         imgSrc: 'buildinghome.jfif',
-         title: 'Modern Mumbai Design'
+         title: 'Modern Mumbai Design',
+         url:"/detail-page",
        },
        
      ],
@@ -163,7 +190,7 @@ const ReadyToMove = () => {
        <div className="homeinterior-section-card">
          {cardData.map((card, index) => (
            <div key={index} className="homeinterior-item-card">
-             <img src={"/images/"+card.imgSrc} alt="Card Image" />
+             <img src={"/images/"+card.imgSrc} alt="Card Image" onClick={()=>{router.push(card.url)} }/>
              <h4>{card.title}</h4>
            </div>
          ))}

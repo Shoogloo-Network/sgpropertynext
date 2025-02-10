@@ -9,7 +9,7 @@ const IconCard = ({ data , onClick ,style,imgStyle,logout}) => {
         <div key={index} className="icon-card" onClick={()=>{
           onClick(item,index,setHoveredIndex); 
           setHoveredIndex(index);
-          if(logout&&index===8){
+          if(logout&&index===5){
             logout();
           }
         }} style={{backgroundColor:hoveredIndex===index?'#f0f0f0':'#fff'}} >

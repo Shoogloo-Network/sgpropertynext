@@ -10,7 +10,7 @@ import '../../agents/agent-details/AgentDetails.css'
 
 const CardSearchListData = memo(({ cities }) => {
   const [selectedFilter, setSelectedFilter] = useState("All");
-  const [selectedCity , setSelectedCity] = useState("");
+  const [selectedCity , setSelectedCity] = useState("Pune");
   const filters = ["All", "New Launch", "Ready To Move", "Upcoming"];
   const handleFilterClick = (filter) => {
     

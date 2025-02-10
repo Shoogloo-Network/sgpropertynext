@@ -22,9 +22,6 @@ const HotProduct = () => {
       setCurrentIndex(0); // Reset to the first story
     }
   }, [cardData]);
-  // console.log(cardData);
-
-
 
   const addToLocalStorage = (item) => {
     const existingData = JSON.parse(
@@ -56,7 +53,6 @@ const HotProduct = () => {
               e.stopPropagation();
               e.preventDefault();
               setShowForm(true);
-              // console.log("Clicked Card Data (Form):", item);
             }}
             style={{
               position: "absolute",
@@ -72,7 +68,6 @@ const HotProduct = () => {
               e.stopPropagation();
               e.preventDefault();
               router.push("/detail-page");
-              // console.log("Clicked Card Data (Navigate):", item);
               addToLocalStorage(item);
             }}
             style={{
@@ -87,16 +82,13 @@ const HotProduct = () => {
           />
           <div
             style={{
-
               width: "100%",
-
               position: "absolute",
               bottom: "0",
               display: "flex",
               flexDirection: "column",
               gap: "180px",
               margin: "0 auto",
-
               zIndex: 10,
               pointerEvents: "none",
             }}

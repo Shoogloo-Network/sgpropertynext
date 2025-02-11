@@ -1,6 +1,7 @@
 "use client"
 import  { useState, useRef, useEffect } from 'react';
 import { FaSearch, FaMapMarkerAlt, FaChevronDown, FaChevronUp} from 'react-icons/fa';
+import { useRouter } from 'next/navigation';
 import './RealStateHomeSearchBar.css';
 
 const RealStateHomeSearchBar = ({   iconCard , style , budgetRange , propertyTypeData}) => {
@@ -16,6 +17,8 @@ const RealStateHomeSearchBar = ({   iconCard , style , budgetRange , propertyTyp
   const budgetRanges = budgetRange;
   const propertyTypes = propertyTypeData;
 
+  const router = useRouter();
+  
   useEffect(() => {
     const handleClickOutside = (event) => {
       if (dropdownRef.current && !dropdownRef.current?.contains(event.target)) {
@@ -60,10 +63,12 @@ const RealStateHomeSearchBar = ({   iconCard , style , budgetRange , propertyTyp
       },
       propertyCategory: propertyType,
       propertyTypes: selectedUnitTypes,
-      timestamp: new Date().toISOString()
+      timestamp: new Date().toISOString(),
+      city:"noida"
     };
 
-    // console.log('Final Search Data:', searchData);
+    console.log('Final Search Data:', searchData);
+    router.push(`/in/${searchData.searchType}/${searchData.city}/${searchData.location}`)
   };
 
   return (

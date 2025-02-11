@@ -883,7 +883,7 @@
           "title": "Configurations",
           "description": "2-BHK , 3-BHK Flats, 4-BHK Flats, 4.5-BHK Flats"
         }
-      ]
+      ],  "city":"Pune"
     },
     {
       "id": 2,
@@ -903,7 +903,7 @@
           "title": "Configurations",
           "description": "2-BHK , 3-BHK Flats, 4-BHK Flats, 4.5-BHK Flats"
         }
-      ]
+      ],  "city":"delhi"
     },
     {
       "id": 3,
@@ -923,7 +923,7 @@
           "title": "Configurations",
            "description": "2-BHK , 3-BHK Flats, 4-BHK Flats, 4.5-BHK Flats"
         }
-      ]
+      ],  "city":"gurgaon"
     },
     {
       "id": 4,
@@ -943,7 +943,7 @@
           "title": "Configurations",
           "description": "2-BHK , 3-BHK Flats"
         }
-      ]
+      ],  "city":"goa"
     },
     {
       "id": 5,
@@ -963,7 +963,7 @@
           "title": "Configurations",
           "description": "2-BHK , 3-BHK Flats"
         }
-      ]
+      ],  "city":"haridwar"
     }
   ],
   "units": [

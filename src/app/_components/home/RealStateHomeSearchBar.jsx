@@ -66,9 +66,8 @@ const RealStateHomeSearchBar = ({   iconCard , style , budgetRange , propertyTyp
       timestamp: new Date().toISOString(),
       city:"noida"
     };
-
     console.log('Final Search Data:', searchData);
-    router.push(`/in/${searchData.searchType}/${searchData.city}/${searchData.location}`)
+    router.push(`/in/${searchData.searchType}/${searchData.city}/${searchData.location}`);
   };
 
   return (

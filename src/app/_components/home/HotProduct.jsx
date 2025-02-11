@@ -30,7 +30,9 @@ const HotProduct = () => {
     const newData = [...existingData, item];
     localStorage.setItem("clickedCardsHistory", JSON.stringify(newData));
   };
-
+const onHandleClick = (item)=>{
+router.push(`/in/projects/${item.city}/${item.title}/${item.id}`)
+}
   const stories = cardData?.map((item, index) => ({
     content: ({ action, isPaused }) =>
       item.backgroundImage ? (
@@ -44,9 +46,10 @@ const HotProduct = () => {
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
             cursor: "pointer",
-
+            
             position: "relative",
           }}
+         
         >
           <div
             onClick={(e) => {
@@ -67,7 +70,7 @@ const HotProduct = () => {
             onClick={(e) => {
               e.stopPropagation();
               e.preventDefault();
-              router.push("/detail-page");
+            onHandleClick(item);
               addToLocalStorage(item);
             }}
             style={{

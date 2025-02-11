@@ -10,6 +10,7 @@ import DemandSupplyChart from "./_components/home/DemandSupplyChart";
 import HighlightPlusService from "./_components/home/HighlightPlusService"
 import ReadyToMove from "./_components/home/ReadyToMove";
 import { propFilter } from "./_components/utils/GenericFunction";
+import HotProductBackup from "./_components/home/HotProductBackup";
 const UnderConstruction = dynamic(() => import("./_components/home/UnderConstruction"));
 
 const Home = () => {
@@ -38,6 +39,7 @@ return (
             onClick="/search" 
           />
           <HotProduct />
+          {/* <HotProductBackup/> */}
         </div>
         <div className="hspace"></div>
 

@@ -6,7 +6,7 @@ import { useRouter } from "next/navigation";
 import FormPopup from "../userform/FormPopup";
 
 import { fetchData } from "../api/data";
-const HotProduct = () => {
+const HotProductBackup = () => {
   const router = useRouter();
   const [currentIndex, setCurrentIndex] = useState(0);
   const [showForm, setShowForm] = useState(false);
@@ -199,4 +199,4 @@ const HotProduct = () => {
   );
 };
 
-export default HotProduct;
+export default HotProductBackup;

@@ -41,7 +41,7 @@ router.push(`/in/projects/${item.city}/${item.title}/${item.id}`)
           style={{
             backgroundColor: "#fff",
             backgroundImage: `url("images/${item.backgroundImage}")`,
-            height: "400px",
+            height: "360px",
             width: "100%",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",

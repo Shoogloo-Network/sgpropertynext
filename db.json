@@ -757,6 +757,48 @@
                 "city":"Pune"
               },
               {
+                "backgroundImage": "shriram-serenity-project-project-large-image1-7568.avif",
+                "image": "call.png",
+                "title": "Abhishek",
+                "url": "shriram-serenity-project-project-large-image1-7568.avif",
+                "description": "Balewadi , Delhi",
+                "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+                "iconCardData": [
+                  {
+                    "img": "building.png",
+                    "title": "Project Size",
+                    "description": "165 Unit . 1.25 Acres"
+                  },
+                  {
+                    "img": "web-management.png",
+                    "title": "Configurations",
+                    "description": "2-BHK , 3-BHK Flats"
+                  }
+                ],
+                "city":"Delhi"
+              },
+              {
+                "backgroundImage": "shriram-serenity-project-project-large-image1-7568.avif",
+                "image": "call.png",
+                "title": "Abhishek",
+                "url": "shriram-serenity-project-project-large-image1-7568.avif",
+                "description": "Balewadi , Delhi",
+                "descriptionPrice": "₹86.00 Lac - 1.49 Cr",
+                "iconCardData": [
+                  {
+                    "img": "building.png",
+                    "title": "Project Size",
+                    "description": "165 Unit . 1.25 Acres"
+                  },
+                  {
+                    "img": "web-management.png",
+                    "title": "Configurations",
+                    "description": "2-BHK , 3-BHK Flats"
+                  }
+                ],
+                "city":"Delhi"
+              },
+              {
                 "backgroundImage": "krisala-41-westworld-project-project-large-image1-4756.avif",
                 "image": "call.png",
                 "title": "Rise Food Mall",

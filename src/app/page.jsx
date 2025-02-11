@@ -9,6 +9,7 @@ import HomeCategory from "./_components/home/HomeCategory";
 import DemandSupplyChart from "./_components/home/DemandSupplyChart";
 import HighlightPlusService from "./_components/home/HighlightPlusService"
 import ReadyToMove from "./_components/home/ReadyToMove";
+import { propFilter } from "./_components/utils/GenericFunction";
 const UnderConstruction = dynamic(() => import("./_components/home/UnderConstruction"));
 
 const Home = () => {
@@ -22,6 +23,8 @@ const Home = () => {
       buttonName: "View All",
     },
   ];
+
+  console.log(propFilter("apple-cinder"));
 
 return (
     <div id="webid">

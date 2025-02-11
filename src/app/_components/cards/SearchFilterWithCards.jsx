@@ -1,38 +1,56 @@
 import React, { useState } from 'react';
 import Card from './Card';
 import FormPopup from '../userform/FormPopup';
-import './SearchFilterWithCards.css'; // Import the CSS file
 
-const SearchFilterWithCards = ({ data , filterPara}) => {
+const SearchFilterWithCards = ({ data, filterPara }) => {
   const [showForm, setShowForm] = useState(false);
 
   const onCardClick = (e) => {
     e.stopPropagation();
     e.preventDefault();
     setShowForm(true);
-    // console.log('Clicked Card Data:', item); 
   };
 
   return (
-   
     <>
-      {data?.map((city) =>
-        city.cardData?.filter((item)=> item.city==filterPara).map((city,index) => (
-          <div key={index} className="card-search-list-data-item">
-            <div className="card-search-list-header"></div>
-            <div className="card-search-list-body">
-              <Card
-                image={city.image}
-                title={city.title}
-                description={city.description}
-                descriptionPrice={city.descriptionPrice}
-                iconCardData={city.iconCardData}
-                url={city.backgroundImage}
-                onClick={onCardClick}
-              />
+      {data?.map((city, index) =>
+        filterPara === null ? (
+          city.cardData?.map((item, idx) => (
+            <div key={`${index}-${idx}`} className="card-search-list-data-item">
+              <div className="card-search-list-header"></div>
+              <div className="card-search-list-body">
+                <Card
+                  image={item.image}
+                  title={item.title}
+                  description={item.description}
+                  descriptionPrice={item.descriptionPrice}
+                  iconCardData={item.iconCardData}
+                  url={item.backgroundImage}
+                  onClick={onCardClick}
+                />
+              </div>
             </div>
-          </div>
-        ))
+          ))
+        ) : (
+          city.cardData
+            ?.filter((item) => item.city === filterPara)
+            .map((item, idx) => (
+              <div key={`${index}-${idx}`} className="card-search-list-data-item">
+                <div className="card-search-list-header"></div>
+                <div className="card-search-list-body">
+                  <Card
+                    image={item.image}
+                    title={item.title}
+                    description={item.description}
+                    descriptionPrice={item.descriptionPrice}
+                    iconCardData={item.iconCardData}
+                    url={item.backgroundImage}
+                    onClick={onCardClick}
+                  />
+                </div>
+              </div>
+            ))
+        )
       )}
       {showForm && <FormPopup onClose={() => setShowForm(false)} />}
     </>

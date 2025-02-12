@@ -19,7 +19,7 @@ const cityData = {
       location: "Sector 15, Gurugram",
       price: "₹30 L - ₹70 L",
       img: "flats.avif",
-      link: "/property/gurugram/1",
+      link: "/in/under-construction/gurugram/1",
     },
     {
       id: 2,
@@ -28,7 +28,7 @@ const cityData = {
       location: "Sector 20, Gurugram",
       price: "₹35 L - ₹75 L",
       img: "flats.avif",
-      link: "/property/gurugram/2",
+      link: "/in/under-construction/gurugram/2",
     },{
       id: 3,
       title: "Property in Gurugram 1",
@@ -36,7 +36,7 @@ const cityData = {
       location: "Sector 15, Gurugram",
       price: "₹30 L - ₹70 L",
       img: "flats.avif",
-      link: "/property/gurugram/1",
+      link: "/in/under-construction/gurugram/3",
     },
     {
       id: 4,
@@ -45,7 +45,7 @@ const cityData = {
       location: "Sector 20, Gurugram",
       price: "₹35 L - ₹75 L",
       img: "flats.avif",
-      link: "/property/gurugram/2",
+      link: "/in/under-construction/gurugram/4",
     },{
       id: 5,
       title: "Property in Gurugram 1",
@@ -53,7 +53,7 @@ const cityData = {
       location: "Sector 15, Gurugram",
       price: "₹30 L - ₹70 L",
       img: "flats.avif",
-      link: "/property/gurugram/1",
+      link: "/in/under-construction/gurugram/5",
     },
     {
       id: 6,
@@ -62,7 +62,7 @@ const cityData = {
       location: "Sector 20, Gurugram",
       price: "₹35 L - ₹75 L",
       img: "flats.avif",
-      link: "/property/gurugram/2",
+      link: "/in/under-construction/gurugram/6",
     },{
       id: 7,
       title: "Property in Gurugram 1",
@@ -70,7 +70,7 @@ const cityData = {
       location: "Sector 15, Gurugram",
       price: "₹30 L - ₹70 L",
       img: "flats.avif",
-      link: "/property/gurugram/1",
+      link: "/in/under-construction/gurugram/7",
     },
     {
       id: 8,
@@ -79,7 +79,7 @@ const cityData = {
       location: "Sector 20, Gurugram",
       price: "₹35 L - ₹75 L",
       img: "flats.avif",
-      link: "/property/gurugram/2",
+      link: "/in/under-construction/gurugram/8",
     },
   ],
   noida: [
@@ -90,7 +90,7 @@ const cityData = {
       location: "Sector 44, Noida",
       price: "₹25 L - ₹60 L",
       img: "flats.avif",
-      link: "/property/noida/1",
+      link: "/in/under-construction/noida/1",
     },
     {
       id: 10,
@@ -99,7 +99,7 @@ const cityData = {
       location: "Sector 50, Noida",
       price: "₹28 L - ₹65 L",
       img: "flats.avif",
-      link: "/property/noida/2",
+      link: "/in/under-construction/noida/1",
     },
     {
       id: 11,
@@ -108,7 +108,7 @@ const cityData = {
       location: "Sector 44, Noida",
       price: "₹25 L - ₹60 L",
       img: "flats.avif",
-      link: "/property/noida/1",
+      link: "/in/under-construction/noida/1",
     },
     {
       id: 12,
@@ -117,7 +117,7 @@ const cityData = {
       location: "Sector 50, Noida",
       price: "₹28 L - ₹65 L",
       img: "flats.avif",
-      link: "/property/noida/2",
+      link: "/in/under-construction/noida/1",
     },
     {
       id: 13,
@@ -126,7 +126,7 @@ const cityData = {
       location: "Sector 44, Noida",
       price: "₹25 L - ₹60 L",
       img: "flats.avif",
-      link: "/property/noida/1",
+      link: "/in/under-construction/noida/1",
     },
     {
       id: 14,
@@ -135,7 +135,7 @@ const cityData = {
       location: "Sector 50, Noida",
       price: "₹28 L - ₹65 L",
       img: "flats.avif",
-      link: "/property/noida/2",
+      link: "/in/under-construction/noida/1",
     },
     {
       id: 15,
@@ -144,7 +144,7 @@ const cityData = {
       location: "Sector 44, Noida",
       price: "₹25 L - ₹60 L",
       img: "flats.avif",
-      link: "/property/noida/1",
+      link: "/in/under-construction/noida/1",
     },
     {
       id: 16,
@@ -153,7 +153,7 @@ const cityData = {
       location: "Sector 50, Noida",
       price: "₹28 L - ₹65 L",
       img: "flats.avif",
-      link: "/property/noida/2",
+      link: "/in/under-construction/noida/1",
     },
   ],
   delhi: [
@@ -164,7 +164,7 @@ const cityData = {
       location: "Dwarka, Delhi",
       price: "₹23.5 L - ₹60.01 L",
       img: "flats.avif",
-      link: "/property/delhi/1",
+      link: "/in/under-construction/delhi/1",
     },
     {
       id: 18,
@@ -173,7 +173,7 @@ const cityData = {
       location: "Rohini, Delhi",
       price: "₹26 L - ₹62 L",
       img: "flats.avif",
-      link: "/property/delhi/2",
+      link: "/in/under-construction/delhi/1",
     },
   ],
   surat: [
@@ -184,7 +184,7 @@ const cityData = {
       location: "Ring Road, Surat",
       price: "₹20 L - ₹50 L",
       img: "flats.avif",
-      link: "/property/surat/1",
+      link: "/in/under-construction/surat/1",
     },
     {
       id: 20,
@@ -193,7 +193,7 @@ const cityData = {
       location: "Adajan, Surat",
       price: "₹22 L - ₹55 L",
       img: "flats.avif",
-      link: "/property/surat/2",
+      link: "/in/under-construction/surat/1",
     },
   ],
 };

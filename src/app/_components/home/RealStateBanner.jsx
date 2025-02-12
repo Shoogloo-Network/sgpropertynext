@@ -21,12 +21,14 @@ const RealStateBanner = () => {
       alignItems:' center',
       flexWrap:'wrap',
       gap: '15px',
-      marginTop: '20px',
+      // marginTop: '20px',
       background: 'white',
-      padding: '10px 5px',
+      // padding: '10px 5px',
      justifyContent:'space-between',
-      borderRadius: '8px',
-      boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
+     width:'90%',
+     margin:'auto',
+      // borderRadius: '8px',
+      // boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
     },
   };
   const iconCards = [

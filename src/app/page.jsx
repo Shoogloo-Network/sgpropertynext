@@ -27,7 +27,7 @@ const Home = () => {
 
   console.log(propFilter("apple-cinder"));
 
-return (
+  return (
     <div id="webid">
       <RealStateBanner />
       <div className="hspace"></div>
@@ -36,7 +36,7 @@ return (
         <div className="home-content" style={{ cursor: "pointer" }}>
           <IconCardBtnWithoutHover
             data={iconDataForButton}
-            onClick="/search" 
+            onClick="/search"
           />
           <HotProduct />
           {/* <HotProductBackup/> */}
@@ -46,44 +46,43 @@ return (
       </div>
       <div className="hspace"></div>
       <div>
-      <h1  className="homeh1"> Ready to Move</h1>
-        <ReadyToMove/>
+        <h1 className="homeh1"> Ready to Move</h1>
+        <ReadyToMove />
       </div>
       <div className="hspace"></div>
       <div className="home-under-construction-section">
-     <h1  className="homeh1"> New under-construction projects</h1>
-        <UnderConstruction/>
+        <h1 className="homeh1"> New under-construction projects</h1>
+        <UnderConstruction />
       </div>
       <div className="hspace"></div>
       <div >
-      <h1  className="homeh1"> Home Interior Projects</h1>
-      <HomeCategory/>
+        <h1 className="homeh1"> Home Interior Projects</h1>
+        <HomeCategory />
       </div>
       <div className="hspace"></div>
       <div >
-      <h1  className="homeh1"> New under-construction projects</h1>
-        <HighlightPlusService/>
+        <h1 className="homeh1"> New under-construction projects</h1>
+        <HighlightPlusService />
       </div>
       <div className="hspace"></div>
       <div className="real-estate-sections">
-          <div className="real-estate-section">
-            <h1 className="section-title">For Real Estate Developers</h1>
-            <CardWithList
-             
-              backgroundColor="#ddf5ff"
-            />
-          </div>
-          <div
-            className="real-estate-section"
-            style={{ backgroundColor: "#fff" }}
-          >
-            <h1 className="section-title">For Agents</h1>
-            <CardWithList
-             
-              backgroundColor="#fff6e7"
-            />
-          </div>
+        <div className="real-estate-section">
+          <h1 className="section-title">For Real Estate Developers</h1>
+          <CardWithList
+            backgroundColor="#ddf5ff"
+          />
         </div>
+        <div
+          className="real-estate-section"
+          style={{ backgroundColor: "#fff" }}
+        >
+          <h1 className="section-title">For Agents</h1>
+          <CardWithList
+
+            backgroundColor="#fff6e7"
+          />
+        </div>
+      </div>
       {/* <div className="home-under-construction-section">
       <h1 > New under-construction projects</h1>
       <div style={{display:"flex",justifyContent:"center",gap:"20px"}} > 
@@ -93,7 +92,7 @@ return (
      <DemandSupplyChart/>
    </div>
       </div> */}
-    
+
     </div>
   );
 };

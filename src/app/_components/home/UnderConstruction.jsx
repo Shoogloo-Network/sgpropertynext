@@ -39,7 +39,7 @@ const UnderConstruction = () => {
       <SwiperSlide className="nextprevwidth"></SwiperSlide>
       <SwiperSlide>
  <div className="property-card">
-  <a href="/detail-page" target="_blank">
+  <a href="/in/under-construction/south-delhi/1" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -57,7 +57,7 @@ const UnderConstruction = () => {
 </div>
 </SwiperSlide>
       <SwiperSlide><div className="property-card">
-  <a href="/detail-page" target="_blank">
+      <a href="/in/under-construction/south-delhi/2" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -74,7 +74,7 @@ const UnderConstruction = () => {
   </a>
 </div></SwiperSlide>
       <SwiperSlide><div className="property-card">
-  <a href="/detail-page" target="_blank">
+      <a href="/in/under-construction/south-delhi/3" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -91,7 +91,7 @@ const UnderConstruction = () => {
   </a>
 </div></SwiperSlide>
       <SwiperSlide><div className="property-card">
-  <a href="/detail-page" target="_blank">
+      <a href="/in/under-construction/south-delhi/4" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -108,7 +108,7 @@ const UnderConstruction = () => {
   </a>
 </div></SwiperSlide>
 <SwiperSlide><div className="property-card">
-  <a href="/detail-page" target="_blank">
+<a href="/in/under-construction/south-delhi/5" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -125,7 +125,7 @@ const UnderConstruction = () => {
   </a>
 </div></SwiperSlide>
 <SwiperSlide><div className="property-card">
-  <a href="/detail-page" target="_blank">
+<a href="/in/under-construction/south-delhi/6" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -142,7 +142,7 @@ const UnderConstruction = () => {
   </a>
 </div></SwiperSlide>
 <SwiperSlide><div className="property-card">
-  <a href="/detail-page" target="_blank">
+<a href="/in/under-construction/south-delhi/7" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -159,7 +159,7 @@ const UnderConstruction = () => {
   </a>
 </div></SwiperSlide>
 <SwiperSlide><div className="property-card">
-  <a href="/detail-page" target="_blank">
+<a href="/in/under-construction/south-delhi/8" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"
@@ -176,7 +176,7 @@ const UnderConstruction = () => {
   </a>
 </div></SwiperSlide>
 <SwiperSlide><div className="property-card">
-  <a href="/detail-page" target="_blank">
+<a href="/in/under-construction/south-delhi/9" target="_blank">
     <div className="image">
       <img
         src="https://housing-images.n7net.in/4f2250e8/1f3f35871f27e395ff9d78fa106c26fc/v0/medium/green_valley_affordable_livings-sewak_park-delhi-green_valley_builders.jpeg"

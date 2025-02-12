@@ -12,17 +12,17 @@ const ReadyToMove = () => {
      {
        imgSrc: 'buildinghome.jfif',
        title: 'Luxury Contemporary Delhi Design With L Shaped Sofa',
-       url:"/detail-page",
+       url:"/in/ready-to-move/projects-in-mumbai/1",
      },
      {
       imgSrc: 'buildinghome.jfif',
        title: 'Luxury Contemporary Delhi Design With L Shaped Sofa',
-       url:"/detail-page",
+       url:"/in/ready-to-move/projects-in-noida/2",
      },
      {
       imgSrc: 'buildinghome.jfif',
        title: 'Luxury Contemporary Delhi Design With L Shaped Sofa',
-       url:"/detail-page",
+       url:"/in/ready-to-move/projects-in-delhi/3",
      },
      
    ] 
@@ -45,17 +45,17 @@ const ReadyToMove = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Luxury Contemporary Delhi Design With L Shaped Sofa',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-delhi/3",
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Luxury Contemporary Delhi Design With L Shaped Sofa',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-delhi/3",
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Luxury Contemporary Delhi Design With L Shaped Sofa',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-delhi/3",
        },
       
      ],
@@ -63,17 +63,17 @@ const ReadyToMove = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Modern Gurgaon Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-gurgaon/3",
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Modern Gurgaon Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-gurgaon/3",
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Modern Gurgaon Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-gurgaon/3",
        },
        
      ],
@@ -81,17 +81,17 @@ const ReadyToMove = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Spacious Noida Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-noida/3",
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Spacious Noida Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-noida/3",
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Spacious Noida Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-noida/3",
        },
        
      ],
@@ -99,17 +99,17 @@ const ReadyToMove = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Elegant Uttar Pardesh Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-noida/3",
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Elegant Uttar Pardesh Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-noida/3",
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Elegant Uttar Pardesh Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-noida/3",
        },
        
      ],
@@ -117,17 +117,17 @@ const ReadyToMove = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Fun and Colorful Haryana Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-noida/3",
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Fun and Colorful Haryana Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-noida/3",
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Fun and Colorful Haryana Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-noida/3",
        },
        
      ],
@@ -135,17 +135,17 @@ const ReadyToMove = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Stylish Gujrat Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-gujrat/3",
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Stylish Gujrat Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-gujrat/3",
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Stylish Gujrat Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-gujrat/3",
        },
        
      ],
@@ -153,17 +153,17 @@ const ReadyToMove = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Modern Mumbai Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-mumbai/3",
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Modern Mumbai Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-mumbai/3",
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Modern Mumbai Design',
-         url:"/detail-page",
+         url:"/in/ready-to-move/projects-in-mumbai/3",
        },
        
      ],

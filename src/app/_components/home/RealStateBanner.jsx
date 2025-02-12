@@ -24,7 +24,7 @@ const RealStateBanner = () => {
       marginTop: '20px',
       background: 'white',
       padding: '10px 5px',
-     
+     justifyContent:'space-between',
       borderRadius: '8px',
       boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
     },

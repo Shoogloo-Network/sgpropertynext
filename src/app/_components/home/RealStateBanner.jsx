@@ -27,7 +27,7 @@ const RealStateBanner = () => {
      justifyContent:'space-between',
      width:'90%',
      margin:'auto',
-      // borderRadius: '8px',
+      borderRadius: '8px',
       // boxShadow: '0 4px 20px rgba(0, 0, 0, 0.1)',
     },
   };

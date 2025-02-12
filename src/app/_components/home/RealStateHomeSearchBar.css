@@ -84,12 +84,12 @@
 }
 
 .location-icon {
-  position: absolute;
+  /* position: absolute;
   right: 15px;
   top: 50%;
   transform: translateY(-50%);
   color: #666;
-  font-size: 18px;
+  font-size: 18px; */
 }
 
 .dropdown-container {
@@ -403,7 +403,7 @@ input[type="checkbox"] {
   align-items: center;
   /* border: 1px solid #ccc;
   border-radius: 4px; */
-  width: 40%;
+  width: 46%;
  
 }
 

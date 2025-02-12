@@ -11,17 +11,17 @@ const HomeCategory = () => {
      {
        imgSrc: 'buildinghome.jfif',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
-       url:"/in/home-interior/south-delhi/1" ,
+       url:"/in/home-interior/living-room/1" ,
      },
      {
       imgSrc: 'buildinghome.jfif',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
-       url:"/in/home-interior/south-delhi/2" ,
+       url:"/in/home-interior/living-room/2" ,
      },
      {
       imgSrc: 'buildinghome.jfif',
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
-       url:"/in/home-interior/south-delhi/3" ,
+       url:"/in/home-interior/living-room/3" ,
      },
      
    ] 
@@ -44,17 +44,17 @@ const HomeCategory = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/living-room/1" ,
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/living-room/1" ,
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/living-room/1" ,
        },
       
      ],
@@ -62,17 +62,17 @@ const HomeCategory = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Modern Modular Kitchen Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/modular-kitchen/1" ,
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Modern Modular Kitchen Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/modular-kitchen/1" ,
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Modern Modular Kitchen Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/modular-kitchen/1" ,
        },
        
      ],
@@ -80,17 +80,17 @@ const HomeCategory = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Spacious Wardrobe Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/wardrobe/1" ,
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Spacious Wardrobe Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/wardrobe/1" ,
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Spacious Wardrobe Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/wardrobe/1" ,
        },
        
      ],
@@ -98,17 +98,17 @@ const HomeCategory = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Elegant Master Bedroom Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/master-bedroom/1" ,
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Elegant Master Bedroom Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/master-bedroom/1" ,
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Elegant Master Bedroom Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/master-bedroom/1" ,
        },
        
      ],
@@ -116,17 +116,17 @@ const HomeCategory = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Fun and Colorful Kids Room Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/kids-room/1" ,
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Fun and Colorful Kids Room Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/kids-room/1" ,
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Fun and Colorful Kids Room Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/kids-room/1" ,
        },
        
      ],
@@ -134,17 +134,17 @@ const HomeCategory = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Stylish Kitchen Walls Tiles Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/kitchen-walls-tiles/1" ,
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Stylish Kitchen Walls Tiles Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/kitchen-walls-tiles/1" ,
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Stylish Kitchen Walls Tiles Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/kitchen-walls-tiles/1" ,
        },
        
      ],
@@ -152,17 +152,17 @@ const HomeCategory = () => {
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Modern Kitchen False Ceiling Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/kitchen-false-ceiling/1" ,
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Modern Kitchen False Ceiling Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/kitchen-false-ceiling/1" ,
        },
        {
         imgSrc: 'buildinghome.jfif',
          title: 'Modern Kitchen False Ceiling Design',
-         url:"/in/home-interior/south-delhi/1" ,
+         url:"/in/home-interior/kitchen-false-ceiling/1" ,
        },
        
      ],

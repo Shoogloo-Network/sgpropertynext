@@ -14,7 +14,7 @@ const FormPopup = ({ onClose }) => {
     };
 
     try {
-      const response = await postData('user/register', {
+      const response = await postData(NEXT_PUBLIC_API_USER_REGISTER, {
         name: formData.name,
         email: formData.email,
         mobile: formData.phone,

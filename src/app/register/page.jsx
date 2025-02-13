@@ -3,8 +3,7 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import './Register.css';
-import axios from 'axios';
-
+import { postData } from '../_components/api/data';
 const Register = () => {
   const router = useRouter();
   const [formData, setFormData] = useState({
@@ -17,13 +16,9 @@ const Register = () => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    
     localStorage.setItem('user', JSON.stringify(formData));
-
-  
-
     try {
-      const response = await postData('user/register', {
+      const response = await postData(process.env.NEXT_PUBLIC_API_USER_REGISTER, {
         name: formData.fname,
         email: formData.email,
         mobile: formData.phone,
@@ -35,7 +30,7 @@ const Register = () => {
       console.log(response);
       // Optionally, notify the user of success (e.g., using alert, toast, or state)
       // alert("Form submitted successfully!");
-      onClose(); // Close the popup if needed
+      router.push('/')
     } catch (error) {
       console.error(error);
       // Optionally, notify the user of the error

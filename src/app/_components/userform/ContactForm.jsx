@@ -2,6 +2,7 @@
 import  { useState } from 'react';
 import './ContactForm.css';
 import axios from 'axios';
+import { postData } from '../api/data'; 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',
@@ -32,7 +33,7 @@ const ContactForm = () => {
     e.preventDefault();
     // console.log(formData);
     try {
-      const response = await postData('user/register', {
+      const response = await postData(NEXT_PUBLIC_API_USER_REGISTER, {
         name: formData.name,
         email: formData.email,
         mobile: formData.phone,

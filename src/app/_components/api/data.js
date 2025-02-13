@@ -14,7 +14,7 @@ const fetchData = async (endpoint, setter) => {
 const postData = async (endpoint, data) => {
     try {
       const response = await axios.post(
-        `${process.env.NEXT_PUBLIC_DBJSON_URL}/${endpoint}`,
+        `${process.env.NEXT_PUBLIC_APP_URL}${endpoint}`,
         data,
         {
           headers: {

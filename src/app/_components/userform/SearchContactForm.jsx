@@ -1,7 +1,7 @@
 "use client"
 import  { useState } from 'react';
 import './SearchContactForm.css';
-
+import { postData } from '../api/data'; 
 const ContactForm = () => {
   const [formData, setFormData] = useState({
     name: '',

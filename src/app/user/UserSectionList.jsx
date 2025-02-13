@@ -63,7 +63,7 @@ const UserSectionList = ({ onClick, logout }) => {
                     <FaUserCircle size={50} color="#808080" />
                 )}
                 <div>
-                    <h4 className="user-name">{userData?.name.slice(0,8) || 'Guest'}</h4>
+                    <h4 className="user-name">{userData?.name?.slice(0,3) || 'Guest'}</h4>
                     {/* <a >
                         <p className="user-email">{userData?.email || 'Please login'}</p>
                     </a> */}

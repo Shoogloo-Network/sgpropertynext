@@ -28,9 +28,30 @@ const ContactForm = () => {
     }
   };
 
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
     // console.log(formData);
+    try {
+      const response = await axios.post(
+        'https://www.parislondrestrain.fr/mapi/user/register',
+        {
+          name: formData.name,
+          email: formData.email,
+          mobile: formData.phone,
+          lastname: "Dash",
+          message: formData.message,
+          status: 0,
+          password: "test@1234",
+        }
+      );
+      console.log(response.data.payload.email);
+      // Optionally, notify the user of success (e.g., using alert, toast, or state)
+    //   alert("Form submitted successfully!");
+    } catch (error) {
+      console.error(error);
+      // Optionally, notify the user of the error
+      alert("Error submitting form: " + error.message);
+    }
     alert('Your inquiry has been submitted!');
   };
 

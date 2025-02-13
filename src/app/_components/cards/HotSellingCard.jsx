@@ -10,9 +10,9 @@ const HotSellingCard = ({ title, description, descriptionPrice, onClick }) => {
     };
 
     return (
-        <div className="hotselling-card hotselling-fade-in hotselling-card-cursor">
+        <><div className="hotselling-card hotselling-fade-in hotselling-card-cursor">
 
-            <div className="hotselling-card-content" onClick={onClick}>
+            <div className="hotselling-card-content desktop" onClick={onClick}>
                 <BtnPrimaryWithIcon iconName="FaPhone" cnt="Contact" />
             </div>
 
@@ -37,13 +37,15 @@ const HotSellingCard = ({ title, description, descriptionPrice, onClick }) => {
                     </div>
                 </div>
             </div>
-
             <div className="hotselling-card-content hotselling-flex-column" onClick={onClick}>
                 <h3 className="hotselling-card-description">Price Range</h3>
                 <p className="hotselling-card-description-color">{descriptionPrice}</p>
             </div>
-
         </div>
+        <div className="hotselling-card-content hotselling-card-content-btn mobile" onClick={onClick}>
+                <BtnPrimaryWithIcon iconName="FaPhone" cnt="Contact" />
+            </div>
+        </>
     );
 };
 

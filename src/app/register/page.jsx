@@ -3,21 +3,43 @@ import { useState } from 'react';
 import { useRouter } from 'next/navigation';
 import Link from 'next/link';
 import './Register.css';
+import axios from 'axios';
 
 const Register = () => {
   const router = useRouter();
   const [formData, setFormData] = useState({
-    name: '',
+    fname: '',
+    lname: '',
     email: '',
     phone: '',
     password: '',
   });
 
-  // to store the form data
-  const handleSubmit = (e) => {
+  const handleSubmit = async (e) => {
     e.preventDefault();
+    
     localStorage.setItem('user', JSON.stringify(formData));
-    router.push('/'); // Navigate to the homepage
+
+    try {
+      const response = await axios.post(
+        'https://www.parislondrestrain.fr/mapi/user/register',
+        {
+          name: formData.fname,
+          email: formData.email,
+          mobile: formData.phone,
+          lastname: formData.lname,
+          message: "Register",
+          status: 0,
+          password: formData.password,
+        }
+      );
+      console.log(response.data);
+    router.push('/'); 
+    } catch (error) {
+      console.error(error);
+      alert("Error submitting form: " + error.message);
+    }
+    
   };
 
   return (
@@ -27,9 +49,17 @@ const Register = () => {
         <div className="form-group">
           <input 
             type="text" 
-            placeholder="Name" 
-            value={formData.name} 
-            onChange={(e) => setFormData({ ...formData, name: e.target.value })}
+            placeholder="First Name" 
+            value={formData.fname} 
+            onChange={(e) => setFormData({ ...formData, fname: e.target.value })}
+          />
+        </div>
+        <div className="form-group">
+          <input 
+            type="text" 
+            placeholder="Last Name" 
+            value={formData.lname} 
+            onChange={(e) => setFormData({ ...formData, lname: e.target.value })}
           />
         </div>
         <div className="form-group">

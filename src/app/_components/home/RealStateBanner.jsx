@@ -23,7 +23,7 @@ const RealStateBanner = () => {
       gap: '15px',
       // marginTop: '20px',
       background: 'white',
-      // padding: '10px 5px',
+      padding: '6px',
      justifyContent:'space-between',
      width:'90%',
      margin:'auto',

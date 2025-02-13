@@ -24,10 +24,7 @@ const Home = () => {
       buttonName: "View All",
     },
   ];
-
-  console.log(propFilter("apple-cinder"));
-  console.log("DBJSON_URL:", process.env.NEXT_PUBLIC_DBJSON_URL);
-
+  
   return (
     <div id="webid">
       <RealStateBanner />

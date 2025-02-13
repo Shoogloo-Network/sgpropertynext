@@ -20,23 +20,25 @@ const Register = () => {
     
     localStorage.setItem('user', JSON.stringify(formData));
 
+  
+
     try {
-      const response = await axios.post(
-        'https://www.parislondrestrain.fr/mapi/user/register',
-        {
-          name: formData.fname,
-          email: formData.email,
-          mobile: formData.phone,
-          lastname: formData.lname,
-          message: "Register",
-          status: 0,
-          password: formData.password,
-        }
-      );
-      console.log(response.data);
-    router.push('/'); 
+      const response = await postData('user/register', {
+        name: formData.fname,
+        email: formData.email,
+        mobile: formData.phone,
+        lastname: formData.lname,
+        message: "Register",
+        status: 0,
+        password: formData.password,
+      });
+      console.log(response);
+      // Optionally, notify the user of success (e.g., using alert, toast, or state)
+      // alert("Form submitted successfully!");
+      onClose(); // Close the popup if needed
     } catch (error) {
       console.error(error);
+      // Optionally, notify the user of the error
       alert("Error submitting form: " + error.message);
     }
     

@@ -31,7 +31,7 @@ const Home = () => {
       <div className="hspace"></div>
       <div className="home-container">
         <h1 className="homeh1">Hot Selling Projects in India</h1>
-        <div className="home-content" style={{ cursor: "pointer" }}>
+        <div className="home-content" >
           <IconCardBtnWithoutHover
             data={iconDataForButton}
             onClick="/search"

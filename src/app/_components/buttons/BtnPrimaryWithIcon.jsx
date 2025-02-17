@@ -13,6 +13,7 @@ const BtnPrimaryWithIcon = ({ iconName, cnt, onClick }) => {
               style: {
                 color: "#fff",
                 fontSize: "24px",
+                cursor:"pointer",
               },
             })
           ) : (

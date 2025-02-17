@@ -15,8 +15,10 @@ const HotProduct = () => {
 
   // Fetch card data from the API
   useEffect(() => {
-    fetchData("cardData", setCardData);
+    fetchData("projects", setCardData,{ "publish": "ondeck" });
   }, []);
+
+  console.log(cardData)
   useEffect(() => {
     if (cardData?.length > 0) {
       setCurrentIndex(0); // Reset to the first story
@@ -31,21 +33,20 @@ const HotProduct = () => {
     localStorage.setItem("clickedCardsHistory", JSON.stringify(newData));
   };
 const onHandleClick = (item)=>{
-router.push(`/in/projects/${item.city}/${item.title}/${item.id}`)
+router.push(`/in/projects/${item.city}/${item.slug}/${item.id}`)
 }
-  const stories = cardData?.map((item, index) => ({
+  const stories = cardData.payload?.map((item, index) => ({
     content: ({ action, isPaused }) =>
-      item.backgroundImage ? (
+      item.imagexl ? (
         <div
           key={index}
           style={{
             backgroundColor: "#fff",
-            backgroundImage: `url("images/${item.backgroundImage}")`,
+            backgroundImage: `url("images/${item.imagexl}")`,
             height: "360px",
             width: "100%",
             backgroundRepeat: "no-repeat",
             backgroundSize: "cover",
-            cursor: "pointer",
             
             position: "relative",
           }}
@@ -60,9 +61,9 @@ router.push(`/in/projects/${item.city}/${item.title}/${item.id}`)
             style={{
               position: "absolute",
               left: 0,
-              top: 0,
-              width: "30%",
-              height: "100%",
+              bottom: 0,
+              width: "20%",
+              height: "30%",
               cursor: "pointer",
             }}
           />
@@ -77,7 +78,7 @@ router.push(`/in/projects/${item.city}/${item.title}/${item.id}`)
               position: "absolute",
               right: 0,
               top: 0,
-              width: "70%",
+              width: "80%",
               height: "100%",
               zIndex: 2,
               cursor: "pointer",
@@ -114,10 +115,13 @@ router.push(`/in/projects/${item.city}/${item.title}/${item.id}`)
               <HotSellingCard
                 image={"/images/" + item.image}
                 title={item.title}
-                description={item.description}
-                descriptionPrice={item.descriptionPrice}
-                iconCardData={item.iconCardData}
+                address={item.address}
+                descriptionPrice={{higherprice:item.higherprice,
+                  lowerprice: item.lowerprice}}
+                iconCardData={item.buildproperties ? JSON.parse(item.buildproperties) : {}}
+                
               />
+              {console.log(item.buildproperties)}
             </div>
           </div>
         </div>
@@ -160,8 +164,7 @@ router.push(`/in/projects/${item.city}/${item.title}/${item.id}`)
         keyboardNavigation={true}
         preventDefault={true}
         onAllStoriesEnd={handleAllStoriesEnd}
-        onNext={(s, st) => handleNextStory(st)}
-        onPrevious={(s, st) => handlePreviousStory(st)}
+       
         currentIndex={currentIndex}
       />
       {showForm && <FormPopup onClose={() => setShowForm(false)} />}

@@ -440,6 +440,9 @@ input[type="checkbox"] {
 
 /* Responsive styles for mobile devices */
 @media (max-width: 768px) {
+  .city-dropdown-container{
+    min-width: none;
+  }
   .search-wrapper {
     padding: 30px 15px;
     max-height: 250px;
@@ -466,6 +469,7 @@ input[type="checkbox"] {
   .search-input input {
     padding: 12px;
     font-size: 14px;
+    width: 50%;
   }
 
   .search-btn {

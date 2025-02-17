@@ -66,6 +66,7 @@
 
   @media(max-width:768px){
     .listings-container{
-        display: block;
+        display: flex;
+        flex-direction:column;
       }
     }

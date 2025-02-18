@@ -1,5 +1,6 @@
 import { useEffect, useState, useRef } from 'react';
 import ImageGallery from 'react-image-gallery';
+import axios from 'axios';
 import 'react-image-gallery/styles/css/image-gallery.css';
 import ContactForm from '../../_components/userform/ContactForm';
 import IconCard from '../../_components/cards/IconCard';
@@ -15,7 +16,14 @@ const CustomImageGallery = ({ close }) => {
   useEffect(() => {
     fetchData("gallery",setImages);
   }, []);
-
+  const fetchData = async (endpoint, setter) => {
+    try {
+        const response = await axios.get( `http://localhost:8000/${endpoint}`);
+        setter(response.data);
+    } catch (error) {
+        console.error("Error fetching data:", error);
+    }
+};
   const iconCardData = [
     {
       img: '/zero-brokerage.svg',

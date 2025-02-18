@@ -4,6 +4,7 @@ import "./PropertyInfo.css";
 import BtnPrimaryWithIcon from '../../_components/buttons/BtnPrimaryWithIcon';
 import { useEffect, useState } from 'react';
 import FormPopup from '../../_components/userform/FormPopup';
+import axios from 'axios';
 import { fetchData } from '../../_components/api/data';
 const iconData =[
     {
@@ -43,7 +44,14 @@ const PropertyInfo = () => {
 useEffect(()=>{
  fetchData("iconDataForButton",setIconDataForButton);
     },[])
-
+    const fetchData = async (endpoint, setter) => {
+        try {
+            const response = await axios.get( `http://localhost:8000/${endpoint}`);
+            setter(response.data);
+        } catch (error) {
+            console.error("Error fetching data:", error);
+        }
+    };
    return (
         <div className="property-info-container">
             <div className="property-info-header">

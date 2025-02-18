@@ -2,6 +2,7 @@ import './ProjectTabHome.css';
 import { useState, useEffect } from 'react';
 import { Link, Events, scrollSpy } from 'react-scroll';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
+import axios from 'axios';
 import UnitTable from './UnitTable';
 import IconCard from '../../_components/cards/IconCard';
 import { fetchData } from '../../_components/api/data';
@@ -31,7 +32,14 @@ const ProjectTabHome = () => {
       Events.scrollEvent.remove('end');
     };
   }, []);
-
+  const fetchData = async (endpoint, setter) => {
+    try {
+        const response = await axios.get( `http://localhost:8000/${endpoint}`);
+        setter(response.data);
+    } catch (error) {
+        console.error("Error fetching data:", error);
+    }
+};
   const handleSetActive = (to) => {
     setActiveSection(to);
   };

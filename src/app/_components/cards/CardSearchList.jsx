@@ -1,8 +1,9 @@
 "use client"
 import { useState, useMemo, useEffect } from "react";
 import "./CardSearchList.css";
+import axios from "axios";
 import CardSearchListData from "./CardSearchListData";
-import { fetchData } from "../api/data";
+
 const CardSearchList = () => {
     const [activeTab, setActiveTab] = useState(1);
     const [displayData, setDisplayData] = useState([]);
@@ -13,6 +14,14 @@ const CardSearchList = () => {
        
     }, []); // Empty dependency array ensures it runs only once.
 
+    const fetchData = async (endpoint, setter) => {
+        try {
+            const response = await axios.get( `http://localhost:8000/${endpoint}`);
+            setter(response.data);
+        } catch (error) {
+            console.error("Error fetching data:", error);
+        }
+    };
     
 
     useEffect(() => {

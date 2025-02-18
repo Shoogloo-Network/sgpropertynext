@@ -86,16 +86,23 @@ background: rgba(0, 0, 0, 0.3);
   @media (max-width: 768px) {
     .homeinterior-item{
         margin: 4px;
-        padding: 0px;
-        width: 100%;
-        display: flex;
-        align-items: center;
-        line-height: 20px;
-        justify-content: center;
     }
-    .homeinterior-section{
-        overflow-x: scroll;
-        flex-wrap: nowrap ;
-        
+    .homeinterior-section-card{
+        margin: 0;
+        gap:8px;
+    }
+    .homeinterior-item-card{
+        width:fit-content !important;
+        /* height: fit-content; */
+    }
+    .homeinterior-item-card>img{
+        width: 100%;
+        border-radius: 8px;
+        height: 40% !important;
+    }
+    .homeinterior-item-card> a img:hover{
+        transform: scale(1.1);
+        transition: 0.4;
+    
     }
   }

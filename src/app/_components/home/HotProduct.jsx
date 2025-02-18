@@ -69,7 +69,7 @@ const HotProduct = () => {
                   left: 0,
                   bottom: 0,
                   width: "20%",
-                  height: "30%",
+                  height: "40%",
                   cursor: "pointer",
                 }}
               />

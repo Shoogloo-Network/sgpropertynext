@@ -20,7 +20,7 @@ const RealStateBanner = () => {
       display: 'flex',
       alignItems:' center',
       flexWrap:'wrap',
-      gap: '15px',
+      gap: '4px',
       // marginTop: '20px',
       background: 'white',
       padding: '6px',

@@ -28,9 +28,10 @@ font-size: 1rem;
 transition: background-color 0.3s ease;
 }
 
-/* .tab:hover {
+.tab:hover {
 background-color: #ddd;
-} */
+color:#000;
+}
 
 .tab.active {
 background-color: #007bff;
@@ -87,6 +88,7 @@ cursor: pointer;
 
 .cta-button:hover {
 background-color: #0056b3;
+ 
 }
 
 /* Card Container */

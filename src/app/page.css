@@ -37,9 +37,17 @@
   font-weight: bold;
   margin-bottom: 20px;
 }
-
+.hotsellingbestsellermobile{
+  display:none;
+}
 /* Responsive styles for mobile devices */
 @media (max-width: 768px) {
+  .hotsellingbestsellerdesktop{
+    display: none;
+  }
+  .hotsellingbestsellermobile{
+    display:block;
+  }
   .home-content {
       flex-direction: column;
       width: 100%;

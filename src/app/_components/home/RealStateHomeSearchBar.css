@@ -469,12 +469,18 @@ input[type="checkbox"] {
   .search-input input {
     padding: 12px;
     font-size: 14px;
-    width: 50%;
+    /* width: 50%; */
   }
 
   .search-btn {
     padding: 12px 20px;
     font-size: 14px;
+  }
+  .merged-location-city{
+    width: 100%;
+  }
+  .icon-card{
+    padding: 4px;
   }
 }
 

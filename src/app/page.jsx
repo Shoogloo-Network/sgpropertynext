@@ -11,6 +11,7 @@ import HighlightPlusService from "./_components/home/HighlightPlusService"
 import ReadyToMove from "./_components/home/ReadyToMove";
 import { propFilter } from "./_components/utils/GenericFunction";
 import HotProductBackup from "./_components/home/HotProductBackup";
+import Btn from "./_components/buttons/Btn";
 const UnderConstruction = dynamic(() => import("./_components/home/UnderConstruction"));
 
 const Home = () => {
@@ -32,10 +33,18 @@ const Home = () => {
       <div className="home-container">
         <h1 className="homeh1">Hot Selling Projects in India</h1>
         <div className="home-content" >
-          <IconCardBtnWithoutHover
+         <div className="hotsellingbestsellerdesktop">
+         <IconCardBtnWithoutHover
             data={iconDataForButton}
             onClick="/search"
           />
+          </div> 
+          <div className="hotsellingbestsellermobile">
+         <Btn onClick="/search">
+          View All
+         </Btn>
+         
+          </div>
           <HotProduct />
           {/* <HotProductBackup/> */}
         </div>

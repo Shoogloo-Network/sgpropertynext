@@ -30,7 +30,7 @@
 /* Responsive styles for mobile devices */
 @media (max-width: 768px) {
   .banner-container {
-    padding: 30px 15px;
+    padding: 8px;
     max-height: fit-content;
     background-size: cover; /* Ensuring image maintains the cover style */
   }

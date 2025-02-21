@@ -15,12 +15,7 @@ const Card = ({ title, description, descriptionPrice, iconCardData, onClick, url
       {url ? (
         <div className="card-flex-row">
           <div className="card-image-wrapper">
-            <img
-              src={"/images/"+ url}
-              alt="card"
-              className="card-image-style"
-              onClick={onImageClick}
-            />
+            <img src={"/images/"+ url} alt="card" className="card-image-style" onClick={onImageClick} />
           </div>
           <div className="card-content card-content-half" onClick={onClick}>
             <div className="card-title-row">

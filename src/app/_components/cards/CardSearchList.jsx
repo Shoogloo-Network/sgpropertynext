@@ -33,10 +33,7 @@ const CardSearchList = () => {
 
     const memoizedCardList = useMemo(() => {
         return (
-            <CardSearchListData
-                key={buttonsData.find((btn) => btn.id === activeTab)?.id}
-                cities={displayData || []}
-            />
+            <CardSearchListData key={buttonsData.find((btn) => btn.id === activeTab)?.id} cities={displayData || []} />
         );
     }, [displayData]);
 
@@ -54,13 +51,7 @@ const CardSearchList = () => {
         <div>
             <div className="button-container">
                 {buttonsData.map((button) => (
-                    <button
-                        key={button.id}
-                        className={`button ${
-                            activeTab === button.id ? "button-active" : ""
-                        }`}
-                        onClick={() => handleClick(button.id)}
-                    >
+                    <button key={button.id} className={`button ${activeTab === button.id ? "button-active" : ""}`} onClick={() => handleClick(button.id)} >
                         {button.lableName}
                     </button>
                 ))}

@@ -13,27 +13,20 @@ const CardSearchListData = memo(({ cities }) => {
   const [selectedCity , setSelectedCity] = useState(null);
   const filters = ["All", "New Launch", "Ready To Move", "Upcoming"];
   const handleFilterClick = (filter) => {
-    
     setSelectedFilter(filter);
-   
   };
 
   const selectedCityFn = (city)=>{
    setSelectedCity(city);
   }
+
   return (
     <>
       <div className="card-search-container">
         <div className="city-section">
           <div className="city-card">
             <div className="city-title">
-              <img
-                src="/images/location.png"
-                alt="location"
-                className="city-icon"
-                width={20}
-                height={20}
-              />
+              <img src="/images/location.png" alt="location" className="city-icon" width={20} height={20} />
               <h1 className="city-heading">City</h1>
             </div>
             <City cities={cities}  selectedCity={selectedCityFn}/>
@@ -43,16 +36,11 @@ const CardSearchListData = memo(({ cities }) => {
       {/* Filter Tabs */}
       <div className="filter-tabs">
         {filters.map((filter) => (
-          <div
-            key={filter}
-            className={`filter-tab ${selectedFilter === filter ? "active" : ""}`}
-            onClick={() => handleFilterClick(filter)}
-          >
+          <div key={filter} className={`filter-tab ${selectedFilter === filter ? "active" : ""}`} onClick={() => handleFilterClick(filter)} >
             {filter}
           </div>
         ))}
       </div>
-
       {/* Dropdown */}
       <div className="filter-dropdown">
         <select>

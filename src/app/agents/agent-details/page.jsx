@@ -20,24 +20,21 @@ const [showForm,setShowForm] = useState(false);
    
   }, []);
 
- 
-
   const onCardClick = (e) => {
     e.stopPropagation();
     e.preventDefault();
      setShowForm(true);
     //  console.log('Clicked Card Data:'); 
- 
   }
   const onButtonClick = ()=>{
     setShowForm(true);
     // console.log("Button clicked");
 }
 
-
   const handleFilterClick = (filter) => {
     setSelectedFilter(filter);
   };
+  
 return (
     <>
       <div className="agent-detail-main-div">

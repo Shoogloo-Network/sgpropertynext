@@ -10,11 +10,7 @@ const BtnPrimaryWithIcon = ({ iconName, cnt, onClick }) => {
           <p>{cnt}</p>
           {FaIcons[iconName] ? (
             React.createElement(FaIcons[iconName], {
-              style: {
-                color: "#fff",
-                fontSize: "24px",
-                cursor:"pointer",
-              },
+              style: {color: "#fff",fontSize: "24px",cursor:"pointer",},
             })
           ) : (
             <span>Icon not found: {iconName}</span>

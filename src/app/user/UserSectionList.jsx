@@ -43,22 +43,14 @@ const UserSectionList = ({ onClick, logout }) => {
         // { img: 'my-rent-agreement.svg', title: 'RENTAL AGREEMENTS', id: 'rentalagreements' },
         { img: 'my-rent-payments.svg', title: 'RENT PAYMENTS', id: 'rentpayments' },
         // { img: 'refer-and-earn.svg', title: 'REFER AND EARN', id: 'referandearn' },
-        {
-            img: 'lock-unlock.svg',
-            title: userData ? 'LOGOUT' : 'LOGIN',
-            id: 'logout',
-        },
+        { img: 'lock-unlock.svg', title: userData ? 'LOGOUT' : 'LOGIN', id: 'logout', },
     ];
 
     return (
         <>
             <div className="user-section-header">
                 {userProfile.profileImage ? (
-                    <img
-                        src={"/images/"+userProfile.profileImage}
-                        alt="profile"
-                        className="user-profile-image"
-                    />
+                    <img src={"/images/" + userProfile.profileImage} alt="profile" className="user-profile-image" />
                 ) : (
                     <FaUserCircle size={50} color="#808080" />
                 )}
@@ -70,14 +62,7 @@ const UserSectionList = ({ onClick, logout }) => {
                 </div>
             </div>
             <div>
-            <IconCard
-                data={iconData}
-                onClick={onClick}
-                logout={logout}
-                containerClass="icon-card-container"
-                imgClass="icon-card-image"
-                
-            />
+            <IconCard data={iconData} onClick={onClick} logout={logout} containerClass="icon-card-container" imgClass="icon-card-image" />
             </div>
         </>
     );

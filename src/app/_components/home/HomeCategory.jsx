@@ -39,7 +39,6 @@ const HomeCategory = () => {
  
   
    const data = {
- 
      'Living Room': [
        {
         imgSrc: 'buildinghome.jfif',

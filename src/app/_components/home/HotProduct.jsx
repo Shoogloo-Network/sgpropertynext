@@ -112,10 +112,7 @@ const HotProduct = () => {
                     image={`/images/${item.image}`}
                     title={item.title}
                     address={item.address}
-                    descriptionPrice={{
-                      higherprice: item.higherprice,
-                      lowerprice: item.lowerprice,
-                    }}
+                    descriptionPrice={{ higherprice: item.higherprice, lowerprice: item.lowerprice, }}
                     iconCardData={item.buildproperties ? JSON.parse(item.buildproperties) : {}}
                   />
                 </div>

@@ -88,11 +88,7 @@ const RealStateHomeSearchBar = ({
       <div className={iconCards ? "icon-cards-container" : ""}>
         {iconCards &&
           iconCards.map((card) => (
-            <div
-              key={card.id}
-              className={`icon-card ${activeTab === card.id ? "active" : ""}`}
-              onClick={() => setActiveTab(card.id)}
-            >
+            <div key={card.id} className={`icon-card ${activeTab === card.id ? "active" : ""}`} onClick={() => setActiveTab(card.id)} >
               {card.isNew && <span className="new-badge">New</span>}
               <div className="icon-wrapper">{card.icon}</div>
               <div className="card-text">
@@ -107,11 +103,7 @@ const RealStateHomeSearchBar = ({
         {/* Merged City Dropdown & Location Input */}
         <div className="merged-location-city">
           <div className="city-dropdown-container">
-            <button
-              className="dropdown-btn"
-              onClick={() => setShowCityDropdown((prev) => !prev)}
-              style={{border:"none"}}
-            >
+            <button className="dropdown-btn" onClick={() => setShowCityDropdown((prev) => !prev)} style={{border:"none"}} >
               {city.charAt(0).toUpperCase() + city.slice(1)}
               {showCityDropdown ? <FaChevronUp /> : <FaChevronDown />}
             </button>
@@ -158,15 +150,9 @@ const RealStateHomeSearchBar = ({
           </div>
           <div className="location-input">
             <FaMapMarkerAlt className="location-icon" />
-            <input
-              type="text"
-              placeholder="Search for locality, project"
-              value={searchInput}
-              onChange={(e) => setSearchInput(e.target.value)}
-            />
+            <input type="text" placeholder="Search for locality, project" value={searchInput} onChange={(e) => setSearchInput(e.target.value)} />
           </div>
         </div>
-
         {/* Budget Dropdown */}
         <div className="dropdown-container">
           <button
@@ -235,32 +221,18 @@ const RealStateHomeSearchBar = ({
             <div className="dropdown-content">
               <div className="property-type-radio">
                 <label className="radio-label">
-                  <input
-                    type="radio"
-                    name="propertyType"
-                    checked={propertyType === "residential"}
-                    onChange={() => handlePropertyTypeChange("residential")}
-                  />
+                  <input type="radio" name="propertyType" checked={propertyType === "residential"} onChange={() => handlePropertyTypeChange("residential")} />
                   <span>Residential</span>
                 </label>
                 <label className="radio-label">
-                  <input
-                    type="radio"
-                    name="propertyType"
-                    checked={propertyType === "commercial"}
-                    onChange={() => handlePropertyTypeChange("commercial")}
-                  />
+                  <input type="radio" name="propertyType" checked={propertyType === "commercial"} onChange={() => handlePropertyTypeChange("commercial")} />
                   <span>Commercial</span>
                 </label>
               </div>
               <div className="property-options">
                 {propertyTypes[propertyType]?.map((type) => (
                   <label key={type} className="checkbox-label">
-                    <input
-                      type="checkbox"
-                      checked={selectedUnitTypes.includes(type)}
-                      onChange={() => handleUnitTypeSelection(type)}
-                    />
+                    <input type="checkbox" checked={selectedUnitTypes.includes(type)} onChange={() => handleUnitTypeSelection(type)} />
                     <span>{type}</span>
                   </label>
                 ))}

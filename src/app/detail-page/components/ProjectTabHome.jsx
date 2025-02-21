@@ -58,41 +58,17 @@ const ProjectTabHome = () => {
       <div className="navbarHome">
         <ul className="navList">
           <li>
-            <Link
-              to="about"
-              smooth={true}
-              duration={500}
-              spy={true}
-              offset={-50}
-              onSetActive={handleSetActive}
-              className={activeSection === 'about' ? 'active' : ''}
-            >
+            <Link to="about" smooth={true} duration={500} spy={true} offset={-50} onSetActive={handleSetActive} className={activeSection === 'about' ? 'active' : ''} >
               About Provident Botanico
             </Link>
           </li>
           <li>
-            <Link
-              to="overview"
-              smooth={true}
-              duration={500}
-              spy={true}
-              offset={-50}
-              onSetActive={handleSetActive}
-              className={activeSection === 'overview' ? 'active' : ''}
-            >
+            <Link to="overview" smooth={true} duration={500} spy={true} offset={-50} onSetActive={handleSetActive} className={activeSection === 'overview' ? 'active' : ''} >
               Project Overview
             </Link>
           </li>
           <li>
-            <Link
-              to="experts"
-              smooth={true}
-              duration={500}
-              spy={true}
-              offset={-50}
-              onSetActive={handleSetActive}
-              className={activeSection === 'experts' ? 'active' : ''}
-            >
+            <Link to="experts" smooth={true} duration={500} spy={true} offset={-50} onSetActive={handleSetActive} className={activeSection === 'experts' ? 'active' : ''} >
               Top Experts
             </Link>
           </li>

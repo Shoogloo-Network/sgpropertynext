@@ -83,14 +83,7 @@ const CustomImageGallery = ({ close }) => {
 
           {/* Image Gallery */}
           {selectedImages.length > 0 ? (
-            <ImageGallery
-              ref={galleryRef}
-              items={selectedImages}
-              showThumbnails={true}
-              showFullscreenButton={true}
-              showPlayButton={false}
-              showNav={true}
-            />
+            <ImageGallery ref={galleryRef} items={selectedImages} showThumbnails={true} showFullscreenButton={true} showPlayButton={false} showNav={true} />
           ) : (
             <p>No images available.</p> // Display message if no images are found
           )}

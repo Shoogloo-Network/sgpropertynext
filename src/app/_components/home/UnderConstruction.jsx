@@ -228,11 +228,7 @@ const UnderConstruction = () => {
       {/* Tabs for city selection */}
       <div className="tabs">
         {cities.map((city) => (
-          <button
-            key={city}
-            className={`tab ${selectedCity === city ? "active" : ""}`}
-            onClick={() => setSelectedCity(city)}
-          >
+          <button key={city} className={`tab ${selectedCity === city ? "active" : ""}`} onClick={() => setSelectedCity(city)} >
             {city.charAt(0).toUpperCase() + city.slice(1)}
           </button>
         ))}
@@ -265,7 +261,6 @@ const UnderConstruction = () => {
     
         {cityData[selectedCity].map((property) => (
           <SwiperSlide key={property.id}>
-           
             <PropertyCard property={property} />
           </SwiperSlide>
         ))}

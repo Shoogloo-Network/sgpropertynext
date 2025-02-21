@@ -16,9 +16,7 @@ const AgentPostPropertyForm1 = ({active}) => {
       <UploadAndDisplay/>
     </div>
     <div>
-   
-  <AdditionalAttributes active={active}/>
-
+      <AdditionalAttributes active={active}/>
     </div>
     </>
   )

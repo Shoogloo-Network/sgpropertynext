@@ -68,6 +68,9 @@
   .section-title {
       font-size: 1.5em;
   }
+  .hspace{
+    margin-bottom: 0px;
+  }
 }
 .home-under-construction-section{
   height: 580px;

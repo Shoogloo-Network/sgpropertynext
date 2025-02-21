@@ -40,8 +40,8 @@
   /* Contact Form Section */
   .contact-form-section {
     width: 40%;
-    position: sticky;
-    top: 50px;
+    /* position: sticky; */
+    /* top: 50px; */
   }
   
   /* Filter Cards Section */

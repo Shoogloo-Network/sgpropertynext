@@ -87,4 +87,8 @@ background: rgba(0, 0, 0, 0.3);
     .homeinterior-item{
         margin: 4px;
     }
+    .homeinterior-item-card{
+        width:fit-content !important;
+        height: 100%;
+    }
   }

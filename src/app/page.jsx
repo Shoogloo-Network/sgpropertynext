@@ -19,9 +19,7 @@ const Home = () => {
     {
       img: "building-img.svg", // Static assets path
       title: "Best Sellers in India",
-      description:
-        "Our freshly brewed list of the best residential projects from top rated builders in the country, backed by our award-winning start-to-finish services.",
-
+      description:"Our freshly brewed list of the best residential projects from top rated builders in the country, backed by our award-winning start-to-finish services.",
       buttonName: "View All",
     },
   ];
@@ -43,13 +41,11 @@ const Home = () => {
          <Btn onClick="/search">
           View All
          </Btn>
-         
           </div>
           <HotProduct />
           {/* <HotProductBackup/> */}
         </div>
         <div className="hspace"></div>
-
       </div>
       <div className="hspace"></div>
       <div>
@@ -75,19 +71,11 @@ const Home = () => {
       <div className="real-estate-sections">
         <div className="real-estate-section">
           <h1 className="section-title">For Real Estate Developers</h1>
-          <CardWithList
-            backgroundColor="#ddf5ff"
-          />
+          <CardWithList backgroundColor="#ddf5ff" />
         </div>
-        <div
-          className="real-estate-section"
-          style={{ backgroundColor: "#fff" }}
-        >
+        <div className="real-estate-section" style={{ backgroundColor: "#fff" }} >
           <h1 className="section-title">For Agents</h1>
-          <CardWithList
-
-            backgroundColor="#fff6e7"
-          />
+          <CardWithList backgroundColor="#fff6e7" />
         </div>
       </div>
       {/* <div className="home-under-construction-section">
@@ -99,7 +87,6 @@ const Home = () => {
      <DemandSupplyChart/>
    </div>
       </div> */}
-
     </div>
   );
 };

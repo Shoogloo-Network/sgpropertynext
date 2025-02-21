@@ -40,6 +40,26 @@
 .hotsellingbestsellermobile{
   display:none;
 }
+
+
+.homeh1{
+  margin-top: 18px;
+  margin-bottom: 18px;
+  display: block;
+  text-align: center;
+  font-size: 24px;
+  color: #333;
+}
+
+.hspace{
+  margin-bottom: 60px;
+}
+.home-under-construction-section{
+  height: 580px;
+  padding: 40px;
+  margin-bottom:50px;
+}
+
 /* Responsive styles for mobile devices */
 @media (max-width: 768px) {
   .hotsellingbestsellerdesktop{
@@ -71,27 +91,14 @@
   .hspace{
     margin-bottom: 0px;
   }
-}
-.home-under-construction-section{
-  height: 580px;
-  padding: 40px;
-  margin-bottom:50px;
+  .home-under-construction-section{
+    padding: 0;
+  }
 }
 
 
 
-.homeh1{
-  margin-top: 18px;
-  margin-bottom: 18px;
-  display: block;
-  text-align: center;
-  font-size: 24px;
-  color: #333;
-}
 
-.hspace{
-  margin-bottom: 60px;
-}
 
 
 /* Responsive styles for extra small devices */

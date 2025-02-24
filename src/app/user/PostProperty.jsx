@@ -41,7 +41,6 @@ const PropertyForm = ({active}) => {
 
   return (
     <div className="rightBox postYourPropertyBox">
-      
       <div className="addListingsBox" id="addListingsBox1">
         <h1>Provide Property Details</h1>
         <form onSubmit={handleSubmit}>

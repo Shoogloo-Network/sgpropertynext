@@ -45,7 +45,7 @@ const Home = () => {
           <HotProduct />
           {/* <HotProductBackup/> */}
         </div>
-        <div className="hspace"></div>
+        <div className = "hspace"></div>
       </div>
       <div className="hspace"></div>
       <div>

@@ -23,10 +23,8 @@ const HomeCategory = () => {
        title: 'Luxury Contemporary Living Room Design With L Shaped Sofa',
        url:"/in/home-interior/living-room/3" ,
      },
-     
    ] 
  );
- 
    const tabs = [
      { id: 'about-builder-wardrobe', title: 'Living Room' },
      { id: 'about-builder-modular-kitchen', title: 'Modular Kitchen' },
@@ -36,8 +34,6 @@ const HomeCategory = () => {
      { id: 6, title: 'Kitchen Walls Tiles' },
      { id: '7', title: 'Kitchen False Ceiling' },
    ];
- 
-  
    const data = {
      'Living Room': [
        {

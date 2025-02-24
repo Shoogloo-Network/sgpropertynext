@@ -28,8 +28,6 @@ const HighlightPlusService = ()=>{
 
       {/* Service Cards */}
       <section className="HomeInteriorCards">
-        
-
         {Array(3)
           .fill({
             imgSrc: "wedesign.svg",
@@ -58,7 +56,7 @@ const HighlightPlusService = ()=>{
           </Link>
         </div>
       </section>
-        </>
+      </>
     )
 }
 

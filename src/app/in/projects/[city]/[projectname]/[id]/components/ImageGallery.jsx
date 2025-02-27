@@ -1,7 +1,7 @@
 "use client"
 import  { useState, useEffect } from 'react';
 import axios from 'axios';
-import { fetchData } from '../../../../../_components/api/data';
+import { fetchData } from '../../../../../../_components/api/data';
 import './ImageGallery.css';
 
 const ImageGallery = ({ onClickImage }) => {

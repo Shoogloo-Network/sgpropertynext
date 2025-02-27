@@ -4,8 +4,8 @@ import { Link, Events, scrollSpy } from 'react-scroll';
 import '@fortawesome/fontawesome-free/css/all.min.css'; 
 import axios from 'axios';
 import UnitTable from './UnitTable';
-import IconCard from '../../../../../_components/cards/IconCard';
-import { fetchData } from '../../../../../_components/api/data';
+import IconCard from '../../../../../../_components/cards/IconCard';
+import { fetchData } from '../../../../../../_components/api/data';
 const ProjectTabHome = () => {
   const [activeSection, setActiveSection] = useState('');
   const [activeDiv, setActiveDiv] = useState('about');

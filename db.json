@@ -1199,5 +1199,321 @@
         "description": "Videos"
       }
     ]
+  },
+
+  "detail-page" : {
+    "dtlUnitGallery": [
+      {
+        "id": 1,
+        "mainImage": "provident-botanico-project-project-large-image1-1056.jpg",
+        "multipleImages": [
+          "provident-botanico-project-amenities-features1-3750.jpg",
+          "provident-botanico-project-clubhouse-external-image1-2344.jpg",
+          "provident-botanico-project-amenities-features1-3750.jpg",
+          "provident-botanico-project-amenities-features1-3750.jpg"
+        ]
+      }
+    ],
+    "projectUnit": [
+      {
+        "id": 1,
+        "projectTitle": "provident-botanico-project-project-large-image1-1056.jpg",
+        "projectAddress": "provident-botanico-project-project-large-image1-1056.jpg",
+        "lowerPrice": "provident-botanico-project-project-large-image1-1056.jpg",
+        "higherPrice": "provident-botanico-project-project-large-image1-1056.jpg",
+        "areaMarketRate": "provident-botanico-project-project-large-image1-1056.jpg",
+        "projectProperties": [
+          {
+            "img": "building.png",
+            "title": "Project Size",
+            "description": "165 Unit, 1.25 Acres"
+          },
+          {
+            "img": "building.png",
+            "title": "Project Size",
+            "description": "165 Unit, 1.25 Acres"
+          }
+        ]
+      }
+    ],
+    "projectAbout": [
+      {
+        "name": "About Krisala 41 Zillenia",
+        "brochure": "project-brochure.pdf",
+        "projectOverview": "Krisala 41 Zillenia is a Residential project, located in Punawale, Pune, spread across 5 Acre, offering 2 to 3 BHK Flat From 722 to 918 Sq.Ft. The status of Krisala 41 Zillenia is New Launch. The homes in Krisala 41 Zillenia are vastu-compliant and are built with a focus on efficiency, ensuring zero wastage of space. Residents can enjoy a lifetime of 4-side open scenic views of greenery from their high-rise towers",
+        "projectPriceList": [
+          {
+            "unittype": "2 BHK 722 Sq. Ft Apartment",
+            "area": "722 Sq. Ft(Carpet)",
+            "unitprice": "63.75"
+          },
+          {
+            "unittype": "2 BHK 722 Sq. Ft Apartment",
+            "area": "904 Sq. Ft(Carpet)",
+            "unitprice": "79.82"
+          }
+        ]
+      }
+    ],
+    "dtlUnitGalleryAll": {
+      "projects": [
+        {
+          "original": "/images/provident-botanico-project-project-large-image1-1056.jpg",
+          "thumbnail": "/images/provident-botanico-project-project-large-image1-1056.avif",
+          "description": "Cover Image"
+        },
+        {
+          "original": "/images/provident-botanico-project-master-plan-image1-3047.jpg",
+          "thumbnail": "/images/provident-botanico-project-master-plan-image1-3047.avif",
+          "description": "Master Plan Image"
+        },
+        {
+          "original": "/images/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+          "thumbnail": "/images/provident-botanico-project-clubhouse-external-image1-2344.avif",
+          "description": "Clubhouse External Image"
+        },
+        {
+          "original": "/images/provident-botanico-project-project-large-image1-1056.jpg",
+          "thumbnail": "/images/provident-botanico-project-project-large-image1-1056.avif",
+          "description": "Sports Facilities Image"
+        },
+        {
+          "original": "/images/provident-botanico-project-master-plan-image1-3047.jpg",
+          "thumbnail": "/images/provident-botanico-project-master-plan-image1-3047.avif",
+          "description": "Amenities Features"
+        },
+        {
+          "original": "/images/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+          "thumbnail": "/images/provident-botanico-project-clubhouse-external-image1-2344.avif",
+          "description": "Floor Plans"
+        },
+        {
+          "original": "/images/provident-botanico-project-project-large-image1-1056.jpg",
+          "thumbnail": "/images/provident-botanico-project-project-large-image1-1056.avif",
+          "description": "Push Creative"
+        },
+        {
+          "original": "/images/provident-botanico-project-master-plan-image1-3047.jpg",
+          "thumbnail": "/images/provident-botanico-project-master-plan-image1-3047.avif",
+          "description": "Videos"
+        }
+      ],
+      "units": [
+        {
+          "original": "/images/provident-botanico-project-project-large-image1-1056.jpg",
+          "thumbnail": "/images/provident-botanico-project-project-large-image1-1056.avif",
+          "description": "Cover Image"
+        },
+        {
+          "original": "/images/provident-botanico-project-master-plan-image1-3047.jpg",
+          "thumbnail": "/images/provident-botanico-project-master-plan-image1-3047.avif",
+          "description": "Master Plan Image"
+        },
+        {
+          "original": "/images/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+          "thumbnail": "/images/provident-botanico-project-clubhouse-external-image1-2344.avif",
+          "description": "Clubhouse External Image"
+        },
+        {
+          "original": "/images/provident-botanico-project-project-large-image1-1056.jpg",
+          "thumbnail": "/images/provident-botanico-project-project-large-image1-1056.avif",
+          "description": "Sports Facilities Image"
+        },
+        {
+          "original": "/images/provident-botanico-project-master-plan-image1-3047.jpg",
+          "thumbnail": "/images/provident-botanico-project-master-plan-image1-3047.avif",
+          "description": "Amenities Features"
+        },
+        {
+          "original": "/images/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+          "thumbnail": "/images/provident-botanico-project-clubhouse-external-image1-2344.avif",
+          "description": "Floor Plans"
+        },
+        {
+          "original": "/images/provident-botanico-project-project-large-image1-1056.jpg",
+          "thumbnail": "/images/provident-botanico-project-project-large-image1-1056.avif",
+          "description": "Push Creative"
+        },
+        {
+          "original": "/images/provident-botanico-project-master-plan-image1-3047.jpg",
+          "thumbnail": "/images/provident-botanico-project-master-plan-image1-3047.avif",
+          "description": "Videos"
+        }
+      ],
+      "locality": [
+        {
+          "original": "/images/provident-botanico-project-project-large-image1-1056.jpg",
+          "thumbnail": "/images/provident-botanico-project-project-large-image1-1056.avif",
+          "description": "Cover Image"
+        },
+        {
+          "original": "/images/provident-botanico-project-master-plan-image1-3047.jpg",
+          "thumbnail": "/images/provident-botanico-project-master-plan-image1-3047.avif",
+          "description": "Master Plan Image"
+        },
+        {
+          "original": "/images/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+          "thumbnail": "/images/provident-botanico-project-clubhouse-external-image1-2344.avif",
+          "description": "Clubhouse External Image"
+        },
+        {
+          "original": "/images/provident-botanico-project-project-large-image1-1056.jpg",
+          "thumbnail": "/images/provident-botanico-project-project-large-image1-1056.avif",
+          "description": "Sports Facilities Image"
+        },
+        {
+          "original": "/images/provident-botanico-project-master-plan-image1-3047.jpg",
+          "thumbnail": "/images/provident-botanico-project-master-plan-image1-3047.avif",
+          "description": "Amenities Features"
+        },
+        {
+          "original": "/images/provident-botanico-project-clubhouse-external-image1-2344.jpg",
+          "thumbnail": "/images/provident-botanico-project-clubhouse-external-image1-2344.avif",
+          "description": "Floor Plans"
+        },
+        {
+          "original": "/images/provident-botanico-project-project-large-image1-1056.jpg",
+          "thumbnail": "/images/provident-botanico-project-project-large-image1-1056.avif",
+          "description": "Push Creative"
+        },
+        {
+          "original": "/images/provident-botanico-project-master-plan-image1-3047.jpg",
+          "thumbnail": "/images/provident-botanico-project-master-plan-image1-3047.avif",
+          "description": "Videos"
+        }
+      ]
+    },
+    "reraDetail": {
+      "regno": "A51800000454"
+    },
+    "projectOverview": [
+      {
+        "icon": ".jpg",
+        "titlekey": "Project Status",
+        "titleval": "Under Construction"
+      },
+      {
+        "icon": ".jpg",
+        "titlekey": "Unit  Sizes",
+        "titleval": "720 Sq. Ft to 922 Sq. Ft(Carpet)"
+      },
+      {
+        "icon": ".jpg",
+        "titlekey": "Total Number of Units",
+        "titleval": "546 Units"
+      },
+      {
+        "icon": ".jpg",
+        "titlekey": "Launch Date",
+        "titleval": "Ask for details"
+      },
+      {
+        "icon": ".jpg",
+        "titlekey": "Locality",
+        "titleval": "Punawala"
+      },
+      {
+        "icon": ".jpg",
+        "titlekey": "Configurations",
+        "titleval": "2, 3 BHK"
+      },
+      {
+        "icon": ".jpg",
+        "titlekey": "Builder",
+        "titleval": "Krisala Developers"
+      },
+      {
+        "icon": ".jpg",
+        "titlekey": "Project Size",
+        "titleval": "6 Acres"
+      },
+      {
+        "icon": ".jpg",
+        "titlekey": "Completion Date",
+        "titleval": "Ask for details"
+      }
+    ],
+    "floorPlans": [
+      {
+        "roomunit": "2 BHK",
+        "unit2d": "unit2d.jpg",
+        "unit3d": "unit3d.jpg",
+        "unit360view": "unit360view",
+        "carpetarea": "722 Sq. Ft",
+        "unitprice": "65.34"
+      },
+      {
+        "roomunit": "3 BHK",
+        "unit2d": "unit2d.jpg",
+        "unit3d": "unit3d.jpg",
+        "unit360view": "unit360view",
+        "carpetarea": "1020 Sq. Ft",
+        "unitprice": "85.34"
+      }
+    ],
+    "projectAmenities": {
+      "sports": [
+        {
+          "icon": "gymnasium.png",
+          "name": "Gymnasium"
+        },
+        {
+          "icon": "swimmingpool.png",
+          "name": "Swimming Pool"
+        },
+        {
+          "icon": "kidpool.png",
+          "name": "Kid's Pool"
+        },
+        {
+          "icon": "badminton-court.png",
+          "name": "Badminton Court"
+        }
+      ],
+      "convenience": [
+        {
+          "icon": "gymnasium.png",
+          "name": "Power Backup"
+        },
+        {
+          "icon": "swimmingpool.png",
+          "name": "Solar Heaters"
+        },
+        {
+          "icon": "kidpool.png",
+          "name": "Treated Water Supply"
+        },
+        {
+          "icon": "badminton-court.png",
+          "name": "Day Care Center"
+        }
+      ],
+      "safety": [
+        {
+          "icon": "gymnasium.png",
+          "name": "24 x 7 Security"
+        },
+        {
+          "icon": "swimmingpool.png",
+          "name": "CCTV Surveillance"
+        },
+        {
+          "icon": "kidpool.png",
+          "name": "Fire Fighting Systems"
+        },
+        {
+          "icon": "badminton-court.png",
+          "name": "Video Phone"
+        }
+      ]
+    },
+    "specifications": {
+      "Master Bedroom-Walls": "Oil Bound Distemper",
+      "Master Bedroom-Flooring": "Vitrified Tiles",
+      "Other Bedrooms-Flooring": "Oil Bound Distemper",
+      "Living Area-Flooring": "Vitrified Tiles",
+      "Baathroom": "Premium Bath Fittings",
+      "Structure": "RCC Frame Structure"
+    }
   }
   }

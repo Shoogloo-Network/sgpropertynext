@@ -1,11 +1,11 @@
-import IconCard from '../../../../../_components/cards/IconCard';
-import IconCardWithButton from '../../../../../_components/cards/IconCardWithButton';
+import IconCard from '../../../../../../_components/cards/IconCard';
+import IconCardWithButton from '../../../../../../_components/cards/IconCardWithButton';
 import "./PropertyInfo.css";
-import BtnPrimaryWithIcon from '../../../../../_components/buttons/BtnPrimaryWithIcon';
+import BtnPrimaryWithIcon from '../../../../../../_components/buttons/BtnPrimaryWithIcon';
 import { useEffect, useState } from 'react';
-import FormPopup from '../../../../../_components/userform/FormPopup';
+import FormPopup from '../../../../../../_components/userform/FormPopup';
 import axios from 'axios';
-import { fetchData } from '../../../../../_components/api/data';
+import { fetchData } from '../../../../../../_components/api/data';
 const iconData =[
     {
         img:'verified.png',

@@ -2,10 +2,10 @@ import { useEffect, useState, useRef } from 'react';
 import ImageGallery from 'react-image-gallery';
 import axios from 'axios';
 import 'react-image-gallery/styles/css/image-gallery.css';
-import ContactForm from '../../../../../_components/userform/ContactForm';
-import IconCard from '../../../../../_components/cards/IconCard';
+import ContactForm from '../../../../../../_components/userform/ContactForm';
+import IconCard from '../../../../../../_components/cards/IconCard';
 import './CustomImageGallery.css';
-import { fetchData } from '../../../../../_components/api/data';
+import { fetchData } from '../../../../../../_components/api/data';
 
 const CustomImageGallery = ({ close }) => {
   const [selectedName, setSelectedName] = useState('projects');
@@ -14,12 +14,14 @@ const CustomImageGallery = ({ close }) => {
 
   // Fetch image data from the JSON Server API
   useEffect(() => {
-    fetchData("gallery",setImages);
+    fetchData("detail-page",setImages);
   }, []);
   const fetchData = async (endpoint, setter) => {
     try {
         const response = await axios.get( `http://localhost:8000/${endpoint}`);
-        setter(response.data);
+        console.log(response.data.dtlUnitGalleryAll);
+        setter(response.data.dtlUnitGalleryAll);
+       
     } catch (error) {
         console.error("Error fetching data:", error);
     }
@@ -51,7 +53,7 @@ const CustomImageGallery = ({ close }) => {
 
   // Only attempt to get images when `images` is populated and `selectedName` exists in `images`
   const selectedImages = images[selectedName] ? images[selectedName] : [];
-
+console.log(selectedImages)
   return (
     <div className="custom-image-gallery">
       {/* Header */}

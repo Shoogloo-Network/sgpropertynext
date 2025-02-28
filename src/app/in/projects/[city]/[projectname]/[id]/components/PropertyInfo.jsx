@@ -1,3 +1,4 @@
+
 import IconCard from '../../../../../../_components/cards/IconCard';
 import IconCardWithButton from '../../../../../../_components/cards/IconCardWithButton';
 import "./PropertyInfo.css";
@@ -19,30 +20,18 @@ const iconData =[
     },
 ] ;
 
-const iconData1 =[
-    {
-        img:'building.png',
-        description:'New Launch',
 
-    },
-    {
-        img:'building-1.png',
-        description:'2,3 BHK Flats',
-
-    },
-    {
-        img:'maps.png',
-        description:'986 Sq. Ft. to 1494 Sq. Ft. (Saleable)',
-
-    },
    
-] ; 
+ 
 const PropertyInfo = () => {
     const [showForm, setShowForm] = useState(false);
     const [iconDataForButton , setIconDataForButton] =useState([]);
+    const [detailPageData , setDetailPageData] =useState([]);
    
 useEffect(()=>{
  fetchData("iconDataForButton",setIconDataForButton);
+ fetchData("detail-page",setDetailPageData);
+
     },[])
     const fetchData = async (endpoint, setter) => {
         try {
@@ -61,23 +50,29 @@ useEffect(()=>{
                     <a>10 Rating</a>
                 </div>
             </div>
-            <div className="property-title-section">
-                <h1 className="property-name">Provident Botanico</h1>
-                <div className="property-location">
-                    <h4>Whitefield, Bangalore</h4>
-                    <div className="map-link">
-                        <img src="/images/location.png" alt="location" />
-                        <p>See On Map</p>
+           {
+            detailPageData['projectUnit']?.map((item , index)=>{
+                return (
+                    <div key={index}>
+<div className="property-title-section" >
+                    <h1 className="property-name">{item.projectTitle}</h1>
+                    <div className="property-location">
+                        <h4>{item.projectAddress}</h4>
+                        <div className="map-link">
+                            <img src="/images/location.png" alt="location" />
+                            <p>See On Map</p>
+                            
+                        </div>
+                        <p>{item.areaMarketRate}</p>
                     </div>
                 </div>
-            </div>
-            <div className="property-pricing-section">
+                <div className="property-pricing-section">
                 <div>
                 <div className="price-info">
-                    <h2 className="price-range">₹86.00 Lac - 1.49 Cr</h2>
+                    <h2 className="price-range">₹{item.lowerPrice} Lac - {item.higherPrice} Lac</h2>
                     <img src="/images/info.png" alt="Info" className="info-icon" />
                 </div>
-                <div className="additional-info"><IconCard data={iconData1} /></div>
+                <div className="additional-info"><IconCard data={item.projectProperties} /></div>
                 </div>
                 <BtnPrimaryWithIcon 
                    iconName='FaPhone'
@@ -85,6 +80,12 @@ useEffect(()=>{
                     onClick={() => setShowForm(true)}
                 />
             </div>
+                    </div>
+                    
+                )
+            })
+           }
+            
             <div className="property-additional-services">
                 <IconCardWithButton data={iconDataForButton} />
             </div>

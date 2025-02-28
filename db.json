@@ -1217,26 +1217,30 @@
     "projectUnit": [
       {
         "id": 1,
-        "projectTitle": "provident-botanico-project-project-large-image1-1056.jpg",
-        "projectAddress": "provident-botanico-project-project-large-image1-1056.jpg",
-        "lowerPrice": "provident-botanico-project-project-large-image1-1056.jpg",
-        "higherPrice": "provident-botanico-project-project-large-image1-1056.jpg",
-        "areaMarketRate": "provident-botanico-project-project-large-image1-1056.jpg",
+        "projectTitle": "Krisala 41 Zillenia",
+        "projectAddress": "Punawale, Pune",
+        "lowerPrice": "63.75",
+        "higherPrice": "81.06",
+        "areaMarketRate": "8,830 Per Sq. Ft",
         "projectProperties": [
           {
             "img": "building.png",
-            "title": "Project Size",
-            "description": "165 Unit, 1.25 Acres"
+            "slug": "Project Size",
+            "description": "New Launch"
           },
           {
-            "img": "building.png",
-            "title": "Project Size",
-            "description": "165 Unit, 1.25 Acres"
+            "img": "building-1.png",
+            "slug": "Project Size",
+            "description": "2,3 BHK Flats"
+          },{
+            "img": "maps.png",
+            "slug": "Project Size",
+            "description": "986 Sq. Ft. to 1494 Sq. Ft. (Saleable)"
           }
         ]
       }
     ],
-    "projectAbout": [
+    "projectAbout": 
       {
         "name": "About Krisala 41 Zillenia",
         "brochure": "project-brochure.pdf",
@@ -1252,9 +1256,12 @@
             "area": "904 Sq. Ft(Carpet)",
             "unitprice": "79.82"
           }
-        ]
+        ],
+        "reraDetail": {
+            "regno": "A51800000454"
+        }     
       }
-    ],
+    ,
     "dtlUnitGalleryAll": {
       "projects": [
         {
@@ -1383,72 +1390,80 @@
         }
       ]
     },
-    "reraDetail": {
-      "regno": "A51800000454"
-    },
+    
     "projectOverview": [
       {
-        "icon": ".jpg",
-        "titlekey": "Project Status",
-        "titleval": "Under Construction"
+        "img": "buildings.png",
+        "title": "Project Status",
+        "description": "Under Construction"
       },
       {
-        "icon": ".jpg",
-        "titlekey": "Unit  Sizes",
-        "titleval": "720 Sq. Ft to 922 Sq. Ft(Carpet)"
+        "img":"buildings.png",
+        "title": "Unit  Sizes",
+        "description": "720 Sq. Ft to 922 Sq. Ft(Carpet)"
       },
       {
-        "icon": ".jpg",
-        "titlekey": "Total Number of Units",
-        "titleval": "546 Units"
+        "img": "buildings.png",
+        "title": "Total Number of Units",
+        "description": "546 Units"
       },
       {
-        "icon": ".jpg",
-        "titlekey": "Launch Date",
-        "titleval": "Ask for details"
+        "img": "buildings.png",
+        "title": "Launch Date",
+        "description": "Ask for details"
       },
       {
-        "icon": ".jpg",
-        "titlekey": "Locality",
-        "titleval": "Punawala"
+        "img": "buildings.png",
+        "title": "Locality",
+        "description": "Punawala"
       },
       {
-        "icon": ".jpg",
-        "titlekey": "Configurations",
-        "titleval": "2, 3 BHK"
+        "img": "buildings.png",
+        "title": "Configurations",
+        "description": "2, 3 BHK"
       },
       {
-        "icon": ".jpg",
-        "titlekey": "Builder",
-        "titleval": "Krisala Developers"
+        "img": "buildings.png",
+        "title": "Builder",
+        "description": "Krisala Developers"
       },
       {
-        "icon": ".jpg",
-        "titlekey": "Project Size",
-        "titleval": "6 Acres"
+        "img": "buildings.png",
+        "title": "Project Size",
+        "description": "6 Acres"
       },
       {
-        "icon": ".jpg",
-        "titlekey": "Completion Date",
-        "titleval": "Ask for details"
+        "img": "buildings.png",
+        "title": "Completion Date",
+        "description": "Ask for details"
       }
     ],
     "floorPlans": [
-      {
-        "roomunit": "2 BHK",
-        "unit2d": "unit2d.jpg",
-        "unit3d": "unit3d.jpg",
-        "unit360view": "unit360view",
-        "carpetarea": "722 Sq. Ft",
-        "unitprice": "65.34"
-      },
-      {
-        "roomunit": "3 BHK",
-        "unit2d": "unit2d.jpg",
-        "unit3d": "unit3d.jpg",
-        "unit360view": "unit360view",
-        "carpetarea": "1020 Sq. Ft",
-        "unitprice": "85.34"
+        {
+        "title":"Krisala 41 Zillenia Floor Plans",
+        "shortdesc":"Krisala 41 Zillenia offers a variety of floor plans designed to meet the needs of different families and lifestyles. Whether you are looking for a cosy space or a more spacious home, there’s something for everyone. Check the floor plan and price list",
+        "bhkunit":[
+          {
+            "roomunit": "2 BHK",
+            "unit2d": "unit2d.jpg",
+            "unit3d": "unit3d.jpg",
+            "unit360view": "unit360view",
+            "floorsubtitle": "2 BHK 722 Sq. Ft. Apartment",
+            "numofbedroom": "2",
+            "carpetarea": "722 Sq. Ft",
+            "unitprice": "65.34"
+          },
+          {
+            "roomunit": "3 BHK",
+            "unit2d": "unit2d.jpg",
+            "unit3d": "unit3d.jpg",
+            "unit360view": "unit360view",
+            "floorsubtitle": "3 BHK 920 Sq. Ft. Apartment",
+            "numofbedroom": "3",
+            "carpetarea": "1020 Sq. Ft",
+            "unitprice": "85.34"
+          }
+        ]
       }
     ],
     "projectAmenities": {

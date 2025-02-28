@@ -5,9 +5,9 @@ const IconCard = ({ data , onClick ,style,imgStyle,logout}) => {
   return (
     <div className="icon-card-container" style={style}>
       {/* style={style} */}
-      {data.map((item, index) => (
+      {data?.map((item, index) => (
         <div key={index} className="icon-card" onClick={()=>{
-          onClick(item,index,setHoveredIndex); 
+         onClick && onClick(item,index,setHoveredIndex); 
           setHoveredIndex(index);
           if(logout&&index===5){
             logout();

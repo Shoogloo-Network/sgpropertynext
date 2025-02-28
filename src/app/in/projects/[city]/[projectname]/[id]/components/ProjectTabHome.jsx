@@ -14,7 +14,7 @@ const ProjectTabHome = () => {
   const [iconCardData, setIconCardData] = useState([]);
 
   useEffect(() => {
-    fetchData("units",setUnitData);
+    fetchData("detail-page",setUnitData);
    fetchData('iconCards', setIconCardData);
    
    Events.scrollEvent.register('begin', function () {
@@ -36,10 +36,13 @@ const ProjectTabHome = () => {
     try {
         const response = await axios.get( `http://localhost:8000/${endpoint}`);
         setter(response.data);
+
     } catch (error) {
         console.error("Error fetching data:", error);
     }
 };
+
+console.log(unitData);
   const handleSetActive = (to) => {
     setActiveSection(to);
   };
@@ -59,7 +62,7 @@ const ProjectTabHome = () => {
         <ul className="navList">
           <li>
             <Link to="about" smooth={true} duration={500} spy={true} offset={-50} onSetActive={handleSetActive} className={activeSection === 'about' ? 'active' : ''} >
-              About Provident Botanico
+             {unitData['projectAbout']?.name}
             </Link>
           </li>
           <li>
@@ -77,7 +80,7 @@ const ProjectTabHome = () => {
 
       <div className="content">
         <section id="about" className="section">
-          <h2>About Provident Botanico</h2>
+          <h2>{unitData['projectAbout']?.name}</h2>
           <div className="info-divs" id="aboutInfoDivs">
             {['Project Overview', 'RERA Registered', 'Price List', 'Why Invest?', 'FAQ'].map((title, index) => (
               <div
@@ -92,18 +95,15 @@ const ProjectTabHome = () => {
           <div style={{ padding: '2px 10px' }}>
             {activeDiv === 0 && (
               <p>
-                Introducing Provident Botanico, a prestigious real-estate project located in the heart of Whitefield, Bangalore. Strategically
-                situated near Dabaspete Hosur Highway and Whitefield Main Road, this project offers seamless connectivity to major employment
-                hubs, educational institutions, and entertainment spots. Surrounded by lush greenery, Provident Botanico is designed to be
-                an eco-friendly and serene oasis amidst the bustle of city life.
+               {unitData['projectAbout']?.projectOverview}
               </p>
             )}
           </div>
           <div style={{ padding: '2px 10px' }}>
-            {activeDiv === 1 && <p>SgProperty RERA Reg. A51800000454 .</p>}
+            {activeDiv === 1 && <p>{unitData['projectAbout']?.reraDetail.regno}</p>}
           </div>
           <div style={{ padding: '2px 10px' }}>
-            {activeDiv === 2 && <UnitTable data={unitData} />}
+            {activeDiv === 2 && <UnitTable data={unitData['projectAbout'].projectPriceList} />}
             {activeDiv === 3 && (
               <div className="infoDivList">
                 <ul>
@@ -142,7 +142,7 @@ const ProjectTabHome = () => {
         <section id="overview" className="section">
           <h2>Provident Botanico Project Overview</h2>
           <div className="overviewSectionCardDiv">
-            <IconCard data={iconCardData} style={{ display: 'flex', justifyContent: 'space-between',flexDirection:'row', }} />
+            <IconCard data={unitData['projectOverview']} style={{ display: 'flex', justifyContent: 'space-between',flexDirection:'row', }} />
           </div>
         </section>
 

@@ -17,9 +17,9 @@ const UnitTable = ( { data } ) => {
         <tbody>
           {data.map((item, index) => (
             <tr key={index}>
-              <td>{item.unitType}</td>
+              <td>{item.unittype}</td>
               <td>{item.area}</td>
-              <td>{item.price}</td>
+              <td>{item.unitprice} Lac</td>
             </tr>
           ))}
         </tbody>

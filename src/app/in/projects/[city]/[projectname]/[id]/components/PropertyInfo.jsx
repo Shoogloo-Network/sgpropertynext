@@ -85,11 +85,12 @@ useEffect(()=>{
                 )
             })
            }
-            
+             
             <div className="property-additional-services">
                 <IconCardWithButton data={iconDataForButton} />
             </div>
-            {showForm && <FormPopup onClose={() => setShowForm(false)} />}
+            {showForm && <FormPopup onClose={() => setShowForm(false)} id={detailPageData['projectid']}/>}
+               
         </div>
     );
 };

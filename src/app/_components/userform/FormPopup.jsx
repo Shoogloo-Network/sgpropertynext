@@ -1,7 +1,7 @@
 import './FormPopup.css';
 import { postData } from '../api/data'; // Adjust the import path as needed
 
-const FormPopup = ({ onClose }) => {
+const FormPopup = ({ onClose , id }) => {
     
   const handleSubmit = async (e) => {
     e.preventDefault();
@@ -11,6 +11,7 @@ const FormPopup = ({ onClose }) => {
       email: e.target.elements[1].value,
       phone: e.target.elements[2].value,
       message: e.target.elements[3].value,
+     
     };
 
     try {
@@ -22,6 +23,7 @@ const FormPopup = ({ onClose }) => {
         message: formData.message,
         status: 0,
         password: "test@1234",
+        projectid: id,
       });
       console.log(response);
       // Optionally, notify the user of success (e.g., using alert, toast, or state)

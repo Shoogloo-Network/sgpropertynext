@@ -1202,6 +1202,7 @@
   },
 
   "detail-page" : {
+    "projectid":1,
     "dtlUnitGallery": [
       {
         "id": 1,
@@ -1247,8 +1248,8 @@
         "projectOverview": "Krisala 41 Zillenia is a Residential project, located in Punawale, Pune, spread across 5 Acre, offering 2 to 3 BHK Flat From 722 to 918 Sq.Ft. The status of Krisala 41 Zillenia is New Launch. The homes in Krisala 41 Zillenia are vastu-compliant and are built with a focus on efficiency, ensuring zero wastage of space. Residents can enjoy a lifetime of 4-side open scenic views of greenery from their high-rise towers",
         "projectPriceList": [
           {
-            "unittype": "2 BHK 722 Sq. Ft Apartment",
-            "area": "722 Sq. Ft(Carpet)",
+            "unittype": "3 BHK 920 Sq. Ft Apartment",
+            "area": "920 Sq. Ft(Carpet)",
             "unitprice": "63.75"
           },
           {

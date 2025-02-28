@@ -33,7 +33,7 @@ const ContactForm = () => {
     e.preventDefault();
     // console.log(formData);
     try {
-      const response = await postData(NEXT_PUBLIC_API_USER_REGISTER, {
+      const response = await postData( process.env.NEXT_PUBLIC_API_USER_REGISTER, {
         name: formData.name,
         email: formData.email,
         mobile: formData.phone,

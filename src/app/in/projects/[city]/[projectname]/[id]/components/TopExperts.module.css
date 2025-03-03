@@ -1,0 +1,141 @@
+/* styles/FloorPlansComponent.module.css */
+
+.npWhiteBody {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.npSeoContent {
+  margin-bottom: 20px;
+}
+
+.npSeoContentBody {
+  font-size: 16px;
+  line-height: 1.5;
+  color: #333;
+}
+
+.readMoreSeoP {
+  margin-bottom: 10px;
+}
+
+.readMoreBtn button {
+  background-color: transparent;
+  border: none;
+  color: #007bff;
+  cursor: pointer;
+  font-size: 14px;
+  text-decoration: underline;
+}
+
+.npTab {
+  list-style: none;
+  display: flex;
+  margin-bottom: 20px;
+  padding: 0;
+}
+
+.npTab li {
+  cursor: pointer;
+  margin-right: 20px;
+  padding: 10px;
+  font-weight: bold;
+}
+
+.npTab li.activeTab {
+  color: #007bff;
+}
+
+.floorPlansSlider {
+  display: flex;
+  gap: 20px;
+  overflow-x: scroll;
+}
+
+.unitCard {
+  width: 300px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.unitCoverBg {
+  width: 100%;
+  height: auto;
+  border-bottom: 1px solid #ddd;
+}
+
+.unitCaption {
+  padding: 15px;
+  background-color: #f9f9f9;
+}
+
+.unitFlexDetail {
+  margin-bottom: 10px;
+}
+
+.unitFlex1 {
+  margin-bottom: 10px;
+}
+
+.unitTitle {
+  font-size: 16px;
+  font-weight: bold;
+}
+
+.unitFlex {
+  margin-bottom: 5px;
+}
+
+.unitLabel {
+  font-size: 14px;
+  color: #666;
+}
+
+.unitLabelData {
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.btnPrimary {
+  background-color: #007bff;
+  color: white;
+  padding: 10px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-align: center;
+  width: 100%;
+}
+
+.switchBox {
+  display: flex;
+  justify-content: space-between;
+}
+
+.switchItem {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.switchItem.active {
+  font-weight: bold;
+  color: #007bff;
+}
+
+.badge {
+  margin-top: 10px;
+  font-size: 14px;
+  color: #007bff;
+}
+
+.scrollBarHide {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}
+
+.scrollBarHide::-webkit-scrollbar {
+  display: none;
+}

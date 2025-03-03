@@ -6,6 +6,7 @@ import axios from 'axios';
 import UnitTable from './UnitTable';
 import IconCard from '../../../../../../_components/cards/IconCard';
 import { fetchData } from '../../../../../../_components/api/data';
+import TopExperts from './TopExperts';
 const ProjectTabHome = () => {
   const [activeSection, setActiveSection] = useState('');
   const [activeDiv, setActiveDiv] = useState('about');
@@ -147,10 +148,7 @@ console.log(unitData);
         </section>
 
         <section id="experts" className="section">
-          <h2>Top Experts</h2>
-          <div>
-            <p>Content of Top Experts</p>
-          </div>
+          <TopExperts/>
         </section>
       </div>
     </div>

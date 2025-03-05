@@ -6,7 +6,9 @@ import styles from './TopExperts.module.css';
 
 const TopExperts = () => {
   const [activeTab, setActiveTab] = useState('2_bhk');
-  
+  const [threeD,setThreeD] = useState(true);
+ 
+
   const handleTabClick = (tab) => {
     setActiveTab(tab);
   };
@@ -46,13 +48,13 @@ const TopExperts = () => {
             <figure>
               <img
                 className={styles.unitCoverBg}
-                src="https://static.squareyards.com/resources/images/pune/unit-image/krisala-41-zillenia-apartment-2-bhk-720sqft-20231805151812-3d-9737.jpg"
+                src={threeD ? "https://static.squareyards.com/resources/images/pune/unit-image/krisala-41-zillenia-apartment-2-bhk-720sqft-20231805151812-3d-9737.jpg":"https://static.squareyards.com/resources/images/pune/unit-image/krisala-41-zillenia-apartment-2-bhk-722sqft-20244923174940.jpg"}
                 alt="2 BHK 722 Sq. Ft. Apartment"
               />
               <div className={styles.actionBox}>
                 <div className={styles.switchBox}>
-                  <div className={styles.switchItem}>3D</div>
-                  <div className={styles.switchItem}>2D</div>
+                  <div className={styles.switchItem} onClick={()=>{setThreeD(true); }}>3D&nbsp;|&nbsp;</div>
+                  <div className={styles.switchItem} onClick={()=>{setThreeD(false); }}>2D</div>
                 </div>
                 <div className={styles.badge}>3D Floor Plans</div>
               </div>
@@ -87,13 +89,14 @@ const TopExperts = () => {
             <figure>
               <img
                 className={styles.unitCoverBg}
-                src="https://static.squareyards.com/resources/images/pune/unit-image/krisala-41-zillenia-apartment-3-bhk-904sqft-20245123175121-3d-9108.jpg"
+                src={threeD ? "https://static.squareyards.com/resources/images/pune/unit-image/krisala-41-zillenia-apartment-2-bhk-720sqft-20231805151812-3d-9737.jpg":"https://static.squareyards.com/resources/images/pune/unit-image/krisala-41-zillenia-apartment-2-bhk-722sqft-20244923174940.jpg"}
+              
                 alt="3 BHK 904 Sq. Ft. Apartment"
               />
               <div className={styles.actionBox}>
                 <div className={styles.switchBox}>
-                  <div className={styles.switchItem}>3D</div>
-                  <div className={styles.switchItem}>2D</div>
+                <div className={styles.switchItem} onClick={()=>{setThreeD(true); }}>3D&nbsp;|&nbsp;</div>
+                <div className={styles.switchItem} onClick={()=>{setThreeD(false); }}>2D</div>
                 </div>
                 <div className={styles.badge}>3D Floor Plans</div>
               </div>
